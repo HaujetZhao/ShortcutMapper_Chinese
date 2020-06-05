@@ -8,7 +8,7 @@
 
 这个项目的目标是，将应用程序的 **快捷键** 映射到 **虚拟键盘** 上，以便于查找和学习新的快捷键。 为减少错误并易于更新，目前所有的快捷键都是从官方在线文档中抄来的。
 
-![Imgur](https://images.gitee.com/uploads/images/2020/0605/115158_f177df65_619077.gif)
+![Imgur](https://images.gitee.com/uploads/images/2020/0605/115552_70958150_619077.gif)
 
 # 总览
 
