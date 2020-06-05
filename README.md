@@ -6,7 +6,7 @@
 
 这个项目的目标是，将应用程序的 **快捷键** 映射到 **虚拟键盘** 上，以便于查找和学习新的快捷键。 为减少错误并易于更新，目前所有的快捷键都是从官方在线文档中抄来的。
 
-![Imgur](http://waldobronchart.github.io/ShortcutMapper/content/images/overview.gif)
+![Imgur](https://jackalzhao.github.io/ShortcutMapper_Chinese/content/images/overview.gif)
 
 # 总览
 
