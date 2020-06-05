@@ -1,178 +1,175 @@
-ShortcutMapper
-==================
+> 项目来自于 https://github.com/waldobronchart/ShortcutMapper ，下面为我为方便自己查看，做的中文翻译 README。
 
-This is a keyboard shortcuts visualiser hosted here on Github:
-http://waldobronchart.github.io/ShortcutMapper/
+# ShortcutMapper
 
-The goal of this project is to map out application keyboard shortcuts onto a virtual keyboard, making it easy to find and learn new shortcuts. The shortcut data is scraped from online documentation to reduce error and to keep the data easy to update with newer versions.
+这是一个由 Github 托管的键盘快捷键可视化工具： http://waldobronchart.Github.io/shortcutmapper/
+
+这个项目的目标是，将应用程序的 **快捷键** 映射到 **虚拟键盘** 上，以便于查找和学习新的快捷键。 为减少错误并易于更新，目前所有的快捷键都是从官方在线文档中抄来的。
 
 ![Imgur](http://waldobronchart.github.io/ShortcutMapper/content/images/overview.gif)
 
-# Overview
+# 总览
 
-This project is directly hosted on github from the main **gh-pages** branch. All changes to this branch are live.
+这个项目是直接从 Githun 上的主 **gh-pages** branch 上来的。所有这个 branch 的变化是活动的。
 
 ```
-/content         The website content
-    /generated   Contains generated json/js files containing application
-                  shortcut data in the site format
-    /keyboards   Contains html keyboard layouts
+/content         网站内容
+    /generated   包含生成的包含应用快捷键的 json/js 文件（以本网站格式储存）
+    /keyboards   包含 html 键盘布局
     ...
-/sources         Source data for shortcuts per application.
-/shmaplib        Python utility library (Shortcut Mapper Lib) to help 
-                  exporting shortcuts to the webapp.
-/tests           Python tests to ensure nothing is broken
-/utils           Utilities for exporting and testing
-index.html       Main site page
+/sources         每个应用快捷键的源文件
+/shmaplib        Python 工具库，用于帮助导出快捷工具到 webapp 
+/tests           Python 测试，确保没有错误
+/utils           用于导出和测试的工具
+index.html       主站点
 ```
 
-# Contributing
+# 贡献
 
-## Running locally
+## 本地运行
 
-The only page of the website is **index.html**
+本站的唯一一个页面就是 **index.html** 
 
-The application uses ajax calls to load keyboards and application data. These ajax calls will fail using the file:// protocol, so you need to set your browser to allow this. Here's how to enable that for Chrome: http://stackoverflow.com/a/21413534
+这个应用使用 ajax 请求，以载入快捷键数据。但 ajax 使用 file:// 协议时会失败，所以你需要设置浏览器允许这个。这里是如何设置 Chrome:  http://stackoverflow.com/a/21413534 
 
-Once that's done, just open the **index.html** in your browser and you're off!
+当上述做完后，只要打开 **index.html** 就可以用了！
 
-## Exporting new updated shortcuts
+## 导出更新的快捷键
 
-The exporter scripts all use Python3 and some additional libraries. I recommend you use [virtualenv](http://virtualenv.readthedocs.org/en/latest/) like so:
+**导出脚本** 使用 python3 和一些额外库，我推荐像这样使用 [virtualenv](http://virtualenv.readthedocs.org/en/latest/) ：
 
 ```
-# Install pip if you don't have it yet
+# 安装 pip
 sudo easy_install pip
 
-# Install virtualenv
+# 安装 virtualenv
 pip install virtualenv
 
-# Create a virtual environment in ShortcutMapper/_venv directory
-# For Windows, look here for instructions: 
+# 在 ShortcutMapper/_venv 目录中创建一个虚拟环境
+# 对于 Windows,参照这里：
 # http://virtualenv.readthedocs.io/en/latest/userguide/#usage
 cd ShortcutMapper/
 virtualenv -p /usr/bin/python3 _venv
 
-# Activate environment
+# 激活环境
 source _venv/bin/activate
 pip install BeautifulSoup4
 
-# Do an export
+# 执行导出
 python exporters/adobe-photoshop/scripts/export.py -a
 ```
 
-Once your virtualenv in installed, all you need to do is activate it before you run the exporters
+一旦你的 virtualenv  安装上了，你只需要在导出之前激活：
 
 ```
 source _venv/bin/activate
 
-# For windows, you will do this instead
+# 对于 Windows，你只需要用这个：
 _venv\Source\activate.bat
 
-# Export all intermediate json files to content/generated/
+# 导出所有中间 json 文件到 content/generated/
 python utils/export_intermediate_data.py -a
 ```
 
+## 为一个新应用添加快捷方式
 
-## Adding shortcuts for a new Application
+**你能查看的最好的例子是位于 /sources/autodesk-maya 的 Autodesk Maya**
 
-**The best example you can look at is Autodesk Maya under /sources/autodesk-maya**
+### 导出文件夹设置
 
-### Exporters directory setup
+首先，尝试寻找为每个平台列出所有应用快捷键的在线资源。以 Adobe 应用为例，我使用他们的在线文档： http://helpx.adobe.com/lightroom/help/keyboard-shortcuts.html
 
-First, try and find an online resource that lists all the application shortcuts for each platform. For adobe applications for example, I use the ones from their online documentation: http://helpx.adobe.com/lightroom/help/keyboard-shortcuts.html
+确保它是最新的并且是完整的
 
-Make sure it's up-to-date and the list is complete.
+你将使用这个资源创建易于手动修改的中间数据格式。
 
-You're going to use that resource to create an intermediate data format that can be edited by hand easily.
+在  **/sources** 创建一个文件夹结构，像这样：
 
-Create a directory structure under **/sources** like this:
 ```
 /sources
     /my-app
-        /intermediate           One-time conversions from raw data, which have been hand edited to
-                                 fix faulty shortcuts and shorten labels that are too long.
-        /raw                    Source(s) used to build a full shortcut list in the intermediate data format
+        /intermediate           从原始数据转换后的文件，应当被手动编辑以修改错误的快捷键和太长的标签
+        /raw                    原始数据文件
 ```
 
-Then ideally, you're going to write a script that converts the raw source to intermediate: `/sources/my-app/raw_to_intermediate.py`
+然后，理论上，你需要写一个脚本，将原始数据转换到中间文件： `/sources/my-app/raw_to_intermediate.py`
 
-Past the intermediate data creation step, everything can be automated. Much of the heavy lifting code lives under the `shmaplib` folder.
+经过中间数据创建这一步，接下来的事情都能自动化了。基本上所有重活代码都在 `shmaplib` 里面。
 
-### Using SHMAPlib
+### 使用 SHMAPlib
 
-SHMAPlib is short for "Shortcut Mapper Lib". It's a Python library that will help you export data in the right format to the right location.
+SHMAPlib 是 "Shortcut Mapper Lib" 的缩写. 它是一个 Python 库，让你把正确的数据导出到正确的位置。
 
-If your script lives and runs directly in **/sources/app/**, then you can import the lib like so:
+如果你的脚本是不固定的，并且直接在 **/sources/app/** 下运行，那么你可以像这样导出这个库：
 
 ```
-# Add repository root path to sys.path (This will make import shmaplib work)
+# 将资料库根目录加到 sys.path (这会使 import shmaplib 正常工作)
 CWD = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, CWD)
 sys.path.insert(0, os.path.normpath(os.path.join(CWD, '..', '..')))
 
-# Import common shortcut mapper library
+# 导入 shmaplib 库
 import shmaplib
 ```
 
-From there you can parse your raw files (HTML, XML, etc..) and create an intermediate data file which can then be hand edited.
+从这里你可以解析源文件（html, xml, etc..）并且创建中间数据。
 
 ```
 import shmaplib
 
-# Create the intermediate data container
+# 创建蹭数据容器
 idata = shmaplib.IntermediateShortcutData("Application Name")
 
-# Parse the raw file
-# ...and add shortcuts to the container like this:
+# 解析源文件
+# ...添加快捷键到容器，像这样：
 context_name = "Global Context"
 label = "Select All"
 keys_win = "Ctrl + A"
 keys_mac = "Cmd + A"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 
-# Save out the file
+# 保存文件
 idata.serialize('intermediate/my-application_v3.json')
 ```
 
-You can then export this intermediate data file after making hand-edits (there are always edge cases to fix).
+经手动编辑（总会有一些边角需要修复的）后，接下来你可以导出这个中间文件：
 
 ```
-# Export intermediate to the frontend data format
+# 导出中间文件到前端文件
 python utils/export_intermediate_data.py sources/application-name/intermediate/SOURCE.json
 ```
 
-If your application doesn't have an intermediate format (like Blender), you can use these structures to build up the data:
-- *shmaplib.ApplicationConfig*: Main application data format (name, os, version, and shortcut-contexts)
-- *shmaplib.ShortcutContext*: A container for shortcuts for a specific context (Lightroom: Global, Develop, Library)
-- *shmaplib.Shortcut*: Data format for a shortcut (name, key and modifiers)
+如果你的应用没有中间格式（例如 Blender），你可以使用下面的指南创建数据：
 
-You'll create an AppConfig first. Then create a new context to the application, to which the shortcuts are added
+- *shmaplib.ApplicationConfig*: 主程序数据格式 (名字name, 系统os, 版本version, 和快捷键情景shortcut-contexts)
+- *shmaplib.ShortcutContext*: 对于指定情景的快捷键容器 (Lightroom: Global, Develop, Library)
+- *shmaplib.Shortcut*: 快捷键的数据格式 (name, key and modifiers)
 
-AppConfig has multiple ShortcutContexts, which has multiple Shortcuts.
+你将首先创建 AppConfig，然后创建新的情景，用于添加快捷键。
 
-The AppConfig has a serialize function that exports it into the correct directory under /content/generated
+AppConfig 有多个 ShortcutContexts，后者有多个 Shortcuts。
 
-Look in `shmaplib/appdata.py` for more specific docs.
+AppConfig 有一系列功能，能导出它到 /content/generated 下的正确的文件夹。
 
+查看 `shmaplib/appdata.py` 以获得更多细节
 
 ## Pull Requests Flow
 
-I follow the git-flow process to get new features and bugfixes in. You can read about it here:
-https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+我遵循git-flow流程获取新功能和错误修正。您可以在此处阅读有关内容：https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
-Basically you'll create a branch like `feature/descriptive-feature-name` from the `gh-pages` branch and start working in that. Once you're done, you'll create a pull request that merges into the `develop` branch.
-This allows me to test your changes before it is published to the `gh-pages` branch.
+基本上，您将从 `gh-pages` 分支中创建一个类似 `feature / descriptive-feature-name` 的分支，然后开始工作。 完成后，您将创建一个合并到 `develop` 分支中的拉取请求。 这使我可以在更改发布到 `gh-pages` 分支之前对其进行测试。
 
-For bug fixes, you'll name your branch `bugfix/descriptive-bug-name`.
+对于bug修复，您将命名分支为 `bugfix / descriptive-bug-name` 。
 
-### Expected contents for new keyboards
+### 新键盘的预期内容
 
-Ideally both windows and mac keyboards, created from other existing layouts (Klingon for example):
+理想情况下，Windows和Mac键盘都是从其他现有布局（例如Klingon）创建的：
+
 - content/keyboards/klingon.html
 - content/keyboards/klingon_mac.html
 
-These files added to the keyboard list in `content/keyboards/keyboards.js`
+这些文件添加到 `content/keyboards/keyboards.js` 的键盘列表中
+
 ```
 var sitedata_keyboards = {
     ...
@@ -184,28 +181,33 @@ var sitedata_keyboards = {
 }
 ```
 
-Make sure to run all tests in the `/tests` folder to ensure all keycodes are valid.
+确保在 `/tests` 文件夹中运行所有测试，以确保所有key均有效。
 
-### Expected contents for new applications
+### 新应用的预期内容
 
-Please make sure to read the "Adding shortcuts for a new Application" section above.
-It is good practice to keep your commits small and structured so it's easy to review.
+请确保阅读了上面的“为一个新应用添加快捷方式”一节，优良作法是使提交内容简短而有条理，以便查看。
 
-First I find a raw source and write a scraper script to generate the intermediate file (Example: https://github.com/waldobronchart/ShortcutMapper/commit/76f7b2f6c895bebebd5a5948c3bc759ac7779189)
--  sources/thefoundry-nuke/raw/nuke_8.0_user_guide_hotkeys.html
--  sources/thefoundry-nuke/raw_to_intermediate_nuke8.py
 
-Generate the intermediate file with the `raw_to_intermediate` script (Example: https://github.com/waldobronchart/ShortcutMapper/commit/f1db1aa3268e0a82b5394d7e1c26335153872cb5)
+
+首先，我找到一个原始资源并编写一个scraper脚本来生成中间文件 (Example: https://github.com/waldobronchart/ShortcutMapper/commit/76f7b2f6c895bebebd5a5948c3bc759ac7779189)
+
+- sources/thefoundry-nuke/raw/nuke_8.0_user_guide_hotkeys.html
+- sources/thefoundry-nuke/raw_to_intermediate_nuke8.py
+
+用 `raw_to_intermediate` 脚本生成中间文件 (Example: https://github.com/waldobronchart/ShortcutMapper/commit/f1db1aa3268e0a82b5394d7e1c26335153872cb5)
+
 - sources/thefoundry-nuke/intermediate/thefoundry_nuke_8.0.json
 
-Make some needed hand edits to the intermediate files, like better grouping in contexts and fixing some long names. It's good to have the original untouched one in first, so that you can track your changes more easily (Example: https://github.com/waldobronchart/ShortcutMapper/commit/767556431a983481abd7cc0a30f1878cceef5fe9)
+对中间文件进行一些必要的手动编辑，例如在情境中进行更好的分组，并缩短一些长名称。 最好先保留原始内容，这样您可以更轻松地跟踪更改 (Example: https://github.com/waldobronchart/ShortcutMapper/commit/767556431a983481abd7cc0a30f1878cceef5fe9)
+
 - sources/thefoundry-nuke/intermediate/thefoundry_nuke_8.0.json
 
-Keep re-generating the app content (with `/utils/export_intermediate_data`) until you're happy with the changes. Note to fix the warnings during the export process.
+继续重新生成应用程序内容（使用`/utils/export_intermediate_data`），直到对更改满意为止。 请注意在导出过程中修复警告
 
-When you're happy with all the changes, commit the generated data (Example: https://github.com/waldobronchart/ShortcutMapper/commit/5533cdf94e9cab5564b9a946f528638cea6420f3)
+当您对所有更改感到满意时，提交生成的数据 (Example: https://github.com/waldobronchart/ShortcutMapper/commit/5533cdf94e9cab5564b9a946f528638cea6420f3)
+
 - content/generated/apps.js (app was added here)
 - content/generated/the-foundry-nuke_8.0_mac.json
 - content/generated/the-foundry-nuke_8.0_windows.json
 
-Then create a new pull request into the `develop` branch.
+然后创建一个新的请求到`develop`分支。
