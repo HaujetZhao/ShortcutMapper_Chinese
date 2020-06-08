@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-style: italic;
+    font-style: bold;
     font-weight: 300;
     font-size: 1.8em;
     margin: 22px 0 2px 0;

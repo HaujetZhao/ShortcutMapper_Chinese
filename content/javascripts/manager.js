@@ -232,7 +232,7 @@ function ShortcutMapper() {
             self._updateContextOptions(self.selectedContext);
             self._updateKeyboard();
         }).fail(function() {
-            $("#keycontent").html("There is no data available for this OS or App Version (try selecting a different app version)");
+            $("#keycontent").html("没找到适用这个系统或应用版本的快捷键诶~（可以试试点击上面按钮换一个系统或应用版本哦。）");
         });
     };
 
@@ -261,7 +261,7 @@ function ShortcutMapper() {
             });
             self.elemKeyboard.show();
         }).fail(function() {
-            $("#keycontent").html("KEYBOARD NOT FOUND (Possibly doesn't exist for selected OS)");
+            $("#keycontent").html("没找到键盘 (可能这个 OS 下没有该键盘)");
         });
     };
 
