@@ -1,0 +1,14 @@
+{
+    "name" : "Vditor",
+    "version" : "2020.6.8",
+    "os" : "windows",
+    "mods_used" : [],
+    "default_context" : "通用",
+    "contexts" : {
+        "通用" : {
+            "COLON" : [
+                {"name":"表情", "mods":[]}
+            ]
+        }
+    }
+}

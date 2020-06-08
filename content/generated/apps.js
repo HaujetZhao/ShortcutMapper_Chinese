@@ -192,4 +192,13 @@ var sitedata_apps = [
             },
         }
     },
+    {
+        name: "Vditor",
+        data: {
+            "2020.6.8": {
+                "mac": "vditor_2020.6.8_mac.json",
+                "windows": "vditor_2020.6.8_windows.json",
+            },
+        }
+    },
 ];
