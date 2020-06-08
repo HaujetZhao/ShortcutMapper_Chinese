@@ -66,13 +66,29 @@ keys_win = "Ctrl + K"
 keys_mac = "Command + K"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
-
+context_name = "通用"
+label = "无序列表"
+keys_win = "Ctrl + L"
+keys_mac = "Command + L"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
-
+context_name = "通用"
+label = "有序列表"
+keys_win = "Ctrl + O"
+keys_mac = "Command + O"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
-
+context_name = "通用"
+label = "引用"
+keys_win = "Ctrl + J"
+keys_mac = "Command + J"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
-
+context_name = "通用"
+label = "分割线"
+keys_win = "Ctrl + ;"
+keys_mac = "Command + ;"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------
