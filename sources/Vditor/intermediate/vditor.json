@@ -14,7 +14,24 @@
             "无序列表": ["Ctrl + L", "Command + L"],
             "有序列表": ["Ctrl + O", "Command + O"],
             "引用": ["Ctrl + J", "Command + J"],
-            "分割线": ["Ctrl + ;", "Command + ;"]
+            "分割线": ["Ctrl + Shift + H", "Command + Shift + H"],
+            "代码块": ["Ctrl + U", "Command + U"],
+            "代码": ["Ctrl + G", "Command + G"],
+            "元素前 插入空块": ["Ctrl + Shift + B", "Command + Shift + B"],
+            "元素后 插入空块": ["Ctrl + Shift + E", "Command + Shift + E"],
+            "表格": ["Ctrl + M", "Command + M"],
+            "撤销": ["Ctrl + Z", "Command + Z"],
+            "重做": ["Ctrl + Y", "Command + Y"],
+            "隐藏编辑器": ["Ctrl + P", "Command + P"],
+            "格式化": ["Ctrl + Shift + F", "Command + Shift + F"],
+            "全屏": ["Ctrl + '", "Command + '"],
+            "复制当前行/已选内容": ["Ctrl + Shift + D", "Command + Shift + D"],
+            "删除当前行": ["Ctrl + Shift + Backspace", "Command + Shift + Backspace"],
+            "向上移动块元素": ["Ctrl + Shift + U", "Command + Shift + U"],
+            "向下移动块元素": ["Ctrl + Shift + D", "Command + Shift + D"],
+            "移除当前元素": ["Ctrl + Shift + X", "Command + Shift + X"],
+            "At 用户": ["Shift + 2", "Shift + 2"],
+            "错误输入": ["Backspace", "Backspace"]
         }
     }
 }

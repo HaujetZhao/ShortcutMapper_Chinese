@@ -2,17 +2,33 @@
     "name" : "Vditor",
     "version" : "v3",
     "os" : "mac",
-    "mods_used" : ["COMMAND"],
+    "mods_used" : ["COMMAND", "SHIFT"],
     "default_context" : "通用",
     "contexts" : {
         "通用" : {
             "B" : [
+                {"name":"元素前 插入空块", "mods":["COMMAND", "SHIFT"]},
                 {"name":"粗体", "mods":["COMMAND"]}
             ],
+            "BACKSPACE" : [
+                {"name":"删除当前行", "mods":["COMMAND", "SHIFT"]},
+                {"name":"错误输入", "mods":[]}
+            ],
+            "D" : [
+                {"name":"复制当前行/已选内容", "mods":["COMMAND", "SHIFT"]}
+            ],
             "E" : [
+                {"name":"元素后 插入空块", "mods":["COMMAND", "SHIFT"]},
                 {"name":"表情", "mods":["COMMAND"]}
             ],
+            "F" : [
+                {"name":"格式化", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "G" : [
+                {"name":"代码", "mods":["COMMAND"]}
+            ],
             "H" : [
+                {"name":"分割线", "mods":["COMMAND", "SHIFT"]},
                 {"name":"标题", "mods":["COMMAND"]}
             ],
             "I" : [
@@ -27,14 +43,39 @@
             "L" : [
                 {"name":"无序列表", "mods":["COMMAND"]}
             ],
+            "M" : [
+                {"name":"表格", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"At 用户", "mods":["SHIFT"]}
+            ],
             "O" : [
                 {"name":"有序列表", "mods":["COMMAND"]}
+            ],
+            "P" : [
+                {"name":"隐藏编辑器", "mods":["COMMAND"]}
             ],
             "S" : [
                 {"name":"删除线", "mods":["COMMAND"]}
             ],
-            "SEMICOLON" : [
-                {"name":"分割线", "mods":["COMMAND"]}
+            "SINGLE_QUOTE" : [
+                {"name":"全屏", "mods":["COMMAND"]}
+            ],
+            "TWO" : [
+                {"name":"At 用户", "mods":["SHIFT"]}
+            ],
+            "U" : [
+                {"name":"代码块", "mods":["COMMAND"]},
+                {"name":"向上移动块元素", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "X" : [
+                {"name":"移除当前元素", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "Y" : [
+                {"name":"重做", "mods":["COMMAND"]}
+            ],
+            "Z" : [
+                {"name":"撤销", "mods":["COMMAND"]}
             ]
         }
     }

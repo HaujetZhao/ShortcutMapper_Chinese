@@ -25,8 +25,8 @@ idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", defau
 """
 context_name = "通用"
 label = ""
-keys_win = ""
-keys_mac = ""
+keys_win = "Ctrl + "
+keys_mac = "Command + "
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 """
 # ------------------------------------------------------------------------
@@ -86,9 +86,113 @@ idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "通用"
 label = "分割线"
-keys_win = "Ctrl + ;"
-keys_mac = "Command + ;"
+keys_win = "Ctrl + Shift + H"
+keys_mac = "Command + Shift + H"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "代码块"
+keys_win = "Ctrl + U"
+keys_mac = "Command + U"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "代码"
+keys_win = "Ctrl + G"
+keys_mac = "Command + G"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "元素前 插入空块"
+keys_win = "Ctrl + Shift + B"
+keys_mac = "Command + Shift + B"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "元素后 插入空块"
+keys_win = "Ctrl + Shift + E"
+keys_mac = "Command + Shift + E"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "表格"
+keys_win = "Ctrl + M"
+keys_mac = "Command + M"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "撤销"
+keys_win = "Ctrl + Z"
+keys_mac = "Command + Z"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "重做"
+keys_win = "Ctrl + Y"
+keys_mac = "Command + Y"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "隐藏编辑器"
+keys_win = "Ctrl + P"
+keys_mac = "Command + P"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "格式化"
+keys_win = "Ctrl + Shift + F"
+keys_mac = "Command + Shift + F"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "全屏"
+keys_win = "Ctrl + '"
+keys_mac = "Command + '"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "复制当前行/已选内容"
+keys_win = "Ctrl + Shift + D"
+keys_mac = "Command + Shift + D"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "删除当前行"
+keys_win = "Ctrl + Shift + Backspace"
+keys_mac = "Command + Shift + Backspace"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "向上移动块元素"
+keys_win = "Ctrl + Shift + U"
+keys_mac = "Command + Shift + U"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "向下移动块元素"
+keys_win = "Ctrl + Shift + D"
+keys_mac = "Command + Shift + D"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "移除当前元素"
+keys_win = "Ctrl + Shift + X"
+keys_mac = "Command + Shift + X"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "At 用户"
+keys_win = "Shift + 2"
+keys_mac = "Shift + 2"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "错误输入"
+keys_win = "Backspace"
+keys_mac = "Backspace"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+
 # ------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------
