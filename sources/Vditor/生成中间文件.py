@@ -25,8 +25,9 @@ idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="2020.6.8",
 context_name = "通用"
 label = "表情"
 keys_win = "Shift + ;"
-keys_mac = "Cmd + E"
+keys_mac = "command + E"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
+
 
 # 保存文件
 idata.serialize('intermediate/Vditor.json')
