@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.normpath(os.path.join(CWD, '..', '..')))
 import shmaplib
 
 # 创建中间数据容器
-idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="2020.6.8", default_context="通用")
+idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", default_context="通用")
 
 # 解析源文件
 # 不会用前端抓取。。。下面手动添加吧。
