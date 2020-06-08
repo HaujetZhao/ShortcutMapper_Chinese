@@ -45,9 +45,6 @@
             "M" : [
                 {"name":"表格", "mods":["CONTROL"]}
             ],
-            "NUMPAD_TWO" : [
-                {"name":"At 用户", "mods":["SHIFT"]}
-            ],
             "O" : [
                 {"name":"有序列表", "mods":["CONTROL"]}
             ],

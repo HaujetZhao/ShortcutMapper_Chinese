@@ -182,8 +182,8 @@ idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "通用"
 label = "At 用户"
-keys_win = "Shift + 2"
-keys_mac = "Shift + 2"
+keys_win = "Shift + TWO"
+keys_mac = "Shift + TWO"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "通用"

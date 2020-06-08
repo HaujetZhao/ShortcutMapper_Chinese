@@ -30,7 +30,7 @@
             "向上移动块元素": ["Ctrl + Shift + U", "Command + Shift + U"],
             "向下移动块元素": ["Ctrl + Shift + D", "Command + Shift + D"],
             "移除当前元素": ["Ctrl + Shift + X", "Command + Shift + X"],
-            "At 用户": ["Shift + 2", "Shift + 2"],
+            "At 用户": ["Shift + TWO", "Shift + TWO"],
             "错误输入": ["Backspace", "Backspace"]
         }
     }
