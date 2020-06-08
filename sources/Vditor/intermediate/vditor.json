@@ -1,11 +1,16 @@
 {
     "name": "Vditor",
-    "version": "2020.6.8",
+    "version": "v3",
     "default_context": "通用",
     "os": ["windows", "mac", "linux"],
     "contexts": {
         "通用": {
-            "表情": ["Shift + ;", "command + E"]
+            "表情": ["Shift + ;", "Command + E"],
+            "标题": ["Ctrl + H", "Command + H"],
+            "粗体": ["Ctrl + B", "Command + B"],
+            "斜体": ["Ctrl + I", "Command + I"],
+            "删除线": ["Ctrl + S", "Command + S"],
+            "链接": ["Ctrl + K", "Command + K"]
         }
     }
 }

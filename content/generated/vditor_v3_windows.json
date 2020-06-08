@@ -1,0 +1,29 @@
+{
+    "name" : "Vditor",
+    "version" : "v3",
+    "os" : "windows",
+    "mods_used" : ["CONTROL", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "通用" : {
+            "B" : [
+                {"name":"粗体", "mods":["CONTROL"]}
+            ],
+            "H" : [
+                {"name":"标题", "mods":["CONTROL"]}
+            ],
+            "I" : [
+                {"name":"斜体", "mods":["CONTROL"]}
+            ],
+            "K" : [
+                {"name":"链接", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"删除线", "mods":["CONTROL"]}
+            ],
+            "SEMICOLON" : [
+                {"name":"表情", "mods":["SHIFT"]}
+            ]
+        }
+    }
+}

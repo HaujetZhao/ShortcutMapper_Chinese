@@ -22,11 +22,64 @@ idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", defau
 
 
 # ...添加快捷键到容器，像这样：
+"""
+context_name = "通用"
+label = ""
+keys_win = ""
+keys_mac = ""
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+"""
+# ------------------------------------------------------------------------
 context_name = "通用"
 label = "表情"
 keys_win = "Shift + ;"
-keys_mac = "command + E"
+keys_mac = "Command + E"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "标题"
+keys_win = "Ctrl + H"
+keys_mac = "Command + H"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "粗体"
+keys_win = "Ctrl + B"
+keys_mac = "Command + B"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "斜体"
+keys_win = "Ctrl + I"
+keys_mac = "Command + I"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "删除线"
+keys_win = "Ctrl + S"
+keys_mac = "Command + S"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "链接"
+keys_win = "Ctrl + K"
+keys_mac = "Command + K"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
 
 
 # 保存文件

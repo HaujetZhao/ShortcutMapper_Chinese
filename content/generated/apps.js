@@ -196,4 +196,13 @@ var sitedata_apps = [
             },
         }
     },
+    {
+        name: "Vditor",
+        data: {
+            "v3": {
+                "mac": "vditor_v3_mac.json",
+                "windows": "vditor_v3_windows.json",
+            },
+        }
+    },
 ];

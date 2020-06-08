@@ -1,0 +1,29 @@
+{
+    "name" : "Vditor",
+    "version" : "v3",
+    "os" : "mac",
+    "mods_used" : ["COMMAND"],
+    "default_context" : "通用",
+    "contexts" : {
+        "通用" : {
+            "B" : [
+                {"name":"粗体", "mods":["COMMAND"]}
+            ],
+            "E" : [
+                {"name":"表情", "mods":["COMMAND"]}
+            ],
+            "H" : [
+                {"name":"标题", "mods":["COMMAND"]}
+            ],
+            "I" : [
+                {"name":"斜体", "mods":["COMMAND"]}
+            ],
+            "K" : [
+                {"name":"链接", "mods":["COMMAND"]}
+            ],
+            "S" : [
+                {"name":"删除线", "mods":["COMMAND"]}
+            ]
+        }
+    }
+}
