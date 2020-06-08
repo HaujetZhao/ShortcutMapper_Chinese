@@ -18,11 +18,23 @@
             "I" : [
                 {"name":"斜体", "mods":["COMMAND"]}
             ],
+            "J" : [
+                {"name":"引用", "mods":["COMMAND"]}
+            ],
             "K" : [
                 {"name":"链接", "mods":["COMMAND"]}
             ],
+            "L" : [
+                {"name":"无序列表", "mods":["COMMAND"]}
+            ],
+            "O" : [
+                {"name":"有序列表", "mods":["COMMAND"]}
+            ],
             "S" : [
                 {"name":"删除线", "mods":["COMMAND"]}
+            ],
+            "SEMICOLON" : [
+                {"name":"分割线", "mods":["COMMAND"]}
             ]
         }
     }

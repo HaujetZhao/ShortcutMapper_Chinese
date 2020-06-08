@@ -10,7 +10,11 @@
             "粗体": ["Ctrl + B", "Command + B"],
             "斜体": ["Ctrl + I", "Command + I"],
             "删除线": ["Ctrl + S", "Command + S"],
-            "链接": ["Ctrl + K", "Command + K"]
+            "链接": ["Ctrl + K", "Command + K"],
+            "无序列表": ["Ctrl + L", "Command + L"],
+            "有序列表": ["Ctrl + O", "Command + O"],
+            "引用": ["Ctrl + J", "Command + J"],
+            "分割线": ["Ctrl + ;", "Command + ;"]
         }
     }
 }

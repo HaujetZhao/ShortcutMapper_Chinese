@@ -15,13 +15,23 @@
             "I" : [
                 {"name":"斜体", "mods":["CONTROL"]}
             ],
+            "J" : [
+                {"name":"引用", "mods":["CONTROL"]}
+            ],
             "K" : [
                 {"name":"链接", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"无序列表", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"有序列表", "mods":["CONTROL"]}
             ],
             "S" : [
                 {"name":"删除线", "mods":["CONTROL"]}
             ],
             "SEMICOLON" : [
+                {"name":"分割线", "mods":["CONTROL"]},
                 {"name":"表情", "mods":["SHIFT"]}
             ]
         }
