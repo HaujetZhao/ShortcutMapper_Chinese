@@ -5,7 +5,7 @@
     "os": ["windows", "mac", "linux"],
     "contexts": {
         "通用": {
-            "表情": [":", "Command + E"]
+            "表情": ["Shift + ;", "Cmd + E"]
         }
     }
 }

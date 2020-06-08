@@ -2,12 +2,12 @@
     "name" : "Vditor",
     "version" : "2020.6.8",
     "os" : "windows",
-    "mods_used" : [],
+    "mods_used" : ["SHIFT"],
     "default_context" : "通用",
     "contexts" : {
         "通用" : {
-            "COLON" : [
-                {"name":"表情", "mods":[]}
+            "SEMICOLON" : [
+                {"name":"表情", "mods":["SHIFT"]}
             ]
         }
     }
