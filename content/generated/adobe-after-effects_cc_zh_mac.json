@@ -1,6 +1,6 @@
 {
     "name" : "Adobe After Effects",
-    "version" : "CC_简中",
+    "version" : "CC_zh",
     "os" : "mac",
     "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
     "default_context" : "全局场景",

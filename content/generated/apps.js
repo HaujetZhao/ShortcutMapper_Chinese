@@ -6,9 +6,9 @@ var sitedata_apps = [
     {
         name: "Adobe After Effects",
         data: {
-            "CC_Мђжа": {
-                "mac": "adobe-after-effects_cc_Мђжа_mac.json",
-                "windows": "adobe-after-effects_cc_Мђжа_windows.json",
+            "CC_zh": {
+                "mac": "adobe-after-effects_cc_zh_mac.json",
+                "windows": "adobe-after-effects_cc_zh_windows.json",
             },
             "CC": {
                 "mac": "adobe-after-effects_cc_mac.json",

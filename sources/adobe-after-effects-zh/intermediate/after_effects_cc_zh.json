@@ -1,6 +1,6 @@
 {
     "name": "Adobe After Effects",
-    "version": "CC_简中",
+    "version": "CC_zh",
     "default_context": "全局场景",
     "os": ["windows", "mac", "linux"],
     "contexts": {
