@@ -191,6 +191,60 @@ label = "错误输入"
 keys_win = "Backspace"
 keys_mac = "Backspace"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# =========================================
+context_name = "标题"
+label = "变大"
+keys_win = "Ctrl + PLUS"
+keys_mac = "Command + PLUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "变小"
+keys_win = "Ctrl + MINUS"
+keys_mac = "Command + MINUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "H1"
+keys_win = "Ctrl + Alt + ONE"
+keys_mac = "Command + Alt + ONE"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "H2"
+keys_win = "Ctrl + Alt + TWO"
+keys_mac = "Command + Alt + TWO"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "H3"
+keys_win = "Ctrl + Alt + THREE"
+keys_mac = "Command + Alt + THREE"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "H4"
+keys_win = "Ctrl + Alt + FOUR"
+keys_mac = "Command + Alt + FOUR"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "H5"
+keys_win = "Ctrl + Alt + FIVE"
+keys_mac = "Command + Alt + FIVE"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "H6"
+keys_win = "Ctrl + Alt + SIX"
+keys_mac = "Command + Alt + SIX"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "标题"
+label = "弹出菜单"
+keys_win = "Ctrl + H"
+keys_mac = "Command + H"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------
@@ -201,6 +255,15 @@ idata.add_shortcut(context_name, label, keys_win, keys_mac)
 
 # ------------------------------------------------------------------------
 
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------
 
 # 保存文件
 idata.serialize('intermediate/Vditor.json')

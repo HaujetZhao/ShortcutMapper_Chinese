@@ -2,9 +2,38 @@
     "name" : "Vditor",
     "version" : "v3",
     "os" : "windows",
-    "mods_used" : ["CONTROL", "SHIFT"],
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
     "default_context" : "通用",
     "contexts" : {
+        "标题" : {
+            "FIVE" : [
+                {"name":"H5", "mods":["ALT", "CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"H4", "mods":["ALT", "CONTROL"]}
+            ],
+            "H" : [
+                {"name":"弹出菜单", "mods":["CONTROL"]}
+            ],
+            "MINUS" : [
+                {"name":"变小", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"H1", "mods":["ALT", "CONTROL"]}
+            ],
+            "PLUS" : [
+                {"name":"变大", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"H6", "mods":["ALT", "CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"H3", "mods":["ALT", "CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"H2", "mods":["ALT", "CONTROL"]}
+            ]
+        },
         "通用" : {
             "B" : [
                 {"name":"元素前 插入空块", "mods":["CONTROL", "SHIFT"]},

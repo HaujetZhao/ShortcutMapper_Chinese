@@ -4,6 +4,17 @@
     "default_context": "通用",
     "os": ["windows", "mac", "linux"],
     "contexts": {
+        "标题": {
+            "变大": ["Ctrl + PLUS", "Command + PLUS"],
+            "变小": ["Ctrl + MINUS", "Command + MINUS"],
+            "H1": ["Ctrl + Alt + ONE", "Command + Alt + ONE"],
+            "H2": ["Ctrl + Alt + TWO", "Command + Alt + TWO"],
+            "H3": ["Ctrl + Alt + THREE", "Command + Alt + THREE"],
+            "H4": ["Ctrl + Alt + FOUR", "Command + Alt + FOUR"],
+            "H5": ["Ctrl + Alt + FIVE", "Command + Alt + FIVE"],
+            "H6": ["Ctrl + Alt + SIX", "Command + Alt + SIX"],
+            "弹出菜单": ["Ctrl + H", "Command + H"]
+        },
         "通用": {
             "表情": ["Shift + ;", "Command + E"],
             "标题": ["Ctrl + H", "Command + H"],
