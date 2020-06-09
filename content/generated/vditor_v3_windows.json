@@ -6,6 +6,9 @@
     "default_context" : "通用",
     "contexts" : {
         "标题" : {
+            "EQUAL" : [
+                {"name":"变大", "mods":["CONTROL", "SHIFT"]}
+            ],
             "FIVE" : [
                 {"name":"H5", "mods":["ALT", "CONTROL"]}
             ],
@@ -20,9 +23,6 @@
             ],
             "ONE" : [
                 {"name":"H1", "mods":["ALT", "CONTROL"]}
-            ],
-            "PLUS" : [
-                {"name":"变大", "mods":["CONTROL"]}
             ],
             "SIX" : [
                 {"name":"H6", "mods":["ALT", "CONTROL"]}

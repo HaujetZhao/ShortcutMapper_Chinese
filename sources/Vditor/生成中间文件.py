@@ -194,8 +194,8 @@ idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # =========================================
 context_name = "标题"
 label = "变大"
-keys_win = "Ctrl + PLUS"
-keys_mac = "Command + PLUS"
+keys_win = "Ctrl + Shift + EQUAL"
+keys_mac = "Command + Shift + EQUAL"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "标题"
@@ -245,25 +245,147 @@ label = "弹出菜单"
 keys_win = "Ctrl + H"
 keys_mac = "Command + H"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# =========================================
+context_name = "链接"
+label = "输入框/元素之间切换"
+keys_win = "Alt + Enter"
+keys_mac = "Option + Enter"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "链接"
+label = "输入框之间切换"
+keys_win = "Tab"
+keys_mac = "Tab"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# =======================================
+context_name = "列表 "
+label = "缩进"
+keys_win = "Tab or Ctrl + Shift + I"
+keys_mac = "Tab or Command + Shift + I"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "列表 "
+label = "反向缩进"
+keys_win = "Shift + Tab or Ctrl + Shift + O or Enter"
+keys_mac = "Shift + Tab or Command + Shift + O or Enter"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "列表 "
+label = "完成和待办之间切换"
+keys_win = "Ctrl + Shift + J"
+keys_mac = "Cmd + Shift + J"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "引用"
+label = "在顶层引用前插入空块"
+keys_win = "Ctrl + Alt + Enter"
+keys_mac = "Command + Option + Enter"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "引用"
+label = "在顶层引用后插入空块	"
+keys_win = "Alt + Enter"
+keys_mac = "Option + Enter"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "引用"
+label = "插入块元素"
+keys_win = "Ctrl + Shift + ; or Shift + ."
+keys_mac = "Command + Shift + ; or Shift + ."
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "引用"
+label = "引用和块元素之间切换"
+keys_win = "Ctrl + ;"
+keys_mac = "Command + ;"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "代码块"
+label = "输入框和代码块之间切换"
+keys_win = "Alt + Enter"
+keys_mac = "Option + Enter"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "代码块"
+label = "隐藏编辑界面"
+keys_win = "Esc"
+keys_mac = "Esc"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "代码块"
+label = "选中所有代码"
+keys_win = "Ctrl + A"
+keys_mac = "Command + A"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "当前行下插入新行"
+keys_win = "Ctrl + EQUAL or Ctrl + NUMPAD_PLUS"
+keys_mac = "Cmd + EQUAL or Cmd + NUMPAD_PLUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "删除行"
+keys_win = "Ctrl + MINUS or Ctrl + NUMPAD_MINUS"
+keys_mac = "Cmd + MINUS Cmd + NUMPAD_MINUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "当前列后插入新列"
+keys_win = "Ctrl + Shift + EQUAL or Ctrl + Shift + NUMPAD_PLUS"
+keys_mac = "Cmd + Shift + EQUAL or Cmd + Shift + NUMPAD_PLUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "删除列"
+keys_win = "Ctrl + Shift + MINUS or Ctrl + Shift + NUMPAD_MINUS"
+keys_mac = "Cmd + Shift + MINUS or Cmd + Shift + NUMPAD_MINUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "左对齐"
+keys_win = "Ctrl + Shift + L"
+keys_mac = "Cmd + Shift + L"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "中对齐"
+keys_win = "Ctrl + Shift + C"
+keys_mac = "Cmd + Shift + C"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "右对齐"
+keys_win = "Ctrl + Shift + R"
+keys_mac = "Cmd + Shift + R"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "光标移动到输入框中"
+keys_win = "Alt + Enter"
+keys_mac = "Option + Enter"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "输入框之间切换"
+keys_win = "Tab"
+keys_mac = "Tab"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "光标移动到上一个元素"
+keys_win = "Shift + Tab or Backspace"
+keys_mac = "Shift + Tab or Backspace"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "表格"
+label = "将光标移动到下一个元素"
+keys_win = "Tab"
+keys_mac = "Tab"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 
-# ------------------------------------------------------------------------
 
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------
 
 # 保存文件
 idata.serialize('intermediate/Vditor.json')

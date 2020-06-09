@@ -36,6 +36,83 @@ index.html       主站点
 
 当上述做完后，只要打开 **index.html** 就可以用了！
 
+
+
+### 添加应用快捷键的简单例子  ——by 淳帅二代
+
+例如，我想给 Vditor 添加快捷方式图，我需要做以下几步：
+
+在 `sources` 目录新建文件夹 `Vditor`，建立如下的子目录：
+
+```
+/sources
+    /Vditor
+        /intermediate
+```
+
+在 `Vditor` 目录中，我新建了 `生成中间文件.py` 文件，内容是这样的：
+
+```python
+# ============================================================
+# 先编写下面的脚本，可以用爬虫从网页上批量抓取快捷键
+# 要是不会前端抓取，那就只能手动写各个快捷键了
+# 获取完快捷键后，运行此脚本，就会生成中间文件
+# 最好再手动检查一下那个中间文件
+# 之后到项目主目录运行：python utils/export_intermediate_data.py sources/Vditor/intermediate/Vditor.json
+# 就会将中间文件转换到 contents 中，也就可以在网页上看到了。
+# 更新快捷方式也是以上两步
+# ============================================================
+
+import os
+import sys
+
+# 将资料库根目录加到 sys.path (这会使 import shmaplib 正常工作)
+CWD = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, CWD)
+sys.path.insert(0, os.path.normpath(os.path.join(CWD, '..', '..')))
+
+# 导入 shmaplib 库
+import shmaplib
+
+# 创建中间数据容器
+idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", default_context="通用")
+
+# ============================================================
+# 你可以下载一个带快捷键列表的网页，作为源文件，在这里写个脚本代码解析源文件批量生成数据
+# 不会前端抓取。。。下面手动添加吧。
+# 添加快捷键到容器，像这样就添加了一个快捷键：
+context_name = "通用"
+label = "表情"
+keys_win = "Shift + ;"
+keys_mac = "Command + E"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ============================================================
+
+# 保存中间文件到 intermediate/Vditor.json
+idata.serialize('intermediate/Vditor.json')
+```
+
+写好后，把上面的脚本运行一下，再到项目主目录执行 `python utils/export_intermediate_data.py sources/Vditor/intermediate/Vditor.json` ，就把一个程序的快捷键添加到网页上了。
+
+其实原作者在添加 Adobe 这样的软件的时候，就是用的脚本批量抓取的。不过我是不会那样的神奇操作，也只会手动添加了。有能力的朋友，可以尝试贡献下嘛~
+
+以后可能会加入以下应用的快捷键映射图，欢迎参与：
+
+- Windows
+- Microsoft Office Word
+- Microsoft Office Excel
+- Microsoft Office PowerPoint
+- PotPlayer
+- Affinity Photo
+- Affinity Design
+- Affinity Publish
+- GIMP
+- VS code
+- Typora
+- Vim
+
+
+
 ## 导出更新的快捷键
 
 **导出脚本** 使用 python3 和一些额外库，我推荐像这样使用 [virtualenv](http://virtualenv.readthedocs.org/en/latest/) ：
@@ -155,63 +232,7 @@ AppConfig 有一系列功能，能导出它到 /content/generated 下的正确�
 
 查看 `shmaplib/appdata.py` 以获得更多细节
 
-### 简单的例子  ——by 淳帅二代
 
-例如，我想给 Vditor 添加快捷方式图，我需要做以下几步：
-
-在 `sources` 目录新建文件夹 `Vditor`，建立如下的子目录：
-
-```
-/sources
-    /Vditor
-        /intermediate
-```
-
-在 `Vditor` 目录中，我新建了 `生成中间文件.py` 文件，内容是这样的：
-
-```python
-# ============================================================
-# 先编写下面的脚本，可以用爬虫从网页上批量抓取快捷键
-# 要是不会前端抓取，那就只能手动写各个快捷键了
-# 获取完快捷键后，运行此脚本，就会生成中间文件
-# 最好再手动检查一下那个中间文件
-# 之后到项目主目录运行：python utils/export_intermediate_data.py sources/Vditor/intermediate/Vditor.json
-# 就会将中间文件转换到 contents 中，也就可以在网页上看到了。
-# 更新快捷方式也是以上两步
-# ============================================================
-
-import os
-import sys
-
-# 将资料库根目录加到 sys.path (这会使 import shmaplib 正常工作)
-CWD = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, CWD)
-sys.path.insert(0, os.path.normpath(os.path.join(CWD, '..', '..')))
-
-# 导入 shmaplib 库
-import shmaplib
-
-# 创建中间数据容器
-idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", default_context="通用")
-
-# ============================================================
-# 你可以下载一个带快捷键列表的网页，作为源文件，在这里写个脚本代码解析源文件批量生成数据
-# 不会前端抓取。。。下面手动添加吧。
-# 添加快捷键到容器，像这样就添加了一个快捷键：
-context_name = "通用"
-label = "表情"
-keys_win = "Shift + ;"
-keys_mac = "Command + E"
-idata.add_shortcut(context_name, label, keys_win, keys_mac)
-# ============================================================
-
-# 保存中间文件到 intermediate/Vditor.json
-idata.serialize('intermediate/Vditor.json')
-```
-
-写好后，把上面的脚本运行一下，再到项目主目录执行 `python utils/export_intermediate_data.py sources/Vditor/intermediate/Vditor.json` ，就把一个程序的快捷键添加到网页上了。
-
-其实原作者在添加 Adobe 这样的软件的时候，就是用的脚本批量抓取的。不过我是不会那样的神奇操作，也只会手动添加了。有能力的朋友，可以尝试贡献下嘛~
 
 ## Pull Requests Flow
 

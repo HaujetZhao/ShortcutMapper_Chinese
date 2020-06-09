@@ -4,8 +4,24 @@
     "default_context": "通用",
     "os": ["windows", "mac", "linux"],
     "contexts": {
+        "代码块": {
+            "输入框和代码块之间切换": ["Alt + Enter", "Option + Enter"],
+            "隐藏编辑界面": ["Esc", "Esc"],
+            "选中所有代码": ["Ctrl + A", "Command + A"]
+        },
+        "列表 ": {
+            "缩进": ["Tab or Ctrl + Shift + I", "Tab or Command + Shift + I"],
+            "反向缩进": ["Shift + Tab or Ctrl + Shift + O or Enter", "Shift + Tab or Command + Shift + O or Enter"],
+            "完成和待办之间切换": ["Ctrl + Shift + J", "Cmd + Shift + J"]
+        },
+        "引用": {
+            "在顶层引用前插入空块": ["Ctrl + Alt + Enter", "Command + Option + Enter"],
+            "在顶层引用后插入空块	": ["Alt + Enter", "Option + Enter"],
+            "插入块元素": ["Ctrl + Shift + ; or Shift + .", "Command + Shift + ; or Shift + ."],
+            "引用和块元素之间切换": ["Ctrl + ;", "Command + ;"]
+        },
         "标题": {
-            "变大": ["Ctrl + PLUS", "Command + PLUS"],
+            "变大": ["Ctrl + Shift + EQUAL", "Command + Shift + EQUAL"],
             "变小": ["Ctrl + MINUS", "Command + MINUS"],
             "H1": ["Ctrl + Alt + ONE", "Command + Alt + ONE"],
             "H2": ["Ctrl + Alt + TWO", "Command + Alt + TWO"],
@@ -14,6 +30,19 @@
             "H5": ["Ctrl + Alt + FIVE", "Command + Alt + FIVE"],
             "H6": ["Ctrl + Alt + SIX", "Command + Alt + SIX"],
             "弹出菜单": ["Ctrl + H", "Command + H"]
+        },
+        "表格": {
+            "当前行下插入新行": ["Ctrl + EQUAL or Ctrl + NUMPAD_PLUS", "Cmd + EQUAL or Cmd + NUMPAD_PLUS"],
+            "删除行": ["Ctrl + MINUS or Ctrl + NUMPAD_MINUS", "Cmd + MINUS Cmd + NUMPAD_MINUS"],
+            "当前列后插入新列": ["Ctrl + Shift + EQUAL or Ctrl + Shift + NUMPAD_PLUS", "Cmd + Shift + EQUAL or Cmd + Shift + NUMPAD_PLUS"],
+            "删除列": ["Ctrl + Shift + MINUS or Ctrl + Shift + NUMPAD_MINUS", "Cmd + Shift + MINUS or Cmd + Shift + NUMPAD_MINUS"],
+            "左对齐": ["Ctrl + Shift + L", "Cmd + Shift + L"],
+            "中对齐": ["Ctrl + Shift + C", "Cmd + Shift + C"],
+            "右对齐": ["Ctrl + Shift + R", "Cmd + Shift + R"],
+            "光标移动到输入框中": ["Alt + Enter", "Option + Enter"],
+            "输入框之间切换": ["Tab", "Tab"],
+            "光标移动到上一个元素": ["Shift + Tab or Backspace", "Shift + Tab or Backspace"],
+            "将光标移动到下一个元素": ["Tab", "Tab"]
         },
         "通用": {
             "表情": ["Shift + ;", "Command + E"],
@@ -43,6 +72,10 @@
             "移除当前元素": ["Ctrl + Shift + X", "Command + Shift + X"],
             "At 用户": ["Shift + TWO", "Shift + TWO"],
             "错误输入": ["Backspace", "Backspace"]
+        },
+        "链接": {
+            "输入框/元素之间切换": ["Alt + Enter", "Option + Enter"],
+            "输入框之间切换": ["Tab", "Tab"]
         }
     }
 }
