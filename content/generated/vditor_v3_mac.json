@@ -52,7 +52,7 @@
         },
         "标题" : {
             "EQUAL" : [
-                {"name":"变大", "mods":["COMMAND", "SHIFT"]}
+                {"name":"标题变大", "mods":["COMMAND", "SHIFT"]}
             ],
             "FIVE" : [
                 {"name":"H5", "mods":["ALT", "COMMAND"]}
@@ -65,6 +65,12 @@
             ],
             "MINUS" : [
                 {"name":"变小", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"变小", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"标题变大", "mods":["COMMAND"]}
             ],
             "ONE" : [
                 {"name":"H1", "mods":["ALT", "COMMAND"]}
@@ -130,8 +136,17 @@
                 {"name":"元素后 插入空块", "mods":["COMMAND", "SHIFT"]},
                 {"name":"表情", "mods":["COMMAND"]}
             ],
+            "EQUAL" : [
+                {"name":"标题变大", "mods":["COMMAND", "SHIFT"]}
+            ],
             "F" : [
                 {"name":"格式化", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"H5标题", "mods":["ALT", "COMMAND"]}
+            ],
+            "FOUR" : [
+                {"name":"H4标题", "mods":["ALT", "COMMAND"]}
             ],
             "G" : [
                 {"name":"代码", "mods":["COMMAND"]}
@@ -155,8 +170,20 @@
             "M" : [
                 {"name":"表格", "mods":["COMMAND"]}
             ],
+            "MINUS" : [
+                {"name":"标题变小", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"标题变小", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"标题变大", "mods":["COMMAND"]}
+            ],
             "O" : [
                 {"name":"有序列表", "mods":["COMMAND"]}
+            ],
+            "ONE" : [
+                {"name":"H1标题", "mods":["ALT", "COMMAND"]}
             ],
             "P" : [
                 {"name":"隐藏编辑器", "mods":["COMMAND"]}
@@ -167,8 +194,15 @@
             "SINGLE_QUOTE" : [
                 {"name":"全屏", "mods":["COMMAND"]}
             ],
+            "SIX" : [
+                {"name":"H6标题", "mods":["ALT", "COMMAND"]}
+            ],
+            "THREE" : [
+                {"name":"H3标题", "mods":["ALT", "COMMAND"]}
+            ],
             "TWO" : [
-                {"name":"At 用户", "mods":["SHIFT"]}
+                {"name":"At 用户", "mods":["SHIFT"]},
+                {"name":"H2标题", "mods":["ALT", "COMMAND"]}
             ],
             "U" : [
                 {"name":"代码块", "mods":["COMMAND"]},

@@ -191,17 +191,66 @@ label = "错误输入"
 keys_win = "Backspace"
 keys_mac = "Backspace"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "标题变大"
+keys_win = "Ctrl + Shift + EQUAL or Ctrl + NUMPAD_PLUS"
+keys_mac = "Command + Shift + EQUAL or Cmd + NUMPAD_PLUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "标题变小"
+keys_win = "Ctrl + MINUS or Ctrl + NUMPAD_MINUS"
+keys_mac = "Command + MINUS or Cmd + NUMPAD_MINUS"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "H1标题"
+keys_win = "Ctrl + Alt + ONE"
+keys_mac = "Command + Alt + ONE"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "H2标题"
+keys_win = "Ctrl + Alt + TWO"
+keys_mac = "Command + Alt + TWO"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "H3标题"
+keys_win = "Ctrl + Alt + THREE"
+keys_mac = "Command + Alt + THREE"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "H4标题"
+keys_win = "Ctrl + Alt + FOUR"
+keys_mac = "Command + Alt + FOUR"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "H5标题"
+keys_win = "Ctrl + Alt + FIVE"
+keys_mac = "Command + Alt + FIVE"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+# ------------------------------------------------------------------------
+context_name = "通用"
+label = "H6标题"
+keys_win = "Ctrl + Alt + SIX"
+keys_mac = "Command + Alt + SIX"
+idata.add_shortcut(context_name, label, keys_win, keys_mac)
+
 # =========================================
 context_name = "标题"
-label = "变大"
-keys_win = "Ctrl + Shift + EQUAL"
-keys_mac = "Command + Shift + EQUAL"
+label = "标题变大"
+keys_win = "Ctrl + Shift + EQUAL or Ctrl + NUMPAD_PLUS"
+keys_mac = "Command + Shift + EQUAL or Cmd + NUMPAD_PLUS"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "标题"
 label = "变小"
-keys_win = "Ctrl + MINUS"
-keys_mac = "Command + MINUS"
+keys_win = "Ctrl + MINUS or Ctrl + NUMPAD_MINUS"
+keys_mac = "Command + MINUS or Cmd + NUMPAD_MINUS"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "标题"

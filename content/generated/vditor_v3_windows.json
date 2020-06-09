@@ -52,7 +52,7 @@
         },
         "标题" : {
             "EQUAL" : [
-                {"name":"变大", "mods":["CONTROL", "SHIFT"]}
+                {"name":"标题变大", "mods":["CONTROL", "SHIFT"]}
             ],
             "FIVE" : [
                 {"name":"H5", "mods":["ALT", "CONTROL"]}
@@ -65,6 +65,12 @@
             ],
             "MINUS" : [
                 {"name":"变小", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"变小", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"标题变大", "mods":["CONTROL"]}
             ],
             "ONE" : [
                 {"name":"H1", "mods":["ALT", "CONTROL"]}
@@ -131,8 +137,17 @@
             "E" : [
                 {"name":"元素后 插入空块", "mods":["CONTROL", "SHIFT"]}
             ],
+            "EQUAL" : [
+                {"name":"标题变大", "mods":["CONTROL", "SHIFT"]}
+            ],
             "F" : [
                 {"name":"格式化", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"H5标题", "mods":["ALT", "CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"H4标题", "mods":["ALT", "CONTROL"]}
             ],
             "G" : [
                 {"name":"代码", "mods":["CONTROL"]}
@@ -156,8 +171,20 @@
             "M" : [
                 {"name":"表格", "mods":["CONTROL"]}
             ],
+            "MINUS" : [
+                {"name":"标题变小", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"标题变小", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"标题变大", "mods":["CONTROL"]}
+            ],
             "O" : [
                 {"name":"有序列表", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"H1标题", "mods":["ALT", "CONTROL"]}
             ],
             "P" : [
                 {"name":"隐藏编辑器", "mods":["CONTROL"]}
@@ -171,8 +198,15 @@
             "SINGLE_QUOTE" : [
                 {"name":"全屏", "mods":["CONTROL"]}
             ],
+            "SIX" : [
+                {"name":"H6标题", "mods":["ALT", "CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"H3标题", "mods":["ALT", "CONTROL"]}
+            ],
             "TWO" : [
-                {"name":"At 用户", "mods":["SHIFT"]}
+                {"name":"At 用户", "mods":["SHIFT"]},
+                {"name":"H2标题", "mods":["ALT", "CONTROL"]}
             ],
             "U" : [
                 {"name":"代码块", "mods":["CONTROL"]},

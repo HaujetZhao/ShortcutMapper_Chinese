@@ -21,8 +21,8 @@
             "引用和块元素之间切换": ["Ctrl + ;", "Command + ;"]
         },
         "标题": {
-            "变大": ["Ctrl + Shift + EQUAL", "Command + Shift + EQUAL"],
-            "变小": ["Ctrl + MINUS", "Command + MINUS"],
+            "标题变大": ["Ctrl + Shift + EQUAL or Ctrl + NUMPAD_PLUS", "Command + Shift + EQUAL or Cmd + NUMPAD_PLUS"],
+            "变小": ["Ctrl + MINUS or Ctrl + NUMPAD_MINUS", "Command + MINUS or Cmd + NUMPAD_MINUS"],
             "H1": ["Ctrl + Alt + ONE", "Command + Alt + ONE"],
             "H2": ["Ctrl + Alt + TWO", "Command + Alt + TWO"],
             "H3": ["Ctrl + Alt + THREE", "Command + Alt + THREE"],
@@ -71,7 +71,15 @@
             "向下移动块元素": ["Ctrl + Shift + D", "Command + Shift + D"],
             "移除当前元素": ["Ctrl + Shift + X", "Command + Shift + X"],
             "At 用户": ["Shift + TWO", "Shift + TWO"],
-            "错误输入": ["Backspace", "Backspace"]
+            "错误输入": ["Backspace", "Backspace"],
+            "标题变大": ["Ctrl + Shift + EQUAL or Ctrl + NUMPAD_PLUS", "Command + Shift + EQUAL or Cmd + NUMPAD_PLUS"],
+            "标题变小": ["Ctrl + MINUS or Ctrl + NUMPAD_MINUS", "Command + MINUS or Cmd + NUMPAD_MINUS"],
+            "H1标题": ["Ctrl + Alt + ONE", "Command + Alt + ONE"],
+            "H2标题": ["Ctrl + Alt + TWO", "Command + Alt + TWO"],
+            "H3标题": ["Ctrl + Alt + THREE", "Command + Alt + THREE"],
+            "H4标题": ["Ctrl + Alt + FOUR", "Command + Alt + FOUR"],
+            "H5标题": ["Ctrl + Alt + FIVE", "Command + Alt + FIVE"],
+            "H6标题": ["Ctrl + Alt + SIX", "Command + Alt + SIX"]
         },
         "链接": {
             "输入框/元素之间切换": ["Alt + Enter", "Option + Enter"],
