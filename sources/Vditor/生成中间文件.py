@@ -283,7 +283,7 @@ keys_mac = "Command + Option + Enter"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)
 # ------------------------------------------------------------------------
 context_name = "引用"
-label = "在顶层引用后插入空块	"
+label = "在顶层引用后插入空块"
 keys_win = "Alt + Enter"
 keys_mac = "Option + Enter"
 idata.add_shortcut(context_name, label, keys_win, keys_mac)

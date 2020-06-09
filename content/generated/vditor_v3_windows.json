@@ -5,6 +5,51 @@
     "mods_used" : ["ALT", "CONTROL", "SHIFT"],
     "default_context" : "通用",
     "contexts" : {
+        "代码块" : {
+            "A" : [
+                {"name":"选中所有代码", "mods":["CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"输入框和代码块之间切换", "mods":["ALT"]}
+            ],
+            "ESCAPE" : [
+                {"name":"隐藏编辑界面", "mods":[]}
+            ]
+        },
+        "列表 " : {
+            "ENTER" : [
+                {"name":"反向缩进", "mods":[]}
+            ],
+            "I" : [
+                {"name":"缩进", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "J" : [
+                {"name":"完成和待办之间切换", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "O" : [
+                {"name":"反向缩进", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "TAB" : [
+                {"name":"反向缩进", "mods":["SHIFT"]},
+                {"name":"缩进", "mods":[]}
+            ]
+        },
+        "引用" : {
+            "ENTER" : [
+                {"name":"在顶层引用前插入空块", "mods":["ALT", "CONTROL"]},
+                {"name":"在顶层引用后插入空块", "mods":["ALT"]}
+            ],
+            "NUMPAD_PERIOD" : [
+                {"name":"插入块元素", "mods":["SHIFT"]}
+            ],
+            "PERIOD" : [
+                {"name":"插入块元素", "mods":["SHIFT"]}
+            ],
+            "SEMICOLON" : [
+                {"name":"引用和块元素之间切换", "mods":["CONTROL"]},
+                {"name":"插入块元素", "mods":["CONTROL", "SHIFT"]}
+            ]
+        },
         "标题" : {
             "EQUAL" : [
                 {"name":"变大", "mods":["CONTROL", "SHIFT"]}
@@ -32,6 +77,43 @@
             ],
             "TWO" : [
                 {"name":"H2", "mods":["ALT", "CONTROL"]}
+            ]
+        },
+        "表格" : {
+            "BACKSPACE" : [
+                {"name":"光标移动到上一个元素", "mods":[]}
+            ],
+            "C" : [
+                {"name":"中对齐", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ENTER" : [
+                {"name":"光标移动到输入框中", "mods":["ALT"]}
+            ],
+            "EQUAL" : [
+                {"name":"当前列后插入新列", "mods":["CONTROL", "SHIFT"]},
+                {"name":"当前行下插入新行", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"左对齐", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "MINUS" : [
+                {"name":"删除列", "mods":["CONTROL", "SHIFT"]},
+                {"name":"删除行", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"删除列", "mods":["CONTROL", "SHIFT"]},
+                {"name":"删除行", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"当前列后插入新列", "mods":["CONTROL", "SHIFT"]},
+                {"name":"当前行下插入新行", "mods":["CONTROL"]}
+            ],
+            "R" : [
+                {"name":"右对齐", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "TAB" : [
+                {"name":"光标移动到上一个元素", "mods":["SHIFT"]},
+                {"name":"输入框之间切换", "mods":[]}
             ]
         },
         "通用" : {
@@ -104,6 +186,14 @@
             ],
             "Z" : [
                 {"name":"撤销", "mods":["CONTROL"]}
+            ]
+        },
+        "链接" : {
+            "ENTER" : [
+                {"name":"输入框/元素之间切换", "mods":["ALT"]}
+            ],
+            "TAB" : [
+                {"name":"输入框之间切换", "mods":[]}
             ]
         }
     }

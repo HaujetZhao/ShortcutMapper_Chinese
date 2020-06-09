@@ -16,7 +16,7 @@
         },
         "引用": {
             "在顶层引用前插入空块": ["Ctrl + Alt + Enter", "Command + Option + Enter"],
-            "在顶层引用后插入空块	": ["Alt + Enter", "Option + Enter"],
+            "在顶层引用后插入空块": ["Alt + Enter", "Option + Enter"],
             "插入块元素": ["Ctrl + Shift + ; or Shift + .", "Command + Shift + ; or Shift + ."],
             "引用和块元素之间切换": ["Ctrl + ;", "Command + ;"]
         },
