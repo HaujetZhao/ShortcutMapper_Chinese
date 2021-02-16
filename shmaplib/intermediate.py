@@ -44,10 +44,43 @@ class IntermediateShortcutData(object):
     - "Alt + +"         Special cases handled correctly
     - "Shift + 0-9"     Range of numbers (Equivalent to having the same shortcut name on all buttons)
     - "Space / Z"       '/' is used as a separator if shortcut has multiple options
+
+    为应用的快捷键生成中间数据格式
+
+    这个可以用作多种快捷键文档解析器的输出，并且能最终被合并到一起。
+
+    然后可以手动编辑序列化的 IntermediateShortcutData 文档，以确保数据干净整洁地导出到 Web 应用程序。
+
+    中间数据格式（json）的格式如下所示：
+    {
+        "name": "Application Name",
+        "version": "v1.2.3",
+        "default_context": "Global Context",
+        "os": ["windows", "mac"],
+        "contexts": {
+            "场景名": {
+                "快捷键名": ["WINDOWS 快捷键", "MAC 快捷键"],
+                ...
+            },
+            ...
+        }
+    }
+
+    Linux 的快捷键一般与windows相同，所以目前先忽略
+
+    快捷键可以是下列的格式：
+    - "T"               只有一个按键
+    - "Ctrl + T"        缩写格式
+    - "Control + T"
+    - "Alt + +"         正确处理后的特殊情况
+    - "Shift + 0-9"     数字范围 (相当于在这些所有案件上都使用同一个快捷键功能)
+    - "Space / Z"       如果快捷键有多个选项，使用'/' 作为分隔器
     """
 
     class Shortcut:
-        """Intermediate Shortcut structure"""
+        """Intermediate Shortcut structure
+        中间快捷键结构
+        """
         def __init__(self, name, win_keys, mac_keys):
             self.name = name
             self.win_keys = win_keys
@@ -64,7 +97,9 @@ class IntermediateShortcutData(object):
                                                                   self._escape(self.mac_keys))
 
     class Context(object):
-        """Intermediate application context structure that contains a list of shortcuts"""
+        """Intermediate application context structure that contains a list of shortcuts
+        包含一串快捷键的中间应用程序情景结构
+        """
         def __init__(self, name):
             self.name = name
             self.shortcuts = []
@@ -72,6 +107,7 @@ class IntermediateShortcutData(object):
 
         def add_shortcut(self, name, win_keys, mac_keys):
             # Add keys to existing shortcut
+            # 将按键添加到已存在的快捷键
             existing_shortcut = self.get_shortcut(name)
             if existing_shortcut is not None:
                 if len(win_keys) and win_keys not in existing_shortcut.win_keys:
@@ -103,11 +139,12 @@ class IntermediateShortcutData(object):
     def __init__(self, app_name="", version="", default_context="", os_supported=None):
         """
         IntermediateShortcutData is a json format that can be easily hand-edited to fix shortcut errors.
+        IntermediateShortcutData 是一个可以方便地手工修改的 json 格式
 
-        :param app_name: display name of the application (Adobe Photoshop)
-        :param version: string format of the version (eg: 2015, v1.2, v1.6a)
-        :param default_context: the name of the context that will be active by default on the website
-        :param os_supported: list of supported os names as a list
+        :param app_name: 显示的程序名 (Adobe Photoshop)
+        :param version: 版本 (eg: 2015, v1.2, v1.6a)
+        :param default_context: 默认情景
+        :param os_supported: list 格式的所支持的系统，支持的名字有：'windows' 'mac' 'linux'
         """
         super(IntermediateShortcutData, self).__init__()
 
@@ -138,7 +175,7 @@ class IntermediateShortcutData(object):
         self._context_lookup[context_name].add_shortcut(shortcut_name, win_keys, mac_keys)
 
     def extend(self, idata):
-        """Merges the data from one intermediate data object into this one"""
+        """ 从一个 intermediate object 将数据合并到这个 object """
         assert isinstance(idata, IntermediateShortcutData), "Can only extend (merge) with IntermediateShortcutData type"
 
         for source_context in idata.contexts:
@@ -154,7 +191,7 @@ class IntermediateShortcutData(object):
                         shortcut.mac_keys = source_shortcut.mac_keys
 
     def load(self, file_path):
-        """Load the intermediate data from a json file"""
+        """从一个 json 文件载入 intermediate 数据"""
         self.contexts = []
         self._context_lookup = {}
 
@@ -171,7 +208,7 @@ class IntermediateShortcutData(object):
                     self.add_shortcut(context_name, shortcut_name, os_keys[0], os_keys[1])
 
     def serialize(self, output_filepath):
-        """Save the intermediate data to a json file"""
+        """保存 intermediate 数据到 json 文件"""
         json_str = "{\n"
 
         # Config
@@ -195,7 +232,7 @@ class IntermediateShortcutData(object):
 
 
 class IntermediateDataExporter(object):
-    """Exports an intermediate .json file to the contents/generated directory in the correct file format."""
+    """用正确的格式导出一个 intermediate .json file 到 contents/generated 文件夹"""
 
     def __init__(self, source, explicit_numpad_mode=False):
         super(IntermediateDataExporter, self).__init__()

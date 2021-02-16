@@ -2,161 +2,21 @@
     "name" : "Vditor",
     "version" : "v3",
     "os" : "mac",
-    "mods_used" : ["ALT", "COMMAND", "SHIFT"],
+    "mods_used" : ["COMMAND", "SHIFT"],
     "default_context" : "通用",
     "contexts" : {
-        "代码块" : {
-            "A" : [
-                {"name":"选中所有代码", "mods":["COMMAND"]}
-            ],
-            "ENTER" : [
-                {"name":"输入框和代码块之间切换", "mods":["ALT"]}
-            ],
-            "ESCAPE" : [
-                {"name":"隐藏编辑界面", "mods":[]}
-            ]
-        },
-        "列表 " : {
-            "ENTER" : [
-                {"name":"反向缩进", "mods":[]}
-            ],
-            "I" : [
-                {"name":"缩进", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "J" : [
-                {"name":"完成和待办之间切换", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "O" : [
-                {"name":"反向缩进", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "TAB" : [
-                {"name":"反向缩进", "mods":["SHIFT"]},
-                {"name":"缩进", "mods":[]}
-            ]
-        },
-        "引用" : {
-            "ENTER" : [
-                {"name":"在顶层引用前插入空块", "mods":["ALT", "COMMAND"]},
-                {"name":"在顶层引用后插入空块", "mods":["ALT"]}
-            ],
-            "NUMPAD_PERIOD" : [
-                {"name":"插入块元素", "mods":["SHIFT"]}
-            ],
-            "PERIOD" : [
-                {"name":"插入块元素", "mods":["SHIFT"]}
-            ],
-            "SEMICOLON" : [
-                {"name":"引用和块元素之间切换", "mods":["COMMAND"]},
-                {"name":"插入块元素", "mods":["COMMAND", "SHIFT"]}
-            ]
-        },
-        "标题" : {
-            "EQUAL" : [
-                {"name":"标题变大", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "FIVE" : [
-                {"name":"H5", "mods":["ALT", "COMMAND"]}
-            ],
-            "FOUR" : [
-                {"name":"H4", "mods":["ALT", "COMMAND"]}
-            ],
-            "H" : [
-                {"name":"弹出菜单", "mods":["COMMAND"]}
-            ],
-            "MINUS" : [
-                {"name":"变小", "mods":["COMMAND"]}
-            ],
-            "NUMPAD_MINUS" : [
-                {"name":"变小", "mods":["COMMAND"]}
-            ],
-            "NUMPAD_PLUS" : [
-                {"name":"标题变大", "mods":["COMMAND"]}
-            ],
-            "ONE" : [
-                {"name":"H1", "mods":["ALT", "COMMAND"]}
-            ],
-            "SIX" : [
-                {"name":"H6", "mods":["ALT", "COMMAND"]}
-            ],
-            "THREE" : [
-                {"name":"H3", "mods":["ALT", "COMMAND"]}
-            ],
-            "TWO" : [
-                {"name":"H2", "mods":["ALT", "COMMAND"]}
-            ]
-        },
-        "表格" : {
-            "BACKSPACE" : [
-                {"name":"光标移动到上一个元素", "mods":[]}
-            ],
-            "C" : [
-                {"name":"中对齐", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "ENTER" : [
-                {"name":"光标移动到输入框中", "mods":["ALT"]}
-            ],
-            "EQUAL" : [
-                {"name":"当前列后插入新列", "mods":["COMMAND", "SHIFT"]},
-                {"name":"当前行下插入新行", "mods":["COMMAND"]}
-            ],
-            "L" : [
-                {"name":"左对齐", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "MINUS" : [
-                {"name":"删除列", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "NUMPAD_MINUS" : [
-                {"name":"删除列", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "NUMPAD_PLUS" : [
-                {"name":"当前列后插入新列", "mods":["COMMAND", "SHIFT"]},
-                {"name":"当前行下插入新行", "mods":["COMMAND"]}
-            ],
-            "R" : [
-                {"name":"右对齐", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "TAB" : [
-                {"name":"光标移动到上一个元素", "mods":["SHIFT"]},
-                {"name":"输入框之间切换", "mods":[]}
-            ]
-        },
         "通用" : {
             "B" : [
-                {"name":"元素前 插入空块", "mods":["COMMAND", "SHIFT"]},
-                {"name":"粗体", "mods":["COMMAND"]}
-            ],
-            "BACKSPACE" : [
-                {"name":"删除当前行", "mods":["COMMAND", "SHIFT"]},
-                {"name":"错误输入", "mods":[]}
-            ],
-            "D" : [
-                {"name":"复制当前行/已选内容", "mods":["COMMAND", "SHIFT"]}
+                {"name":"元素前 插入空块", "mods":["COMMAND", "SHIFT"]}
             ],
             "E" : [
-                {"name":"元素后 插入空块", "mods":["COMMAND", "SHIFT"]},
-                {"name":"表情", "mods":["COMMAND"]}
-            ],
-            "EQUAL" : [
-                {"name":"标题变大", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "F" : [
-                {"name":"格式化", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "FIVE" : [
-                {"name":"H5标题", "mods":["ALT", "COMMAND"]}
-            ],
-            "FOUR" : [
-                {"name":"H4标题", "mods":["ALT", "COMMAND"]}
+                {"name":"元素后 插入空块", "mods":["COMMAND", "SHIFT"]}
             ],
             "G" : [
                 {"name":"代码", "mods":["COMMAND"]}
             ],
             "H" : [
-                {"name":"分割线", "mods":["COMMAND", "SHIFT"]},
-                {"name":"标题", "mods":["COMMAND"]}
-            ],
-            "I" : [
-                {"name":"斜体", "mods":["COMMAND"]}
+                {"name":"分割线", "mods":["COMMAND", "SHIFT"]}
             ],
             "J" : [
                 {"name":"引用", "mods":["COMMAND"]}
@@ -167,63 +27,20 @@
             "L" : [
                 {"name":"无序列表", "mods":["COMMAND"]}
             ],
-            "M" : [
-                {"name":"表格", "mods":["COMMAND"]}
-            ],
-            "MINUS" : [
-                {"name":"标题变小", "mods":["COMMAND"]}
-            ],
-            "NUMPAD_MINUS" : [
-                {"name":"标题变小", "mods":["COMMAND"]}
-            ],
-            "NUMPAD_PLUS" : [
-                {"name":"标题变大", "mods":["COMMAND"]}
-            ],
-            "O" : [
+            "NUMPAD_ZERO" : [
                 {"name":"有序列表", "mods":["COMMAND"]}
             ],
-            "ONE" : [
-                {"name":"H1标题", "mods":["ALT", "COMMAND"]}
-            ],
             "P" : [
-                {"name":"隐藏编辑器", "mods":["COMMAND"]}
+                {"name":"斜体", "mods":["COMMAND"]}
             ],
             "S" : [
                 {"name":"删除线", "mods":["COMMAND"]}
             ],
-            "SINGLE_QUOTE" : [
-                {"name":"全屏", "mods":["COMMAND"]}
-            ],
-            "SIX" : [
-                {"name":"H6标题", "mods":["ALT", "COMMAND"]}
-            ],
-            "THREE" : [
-                {"name":"H3标题", "mods":["ALT", "COMMAND"]}
-            ],
-            "TWO" : [
-                {"name":"At 用户", "mods":["SHIFT"]},
-                {"name":"H2标题", "mods":["ALT", "COMMAND"]}
-            ],
             "U" : [
-                {"name":"代码块", "mods":["COMMAND"]},
-                {"name":"向上移动块元素", "mods":["COMMAND", "SHIFT"]}
+                {"name":"代码块", "mods":["COMMAND"]}
             ],
-            "X" : [
-                {"name":"移除当前元素", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "Y" : [
-                {"name":"重做", "mods":["COMMAND"]}
-            ],
-            "Z" : [
-                {"name":"撤销", "mods":["COMMAND"]}
-            ]
-        },
-        "链接" : {
-            "ENTER" : [
-                {"name":"输入框/元素之间切换", "mods":["ALT"]}
-            ],
-            "TAB" : [
-                {"name":"输入框之间切换", "mods":[]}
+            "ZERO" : [
+                {"name":"有序列表", "mods":["COMMAND"]}
             ]
         }
     }

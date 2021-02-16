@@ -1,8 +1,0 @@
-//
-// Main Preferences window hotkeys.
-//
-
-HCONTEXT h.pane.preferences	"Main Preferences"		"These keys apply to the Main Preferences window."
-
-h.pane.preferences.prevpage	"Previous Page"			"Switch to previous preference page"
-h.pane.preferences.nextpage	"Next Page"			"Switch to next page"

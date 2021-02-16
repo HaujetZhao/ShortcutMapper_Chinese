@@ -1,40 +1,42 @@
-/design/sprites-assets/*
-/_venv/*
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
+# ============python 缓存相关============
+__pycache__
+*.spec
 *.pyc
-*~
-*.sass-cache
-*.ruby-version
+*.log
+*.spec
+*info
 
-# OS or Editor folders
-.DS_Store
-._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-.codeintel
-*.sublime-project
-*.sublime-workspace
-
-# Komodo
-*.komodoproject
-.komodotools
-
-# Folders to ignore
-.hg
-.svn
+# ============IDE 相关============
 .idea
+.DS_Store
+
+# ============虚拟环境============
+Lib/*
+Scripts/*
+pyvenv.cfg
+
+# ============测试代码============
+*/test/*
+
+# ============打包生成文件============
+*.7z
+*/dist/*
+*/build/*
+build/*
+dist/*
+
+# ============数据库、配置文件============
+*.db
+*.ini
+
+# ============媒体文件============
+*.mp4
+*.mkv
+*.wav
+
+# ============图片============
+*.afphoto
+icon*.png
+
+
+
