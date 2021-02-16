@@ -1,0 +1,21 @@
+{
+    "name": "Vditor",
+    "version": "v3",
+    "default_context": "通用",
+    "os": ["windows", "mac", "linux"],
+    "contexts": {
+        "通用": {
+            "斜体": ["Ctrl + P", " / Command + P"],
+            "删除线": ["Ctrl + S", " / Command + S"],
+            "链接": ["Ctrl + K", " / Command + K"],
+            "无序列表": ["Ctrl + L", " / Command + L"],
+            "有序列表": ["Ctrl + 0", " / Command + 0"],
+            "引用": ["Ctrl + J", " / Command + J"],
+            "分割线": ["Ctrl + Shift + H", " / Command + Shift + H"],
+            "代码块": ["Ctrl + U", " / Command + U"],
+            "代码": ["Ctrl + G", " / Command + G"],
+            "元素前 插入空块": ["Ctrl + Shift + B", " / Command + Shift + B"],
+            "元素后 插入空块": ["Ctrl + Shift + E", " / Command + Shift + E"]
+        }
+    }
+}

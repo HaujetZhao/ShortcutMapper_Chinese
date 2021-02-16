@@ -1,0 +1,11 @@
+通用,斜体,Ctrl,,,P
+通用,删除线,Ctrl,,,S
+通用,链接,Ctrl,,,K
+通用,无序列表,Ctrl,,,L
+通用,有序列表,Ctrl,,,0
+通用,引用,Ctrl,,,J
+通用,分割线,Ctrl,,Shift,H
+通用,代码块,Ctrl,,,U
+通用,代码,Ctrl,,,G
+通用,元素前 插入空块,Ctrl,,Shift,B
+通用,元素后 插入空块,Ctrl,,Shift,E
