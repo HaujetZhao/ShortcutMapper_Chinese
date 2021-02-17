@@ -47,12 +47,20 @@ index.html       主站点
 chrome --allow-file-access-from-files file://D:/path/to/index.html
 ```
 
-### 新增快捷键
+### 新增应用快捷键
+
+最好的例子是 `sources/windows` ，将这个文件夹复制一份，例如复制到  `sources/photoshop` ，打开该文件夹
 
 一、编辑下 ` 01 生成中间文件.py` ，主要修改里面这句：
 
 ```python
-idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", default_context="通用")
+idata = shmaplib.IntermediateShortcutData(app_name="Windows", version="10", default_context="通用")
+```
+
+例如改成：
+
+```python
+idata = shmaplib.IntermediateShortcutData(app_name="PhotoShop", version="cc", default_context="笔刷工具")
 ```
 
 二、在 `sources/Vditor` 中你可以找到例子，将快捷键按以下格式填写到 `windows.csv` 和 `mac.csv` 中
