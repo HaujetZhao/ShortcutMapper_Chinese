@@ -61,7 +61,9 @@ idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", defau
 情景    功能    按键1    按键3    ....
 ```
 
-按键的标准名字你可以在 `shmaplib/keynames.py` 中找到，按键名字不用区分大小写
+按键的标准名字你可以在 `shmaplib/keynames.py` 中找到，按键名字不用区分大小写。
+
+Linux 的快捷键一般与windows相同，所以目前先忽略。
 
 三、再运行 `01 生成中间文件.py`，就会生成 `intermediate.json`，检查下这个文件中有没有需要修改的错误，再运行 `02 将中间文件添加到正式目录.py`，就会将这个 app 的快捷键更新到 Shortcut Mapper 了。
 

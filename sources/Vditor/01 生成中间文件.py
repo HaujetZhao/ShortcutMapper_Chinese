@@ -38,6 +38,7 @@ encoding = 测试encoding(文件)
 with open(文件, encoding=encoding) as csvfile:
     content = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in content:
+        if len(row) < 3: continue
         context_name = row[0]
         label = row[1]
         keys_win = ' + '.join(list(filter(lambda x: x ,row[2:])))
@@ -48,6 +49,7 @@ encoding = 测试encoding(文件)
 with open(文件, encoding=encoding) as csvfile:
     content = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in content:
+        if len(row) < 3: continue
         context_name = row[0]
         label = row[1]
         keys_mac = ' + '.join(list(filter(lambda x: x ,row[2:])))
