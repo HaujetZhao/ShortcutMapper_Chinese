@@ -110,9 +110,9 @@ class IntermediateShortcutData(object):
             # 将按键添加到已存在的快捷键
             existing_shortcut = self.get_shortcut(name)
             if existing_shortcut is not None:
-                if len(win_keys) and win_keys not in existing_shortcut.win_keys:
+                if len(win_keys) and win_keys not in existing_shortcut.win_keys.split(" / "):
                     existing_shortcut.win_keys += " / " + win_keys
-                if len(mac_keys) and mac_keys not in existing_shortcut.mac_keys:
+                if len(mac_keys) and mac_keys not in existing_shortcut.mac_keys.split(" / "):
                     existing_shortcut.mac_keys += " / " + mac_keys
 
                 return
