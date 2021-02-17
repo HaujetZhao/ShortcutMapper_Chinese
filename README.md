@@ -1,6 +1,6 @@
 [中文](./README.md)　|　[English](./README_en.md) 
 
-[Gitee](https://haujet.gitee.io/shortcutmapper_chinese/ )　|　[Github](https://haujetzhao.github.io/ShortcutMapper_Chinese/) 
+[Gitee](https://gitee.com/haujet/ShortcutMapper_Chinese )　|　[Github](https://github.com/HaujetZhao/ShortcutMapper_Chinese) 
 
 # Shortcut Mapper 中文
 
