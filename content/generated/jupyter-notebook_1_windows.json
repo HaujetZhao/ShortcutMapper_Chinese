@@ -36,12 +36,6 @@
                 {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]},
                 {"name":"查找替换", "mods":[]}
             ],
-            "FIVE" : [
-                {"name":"代码块变标题", "mods":[]}
-            ],
-            "FOUR" : [
-                {"name":"代码块变标题", "mods":[]}
-            ],
             "H" : [
                 {"name":"键盘快捷键", "mods":[]}
             ],
@@ -68,11 +62,9 @@
                 {"name":"切换单元格输出", "mods":[]},
                 {"name":"切换单元格输出滚动", "mods":["SHIFT"]}
             ],
-            "ONE" : [
-                {"name":"代码块变标题", "mods":[]}
-            ],
             "P" : [
-                {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]}
+                {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]},
+                {"name":"打开命令配置", "mods":[]}
             ],
             "Q" : [
                 {"name":"关闭分页器", "mods":[]}
@@ -81,20 +73,12 @@
                 {"name":"清除代码块格式", "mods":[]}
             ],
             "S" : [
-                {"name":"保存", "mods":["SHIFT"]}
-            ],
-            "SIX" : [
-                {"name":"代码块变标题", "mods":[]}
+                {"name":"保存", "mods":["CONTROL"]},
+                {"name":"保存", "mods":[]}
             ],
             "SPACE" : [
                 {"name":"向上滚动", "mods":["SHIFT"]},
                 {"name":"向下滚动", "mods":[]}
-            ],
-            "THREE" : [
-                {"name":"代码块变标题", "mods":[]}
-            ],
-            "TWO" : [
-                {"name":"代码块变标题", "mods":[]}
             ],
             "UP_ARROW" : [
                 {"name":"拓展上面代码块", "mods":["SHIFT"]},
