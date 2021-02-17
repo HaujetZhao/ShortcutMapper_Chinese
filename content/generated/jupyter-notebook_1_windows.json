@@ -1,0 +1,199 @@
+{
+    "name" : "Jupyter Notebook",
+    "version" : "1",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "命令行模式",
+    "contexts" : {
+        "命令行模式" : {
+            "A" : [
+                {"name":"上面插入代码块", "mods":[]},
+                {"name":"全选单元格", "mods":["CONTROL"]}
+            ],
+            "B" : [
+                {"name":"下面插入代码块", "mods":[]}
+            ],
+            "C" : [
+                {"name":"复制代码块", "mods":[]}
+            ],
+            "D" : [
+                {"name":"删除单元格", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"拓展下面代码块", "mods":["SHIFT"]},
+                {"name":"选择下面代码块", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"运行块", "mods":["SHIFT"]},
+                {"name":"运行选中块", "mods":["CONTROL"]},
+                {"name":"运行选中块并插入", "mods":["ALT"]},
+                {"name":"进入编辑模式", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"关闭分页器", "mods":[]}
+            ],
+            "F" : [
+                {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]},
+                {"name":"查找替换", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"代码块变标题", "mods":[]}
+            ],
+            "FOUR" : [
+                {"name":"代码块变标题", "mods":[]}
+            ],
+            "H" : [
+                {"name":"键盘快捷键", "mods":[]}
+            ],
+            "I" : [
+                {"name":"中断内核", "mods":[]}
+            ],
+            "J" : [
+                {"name":"拓展下面代码块", "mods":["SHIFT"]},
+                {"name":"选择下面代码块", "mods":[]}
+            ],
+            "K" : [
+                {"name":"拓展上面代码块", "mods":["SHIFT"]},
+                {"name":"选择上面代码块", "mods":[]}
+            ],
+            "L" : [
+                {"name":"切换行号 所有", "mods":["SHIFT"]},
+                {"name":"切换行号", "mods":[]}
+            ],
+            "M" : [
+                {"name":"代码块变Md", "mods":[]},
+                {"name":"合并单元格", "mods":["SHIFT"]}
+            ],
+            "O" : [
+                {"name":"切换单元格输出", "mods":[]},
+                {"name":"切换单元格输出滚动", "mods":["SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"代码块变标题", "mods":[]}
+            ],
+            "P" : [
+                {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"关闭分页器", "mods":[]}
+            ],
+            "R" : [
+                {"name":"清除代码块格式", "mods":[]}
+            ],
+            "S" : [
+                {"name":"保存", "mods":["SHIFT"]}
+            ],
+            "SIX" : [
+                {"name":"代码块变标题", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"向上滚动", "mods":["SHIFT"]},
+                {"name":"向下滚动", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"代码块变标题", "mods":[]}
+            ],
+            "TWO" : [
+                {"name":"代码块变标题", "mods":[]}
+            ],
+            "UP_ARROW" : [
+                {"name":"拓展上面代码块", "mods":["SHIFT"]},
+                {"name":"选择上面代码块", "mods":[]}
+            ],
+            "V" : [
+                {"name":"粘贴到上面", "mods":["SHIFT"]},
+                {"name":"粘贴到下面", "mods":[]}
+            ],
+            "X" : [
+                {"name":"剪切代码块", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"代码块变代码", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"撤销删除", "mods":[]}
+            ],
+            "ZERO" : [
+                {"name":"重启内核", "mods":[]}
+            ]
+        },
+        "编辑模式" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]}
+            ],
+            "D" : [
+                {"name":"删除整行", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"向后删除单词", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"单元格最后", "mods":["CONTROL"]}
+            ],
+            "END" : [
+                {"name":"单元格最后", "mods":["CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"运行代码块", "mods":["CONTROL"]},
+                {"name":"运行块并插入", "mods":["ALT"]},
+                {"name":"运行块并选择下方", "mods":["SHIFT"]}
+            ],
+            "ESCAPE" : [
+                {"name":"命令行模式", "mods":[]}
+            ],
+            "F" : [
+                {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "HOME" : [
+                {"name":"单元格起始处", "mods":["CONTROL"]}
+            ],
+            "INSERT" : [
+                {"name":"切换重写标志", "mods":[]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"左跳一个单词", "mods":["CONTROL"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"缩进", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"命令行模式", "mods":["CONTROL"]}
+            ],
+            "MINUS" : [
+                {"name":"分隔代码块", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "P" : [
+                {"name":"打开命令配置", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"右跳一个单词", "mods":["CONTROL"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"取消缩进", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"保存", "mods":["CONTROL"]}
+            ],
+            "SLASH" : [
+                {"name":"注释", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"代码补全或缩进", "mods":[]},
+                {"name":"工具提示", "mods":["SHIFT"]}
+            ],
+            "U" : [
+                {"name":"撤销选择", "mods":["CONTROL"]},
+                {"name":"重新选择", "mods":["ALT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"单元格起始处", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"重做", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"撤销", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}

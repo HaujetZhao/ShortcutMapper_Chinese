@@ -4,6 +4,14 @@
 
 var sitedata_apps = [
     {
+        name: "Jupyter Notebook",
+        data: {
+            "1": {
+                "windows": "jupyter-notebook_1_windows.json",
+            },
+        }
+    },
+    {
         name: "Windows",
         data: {
             "10": {
