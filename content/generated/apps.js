@@ -4,11 +4,10 @@
 
 var sitedata_apps = [
     {
-        name: "Vditor",
+        name: "Windows",
         data: {
-            "v3": {
-                "mac": "vditor_v3_mac.json",
-                "windows": "vditor_v3_windows.json",
+            "10": {
+                "windows": "windows_10_windows.json",
             },
         }
     },

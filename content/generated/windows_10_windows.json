@@ -1,0 +1,341 @@
+{
+    "name" : "Windows",
+    "version" : "10",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "DOWN_ARROW", "LEFT_ARROW", "NUMLOCK", "OSKEY", "RIGHT_ARROW", "SHIFT", "UP_ARROW"],
+    "default_context" : "通用",
+    "contexts" : {
+        "命令提示符" : {
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"向下滚动", "mods":["CONTROL"]},
+                {"name":"块模式选择", "mods":["ALT"]}
+            ],
+            "END" : [
+                {"name":"光标移到末尾", "mods":["CONTROL"]}
+            ],
+            "HOME" : [
+                {"name":"光标移到起始处", "mods":["CONTROL"]}
+            ],
+            "INSERT" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"粘贴", "mods":["SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"块模式选择", "mods":["ALT"]}
+            ],
+            "M" : [
+                {"name":"标记模式", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"块模式选择", "mods":["ALT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"向上滚动", "mods":["CONTROL"]},
+                {"name":"块模式选择", "mods":["ALT"]}
+            ],
+            "V" : [
+                {"name":"粘贴", "mods":["SHIFT"]}
+            ]
+        },
+        "通用" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]},
+                {"name":"操作中心", "mods":["OSKEY"]}
+            ],
+            "B" : [
+                {"name":"唤醒", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"焦点移到托盘栏", "mods":["OSKEY"]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"超级按钮菜单", "mods":["OSKEY", "SHIFT"]}
+            ],
+            "COMMA" : [
+                {"name":"临时速览桌面", "mods":["OSKEY"]}
+            ],
+            "D" : [
+                {"name":"删除", "mods":["CONTROL"]},
+                {"name":"地址栏", "mods":["ALT"]},
+                {"name":"显示、隐藏桌面", "mods":["OSKEY"]},
+                {"name":"显示隐藏日期时间", "mods":["ALT", "OSKEY"]},
+                {"name":"添加虚拟桌面", "mods":["CONTROL", "OSKEY"]}
+            ],
+            "DELETE" : [
+                {"name":"不经回收直接删除", "mods":["SHIFT"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"光标移到下个段落", "mods":["CONTROL"]},
+                {"name":"创建磁贴文件夹", "mods":["CONTROL", "SHIFT"]},
+                {"name":"多选", "mods":["SHIFT"]},
+                {"name":"最小化", "mods":["OSKEY"]},
+                {"name":"移动焦点上的磁贴", "mods":["ALT", "SHIFT"]},
+                {"name":"窗口垂直还原", "mods":["OSKEY", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"搜索框", "mods":["CONTROL"]},
+                {"name":"文件资源管理器", "mods":["OSKEY"]}
+            ],
+            "EIGHT" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "ENTER" : [
+                {"name":"属性", "mods":["ALT"]},
+                {"name":"讲述人", "mods":["CONTROL", "OSKEY"]}
+            ],
+            "ESCAPE" : [
+                {"name":"任务管理器", "mods":["CONTROL", "SHIFT"]},
+                {"name":"开始菜单", "mods":["CONTROL"]},
+                {"name":"循环浏览项目", "mods":["ALT"]}
+            ],
+            "F" : [
+                {"name":"反馈中心", "mods":["OSKEY"]},
+                {"name":"搜索框", "mods":["CONTROL"]},
+                {"name":"搜索电脑", "mods":["CONTROL", "OSKEY"]}
+            ],
+            "F10" : [
+                {"name":"激活菜单栏", "mods":[]},
+                {"name":"选中项的菜单", "mods":["SHIFT"]}
+            ],
+            "F11" : [
+                {"name":"最大化", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"重命名", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"搜索", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"关闭或退出", "mods":["ALT"]},
+                {"name":"关闭活动文档", "mods":["CONTROL"]},
+                {"name":"关闭虚拟桌面", "mods":["CONTROL", "OSKEY"]},
+                {"name":"地址栏", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"刷新", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"循环窗口元素", "mods":[]}
+            ],
+            "F8" : [
+                {"name":"登录屏幕显示密码", "mods":["ALT"]}
+            ],
+            "FIVE" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "FOUR" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "G" : [
+                {"name":"游戏栏", "mods":["OSKEY"]}
+            ],
+            "H" : [
+                {"name":"开始听写", "mods":["OSKEY"]}
+            ],
+            "HOME" : [
+                {"name":"最小化其他窗口", "mods":["OSKEY"]}
+            ],
+            "I" : [
+                {"name":"打开设置", "mods":["OSKEY"]}
+            ],
+            "J" : [
+                {"name":"焦点移到提示", "mods":["OSKEY"]}
+            ],
+            "K" : [
+                {"name":"快速操作 连接", "mods":["OSKEY"]}
+            ],
+            "L" : [
+                {"name":"锁定电脑", "mods":["OSKEY"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"光标移到上个字词", "mods":["CONTROL"]},
+                {"name":"创建磁贴文件夹", "mods":["CONTROL", "SHIFT"]},
+                {"name":"多选", "mods":["SHIFT"]},
+                {"name":"左侧最大化", "mods":["OSKEY"]},
+                {"name":"左侧虚拟桌面", "mods":["CONTROL", "OSKEY"]},
+                {"name":"应用切换显示器", "mods":["OSKEY", "SHIFT"]},
+                {"name":"移动焦点上的磁贴", "mods":["ALT", "SHIFT"]},
+                {"name":"返回", "mods":["ALT"]}
+            ],
+            "M" : [
+                {"name":"最小化所有窗口", "mods":["OSKEY"]},
+                {"name":"还原最小化窗口", "mods":["OSKEY", "SHIFT"]}
+            ],
+            "N" : [
+                {"name":"新建文件夹", "mods":["CONTROL", "SHIFT"]},
+                {"name":"新窗口", "mods":["CONTROL"]}
+            ],
+            "NINE" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"显示子文件夹", "mods":["NUMLOCK"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"折叠文件夹", "mods":["NUMLOCK"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"放大镜", "mods":["OSKEY"]},
+                {"name":"显示文件夹内容", "mods":["NUMLOCK"]}
+            ],
+            "O" : [
+                {"name":"锁定设备方向", "mods":["OSKEY"]}
+            ],
+            "ONE" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "OSKEY" : [
+                {"name":"开始菜单", "mods":[]}
+            ],
+            "P" : [
+                {"name":"显示预览面板", "mods":["ALT"]},
+                {"name":"选择演示显示模式", "mods":["OSKEY"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"下一个屏幕", "mods":["ALT"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"上一个屏幕", "mods":["ALT"]}
+            ],
+            "PAUSE_BREAK" : [
+                {"name":"系统属性", "mods":["OSKEY"]}
+            ],
+            "PERIOD" : [
+                {"name":"表情符号面板", "mods":["OSKEY"]}
+            ],
+            "PRINT_SCREEN" : [
+                {"name":"截图", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"快速助手", "mods":["CONTROL", "OSKEY"]}
+            ],
+            "R" : [
+                {"name":"刷新", "mods":["CONTROL"]},
+                {"name":"运行", "mods":["OSKEY"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"光标移到下个字词", "mods":["CONTROL"]},
+                {"name":"创建磁贴文件夹", "mods":["CONTROL", "SHIFT"]},
+                {"name":"前进", "mods":["ALT"]},
+                {"name":"右侧最大化", "mods":["OSKEY"]},
+                {"name":"右侧虚拟桌面", "mods":["CONTROL", "OSKEY"]},
+                {"name":"多选", "mods":["SHIFT"]},
+                {"name":"应用切换显示器", "mods":["OSKEY", "SHIFT"]},
+                {"name":"移动焦点上的磁贴", "mods":["ALT", "SHIFT"]}
+            ],
+            "S" : [
+                {"name":"截屏", "mods":["OSKEY", "SHIFT"]},
+                {"name":"打开搜索", "mods":["OSKEY"]}
+            ],
+            "SEMICOLON" : [
+                {"name":"表情符号面板", "mods":["OSKEY"]}
+            ],
+            "SEVEN" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "SHIFT" : [
+                {"name":"切换键盘布局", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "SLASH" : [
+                {"name":"输入法复原流程", "mods":["OSKEY"]}
+            ],
+            "SPACE" : [
+                {"name":"切换勾选", "mods":[]},
+                {"name":"切换回输入法", "mods":["CONTROL", "OSKEY"]},
+                {"name":"切换语言键盘布局", "mods":["OSKEY"]},
+                {"name":"多选", "mods":["CONTROL", "DOWN_ARROW"]},
+                {"name":"多选", "mods":["CONTROL", "LEFT_ARROW"]},
+                {"name":"多选", "mods":["CONTROL", "RIGHT_ARROW"]},
+                {"name":"多选", "mods":["CONTROL", "UP_ARROW"]},
+                {"name":"开关中文输入法", "mods":["CONTROL"]},
+                {"name":"窗口快捷菜单", "mods":["ALT"]}
+            ],
+            "T" : [
+                {"name":"循环任务栏应用", "mods":["OSKEY"]}
+            ],
+            "TAB" : [
+                {"name":"任务视图", "mods":["OSKEY"]},
+                {"name":"切换打开的应用", "mods":["ALT"]},
+                {"name":"用方向键切换应用", "mods":["ALT", "CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "TWO" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ],
+            "U" : [
+                {"name":"轻松使用设置中心", "mods":["OSKEY"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"上一级文件夹", "mods":["ALT"]},
+                {"name":"光标移到上个段落", "mods":["CONTROL"]},
+                {"name":"创建磁贴文件夹", "mods":["CONTROL", "SHIFT"]},
+                {"name":"多选", "mods":["SHIFT"]},
+                {"name":"最大化", "mods":["OSKEY"]},
+                {"name":"移动焦点上的磁贴", "mods":["ALT", "SHIFT"]},
+                {"name":"窗口垂直拉伸", "mods":["OSKEY", "SHIFT"]}
+            ],
+            "V" : [
+                {"name":"剪切板", "mods":["OSKEY"]},
+                {"name":"循环浏览通知", "mods":["OSKEY", "SHIFT"]},
+                {"name":"粘贴", "mods":["CONTROL"]},
+                {"name":"肩式分接设备", "mods":["CONTROL", "OSKEY"]}
+            ],
+            "W" : [
+                {"name":"关闭窗口", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"剪切", "mods":["CONTROL"]},
+                {"name":"快速链接菜单", "mods":["OSKEY"]}
+            ],
+            "Y" : [
+                {"name":"Win Mixed Reality", "mods":["OSKEY"]},
+                {"name":"恢复", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"撤消", "mods":["CONTROL"]},
+                {"name":"显示应用可用命令", "mods":["OSKEY"]}
+            ],
+            "ZERO" : [
+                {"name":"任务栏应用", "mods":["OSKEY"]},
+                {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
+                {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
+                {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
+            ]
+        }
+    }
+}

@@ -25,4 +25,4 @@ def export_intermediate_file(file_path, explicit_numpad_mode):
 
 log = shmaplib.setuplog(None)
 log.setLevel(logging.INFO)
-export_intermediate_file('intermediate.json', False)
+export_intermediate_file('intermediate.json', True)

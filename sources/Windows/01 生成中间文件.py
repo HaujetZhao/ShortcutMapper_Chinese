@@ -30,7 +30,7 @@ def 测试encoding(file):
         return 'gbk'
 
 # 创建中间数据容器
-idata = shmaplib.IntermediateShortcutData(app_name="Vditor", version="v3", default_context="通用")
+idata = shmaplib.IntermediateShortcutData(app_name="Windows", version="10", default_context="通用")
 
 # 确保 csv 文件存在
 文件 = 'windows.csv'
