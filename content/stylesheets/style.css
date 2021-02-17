@@ -907,8 +907,8 @@ div#keyboard button.mod-other.mod-active {
     border: 1px solid #fff;
     border-radius: 2px;
     box-shadow: 0 1px 1px 1px #b2b1b1;
-    min-width: 400px;
-    max-height: 200px;
+    min-width: 35em;
+    max-height: 20em;
     overflow-y: auto;
 }
 #search_results table {
@@ -917,10 +917,15 @@ div#keyboard button.mod-other.mod-active {
     margin: 0;
     border-collapse: collapse;
 }
+#search_results table tr {
+    height: 2em;
+}
 #search_results table td {
-    font-size: 0.7em;
+    /* font-size: 0.7em; */
+    font-size: 0.9em;
     font-weight: 300;
     line-height: 16px;
+    /* height: 2em; */
     background-color: #f0f0f0;
     color: #444;
     padding: 0 3px;
@@ -942,7 +947,7 @@ div#keyboard button.mod-other.mod-active {
     border-radius: 1px;
     color: #fff;
     text-transform: uppercase;
-    font-size: 0.6em;
+    font-size: 0.9em;
     padding: 0 2px;
     margin-right: 2px;
 }
