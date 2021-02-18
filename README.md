@@ -37,15 +37,21 @@ index.html       主站点
 
 ### 本地运行
 
-本站的唯一一个页面就是 **index.html** 
+本站的唯一一个页面就是 **index.html** ，双击打开即可。
 
-这个应用使用 ajax 请求，以载入快捷键数据。但因为安全原因，ajax 从本地使用 file:// 协议时会失败，所以你需要设置浏览器允许这个 `--allow-file-access-from-files`。
+这个应用使用 ajax 请求，以载入快捷键数据。但因为安全原因，ajax 从本地使用 file:// 协议时会失败，所以从本地打开前需要按如下步骤设置一下浏览器：
 
-对于 Chrome，使用这样的命令：
+#### 设置浏览器
 
-```
-chrome --allow-file-access-from-files file://D:/path/to/index.html
-```
+以 Windows 上的 Edge 浏览器为例，将 Edge 浏览器关闭后，在桌面上右击 Edge 浏览器图标，打开属性：
+
+![Edge浏览器属性](assets/Edge浏览器属性.png)
+
+在 `目标` 一栏后面加上 `--allow-file-access-from-files` ：
+
+![Edge浏览器属性允许文件访问](assets/Edge浏览器属性允许文件访问.png)
+
+点击确定，再启动 Edge 浏览器，用它打开 **index.html** 就可以正常显示快捷键了
 
 ### 新增应用快捷键
 

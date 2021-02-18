@@ -1,0 +1,149 @@
+通用,显示命令面板,command,shift,,p,
+通用,显示命令面板,,,,,f1
+通用,快速打开,command,,,p,
+通用,新窗口,command,shift,,n,
+通用,关闭窗口,command,shift,,w,
+通用,首选项,command,,,",",
+通用,剪切,command,,,x,
+通用,粘贴,command,,,v,
+通用,上移当前行,,,alt,,up
+通用,下移当前行,,,alt,,down
+通用,向上复制当前行,,shift,alt,,up
+通用,向下复制当前行,,shift,alt,,down
+通用,删除行,command,shift,,k,
+通用,下方插入行,command,,,,enter
+通用,上方插入行,command,shift,,,enter
+通用,跳转到闭合处,command,shift,,\,
+通用,缩进,command,,,],
+通用,反缩进,command,,,[,
+通用,文件开头,command,,,,home
+通用,文件末尾,command,,,,end
+通用,向上滚动行,command,,,,up
+通用,向下滚动行,command,,,,down
+通用,向上滚动页面,,,alt,,page up
+通用,向下滚动页面,,,alt,,page down
+通用,折叠,command,shift,,[,
+通用,展开,command,shift,,,
+通用,切换行注释,command,,,/,
+通用,切换块注释,,shift,alt,a,
+通用,切换自动换行,,,alt,z,
+通用,显示所有符号,command,,,t,
+通用,跳转某一行,command,,,g,
+通用,跳转某一符号,command,shift,,o,
+通用,错误面板,command,shift,,m,
+通用,下个错误、警告,,,,,f8
+通用,上个错误、警告,,shift,,,f8
+通用,文件切换导航,command,shift,,,tab
+通用,前一个窗口,,,alt,,left
+通用,后一个窗口,,,alt,,right
+通用,使用Tab移动焦点,command,,,m,
+通用,查找,command,,,f,
+通用,替换,command,,,h,
+通用,查找下一个,,,,,f3
+通用,查找上一个,,shift,,,f3
+通用,选中全部查找结果,,,alt,,enter
+通用,向下选中匹配项,command,,,d,
+通用,查找时区分大小写,,,alt,c,
+通用,查找时使用正则,,,alt,r,
+通用,查找时全词查找,,,alt,w,
+通用,插入光标,,,alt,,click
+通用,上方插入光标,command,,alt,,up
+通用,下方插入光标,command,,alt,,down
+通用,撤销光标操作,command,,,u,
+通用,所选行尾插入光标,,shift,alt,i,
+通用,选中当前行,command,,,i,
+通用,选中所有相同内容,command,shift,,l,
+通用,选中所有相同词汇,command,,,,f2
+通用,扩展选择,,shift,alt,,right
+通用,收缩选择,,shift,alt,,left
+通用,选择区域插入光标,command,shift,alt,,up
+通用,选择区域插入光标,command,shift,alt,,down
+通用,选择区域插入光标,command,shift,alt,,left
+通用,选择区域插入光标,command,shift,alt,,right
+通用,选择区域插入光标,command,shift,alt,,page up
+通用,选择区域插入光标,command,shift,alt,,page down
+通用,输入建议,command,,,,space
+通用,参数提示,command,shift,,,space
+通用,格式化文档,,shift,alt,f,
+通用,查看定义,,,,,f12
+通用,快速修复,command,,,.,
+通用,查看引用,,shift,,,f12
+通用,重命名,,,,,f2
+通用,关闭编辑器,command,,,,f4
+通用,关闭编辑器,command,,,w,
+通用,拆分编辑器为多组,command,,,\,
+通用,切换组窗口焦点,command,,,,1
+通用,切换组窗口焦点,command,,,,2
+通用,切换组窗口焦点,command,,,,3
+通用,切换标签页位置,command,shift,,,page up
+通用,切换标签页位置,command,shift,,,page down
+通用,新建文件,command,,,n,
+通用,打开文件,command,,,o,
+通用,保存文件,command,,,s,
+通用,另存为,command,shift,,s,
+通用,关闭当前窗口,command,,,,f4
+通用,恢复已关闭窗口,command,shift,,t,
+通用,打开下一个,command,,,,tab
+通用,打开上一个,command,shift,,,tab
+通用,全屏模式,,,,,f11
+通用,切换布局,,shift,alt,0,
+通用,放大,command,,,=,
+通用,缩小,command,,,-,
+通用,侧边栏显示,command,,,b,
+通用,资源管理器,command,shift,,e,
+通用,搜索界面,command,shift,,f,
+通用,源代码管理,command,shift,,g,
+通用,Debug 界面,command,shift,,d,
+通用,插件管理界面,command,shift,,x,
+通用,文件中替换,command,shift,,h,
+通用,搜索详细信息,command,shift,,j,
+通用,显示输出面板,command,shift,,u,
+通用,预览Markdown,command,shift,,v,
+通用,切换断点,,,,,f9
+通用,开始/继续调试,,,,,f5
+通用,停止调试,,shift,,,f5
+通用,单步调试,,,,,f11
+通用,单步跳出,,shift,,,f11
+通用,单步跳过,,,,,f10
+通用,显示终端,command,,,`,
+通用,新建终端,command,shift,,`,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+command + k,快捷键设置,command,,,s,
+command + k,折叠所有子代码块,command,,,[,
+command + k,展开所有子代码块,command,,,],
+command + k,折叠所有代码块,command,,,o,
+command + k,展开所有代码块,command,,,j,
+command + k,添加行注释,command,,,/,
+command + k,其他窗口打开定义,,,,,f12
+command + k,移除行尾空白字符,command,,,x,
+command + k,更改文档语言,,,,m,
+command + k,关闭当前文件夹,,,,f,
+command + k,切换组窗口焦点,command,,,,left
+command + k,切换组窗口焦点,command,,,,right
+command + k,切换分割窗口位置,,,,,left
+command + k,切换分割窗口位置,,,,,right
+command + k,保存所有文件,,,,s,
+command + k,关闭所有窗口,command,,,w,
+command + k,保持预览模式开启,,,,,enter
+command + k,复制当前文件路径,,,,p,
+command + k,打开文件所在路径,,,,r,
+command + k,新窗口打开当前文件,,,,o,
+command + k,侧边预览Markdown,,,,v,
+command + k,禅模式(双击Esc退出),,,,z,
+command + k,显示悬停,command,,,i,

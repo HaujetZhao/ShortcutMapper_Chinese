@@ -1,0 +1,305 @@
+{
+    "name" : "Microsoft Word",
+    "version" : "365",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "通用模式",
+    "contexts" : {
+        "通用" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]},
+                {"name":"全部大写", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ALT" : [
+                {"name":"功能区", "mods":[]}
+            ],
+            "B" : [
+                {"name":"加粗", "mods":["CONTROL"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"向左删除一个词", "mods":["CONTROL"]}
+            ],
+            "C" : [
+                {"name":"?", "mods":["ALT", "CONTROL"]},
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"复制格式", "mods":["CONTROL", "SHIFT"]},
+                {"name":"撤销拆分文档", "mods":["ALT", "SHIFT"]}
+            ],
+            "COMMA" : [
+                {"name":"上一条脚注", "mods":["ALT", "SHIFT"]},
+                {"name":"减小字号", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "D" : [
+                {"name":"双下划线", "mods":["CONTROL", "SHIFT"]},
+                {"name":"字体对话框", "mods":["CONTROL"]},
+                {"name":"插入尾注", "mods":["ALT", "CONTROL"]},
+                {"name":"插入日期域", "mods":["ALT", "SHIFT"]}
+            ],
+            "DELETE" : [
+                {"name":"向右删除一个词", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"光标移到下个段落", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"居中", "mods":["CONTROL"]},
+                {"name":"打开或关闭修订", "mods":["CONTROL", "SHIFT"]},
+                {"name":"编辑邮件合并数据文档", "mods":["ALT", "SHIFT"]}
+            ],
+            "EIGHT" : [
+                {"name":"显示所有非打印字符", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ENTER" : [
+                {"name":"插入分页符", "mods":["CONTROL"]},
+                {"name":"插入换行符", "mods":["SHIFT"]},
+                {"name":"插入长划线", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "EQUAL" : [
+                {"name":"上标", "mods":["CONTROL", "SHIFT"]},
+                {"name":"下标", "mods":["CONTROL"]}
+            ],
+            "ESCAPE" : [
+                {"name":"停止选择模式", "mods":[]}
+            ],
+            "F" : [
+                {"name":"字体对话框", "mods":["CONTROL", "SHIFT"]},
+                {"name":"导航", "mods":["CONTROL"]},
+                {"name":"插入合并域", "mods":["ALT", "SHIFT"]},
+                {"name":"插入脚注", "mods":["ALT", "CONTROL"]},
+                {"name":"文件页面", "mods":["ALT"]}
+            ],
+            "F1" : [
+                {"name":"Word帮助", "mods":[]},
+                {"name":"上下文帮助", "mods":["SHIFT"]},
+                {"name":"展开收起功能区", "mods":["CONTROL"]},
+                {"name":"移到上一个字段 ", "mods":["ALT", "SHIFT"]},
+                {"name":"移到下一个字段", "mods":["ALT"]}
+            ],
+            "F10" : [
+                {"name":"切换最大化", "mods":["CONTROL"]},
+                {"name":"功能区", "mods":[]},
+                {"name":"右键菜单", "mods":["SHIFT"]},
+                {"name":"显示可用操作菜单", "mods":["ALT", "SHIFT"]},
+                {"name":"选择 任务窗格", "mods":["ALT"]}
+            ],
+            "F11" : [
+                {"name":"上一个域", "mods":[]},
+                {"name":"打开宏编辑器", "mods":["ALT"]},
+                {"name":"显示格式任务窗格", "mods":["SHIFT"]},
+                {"name":"解除域锁定", "mods":["CONTROL", "SHIFT"]},
+                {"name":"锁定当前字段", "mods":["CONTROL"]}
+            ],
+            "F12" : [
+                {"name":"保存", "mods":["SHIFT"]},
+                {"name":"另存为", "mods":[]},
+                {"name":"打印", "mods":["CONTROL", "SHIFT"]},
+                {"name":"打开", "mods":["CONTROL"]},
+                {"name":"目录窗口中 目录", "mods":["ALT", "SHIFT"]}
+            ],
+            "F2" : [
+                {"name":"保存文档", "mods":["ALT", "SHIFT"]},
+                {"name":"复制内容到特定位置", "mods":["SHIFT"]},
+                {"name":"打印预览", "mods":["CONTROL"]},
+                {"name":"打开", "mods":["ALT", "CONTROL"]},
+                {"name":"移动目标到特定位置", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"剪切到图文场", "mods":["CONTROL"]},
+                {"name":"大写、小写、首字母大写", "mods":["SHIFT"]},
+                {"name":"粘贴图文场", "mods":["CONTROL", "SHIFT"]},
+                {"name":"选择内容定义自动图文集", "mods":["ALT"]}
+            ],
+            "F4" : [
+                {"name":"关闭Word", "mods":["ALT"]},
+                {"name":"关闭文档", "mods":["CONTROL"]},
+                {"name":"重复上一个操作", "mods":[]},
+                {"name":"重复查找/转到", "mods":["SHIFT"]}
+            ],
+            "F5" : [
+                {"name":"上一次修正的位置", "mods":["SHIFT"]},
+                {"name":"书签对话框", "mods":["CONTROL", "SHIFT"]},
+                {"name":"转到", "mods":[]},
+                {"name":"还原文档窗口大小", "mods":["ALT"]}
+            ],
+            "F6" : [
+                {"name":"上一个文档窗口", "mods":["CONTROL", "SHIFT"]},
+                {"name":"下一个文档窗口", "mods":["CONTROL"]},
+                {"name":"切换焦点", "mods":["SHIFT"]},
+                {"name":"切换焦点", "mods":[]},
+                {"name":"焦点回到文档", "mods":["ALT"]}
+            ],
+            "F7" : [
+                {"name":"同义词库", "mods":["SHIFT"]},
+                {"name":"更新源链接", "mods":["CONTROL", "SHIFT"]},
+                {"name":"查找下一个语法错误", "mods":["ALT"]},
+                {"name":"编辑器审阅", "mods":[]},
+                {"name":"翻译工具", "mods":["ALT", "SHIFT"]}
+            ],
+            "F8" : [
+                {"name":"减少所选内容", "mods":["SHIFT"]},
+                {"name":"宏 对话框", "mods":["ALT"]},
+                {"name":"开始扩展选定内容", "mods":[]},
+                {"name":"纵向选择模式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "F9" : [
+                {"name":"下一个域", "mods":["ALT", "SHIFT"]},
+                {"name":"切换域代码和结果", "mods":["SHIFT"]},
+                {"name":"切换所有域代码和结果", "mods":["ALT"]},
+                {"name":"刷新页面", "mods":[]},
+                {"name":"取消域链接", "mods":["CONTROL", "SHIFT"]},
+                {"name":"插入空域", "mods":["CONTROL"]}
+            ],
+            "FIVE" : [
+                {"name":"1.5倍行距", "mods":["CONTROL"]},
+                {"name":"图像", "mods":["ALT", "CONTROL"]}
+            ],
+            "G" : [
+                {"name":"跳转到", "mods":["CONTROL"]}
+            ],
+            "H" : [
+                {"name":"替换", "mods":["CONTROL"]},
+                {"name":"隐藏所选文本", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "I" : [
+                {"name":"打印预览", "mods":["ALT", "CONTROL"]},
+                {"name":"斜体", "mods":["CONTROL"]},
+                {"name":"标记引文目录项", "mods":["ALT", "SHIFT"]}
+            ],
+            "J" : [
+                {"name":"调整段落", "mods":["CONTROL"]}
+            ],
+            "K" : [
+                {"name":"启用自动套用格式", "mods":["ALT", "CONTROL"]},
+                {"name":"小型大写字母格式", "mods":["CONTROL", "SHIFT"]},
+                {"name":"插入超链接", "mods":["CONTROL"]},
+                {"name":"预览邮件合并", "mods":["ALT", "SHIFT"]}
+            ],
+            "L" : [
+                {"name":"左对齐", "mods":["CONTROL"]},
+                {"name":"插入 ListNum 域", "mods":["ALT", "SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"光标移到上个单词", "mods":["CONTROL"]},
+                {"name":"返回一页", "mods":["ALT"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"逐磅减小字号", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"减少缩进", "mods":["CONTROL", "SHIFT"]},
+                {"name":"增加缩进", "mods":["CONTROL"]},
+                {"name":"打印已合并文档", "mods":["ALT", "SHIFT"]},
+                {"name":"插入批注", "mods":["ALT", "CONTROL"]}
+            ],
+            "MINUS" : [
+                {"name":"插入不间断连字符", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "N" : [
+                {"name":"切换到草稿视图", "mods":["ALT", "CONTROL"]},
+                {"name":"合并文档", "mods":["ALT", "SHIFT"]},
+                {"name":"新文档", "mods":["CONTROL"]},
+                {"name":"正文样式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"插入可选连字符", "mods":["CONTROL", "SHIFT"]},
+                {"name":"插入短划线", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"切换到大纲视图", "mods":["ALT", "CONTROL"]},
+                {"name":"打开文档", "mods":["CONTROL"]},
+                {"name":"标记目录项", "mods":["ALT", "SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"单倍行距", "mods":["CONTROL"]},
+                {"name":"标题 1", "mods":["ALT", "CONTROL"]}
+            ],
+            "P" : [
+                {"name":"切换到页面视图", "mods":["ALT", "CONTROL"]},
+                {"name":"打印", "mods":["CONTROL"]},
+                {"name":"插入页字段", "mods":["ALT", "SHIFT"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"光标移到下页顶部", "mods":["CONTROL"]},
+                {"name":"光标移到屏幕底部", "mods":["ALT", "CONTROL"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"光标移到上页顶部", "mods":["CONTROL"]},
+                {"name":"光标移到屏幕顶部", "mods":["ALT", "CONTROL"]}
+            ],
+            "PERIOD" : [
+                {"name":"下一条脚注", "mods":["ALT", "SHIFT"]},
+                {"name":"增大字号", "mods":["CONTROL", "SHIFT"]},
+                {"name":"插入省略号", "mods":["ALT", "CONTROL"]}
+            ],
+            "Q" : [
+                {"name":"删除段落格式", "mods":["CONTROL"]},
+                {"name":"所选文字改为符号字体", "mods":["CONTROL", "SHIFT"]},
+                {"name":"搜索帮助", "mods":["ALT"]}
+            ],
+            "R" : [
+                {"name":"?", "mods":["ALT", "CONTROL"]},
+                {"name":"右对齐", "mods":["CONTROL"]},
+                {"name":"复制上一节页眉页脚", "mods":["ALT", "SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"光标移到下个单词", "mods":["CONTROL"]},
+                {"name":"前进一页", "mods":["ALT"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"逐磅增大字号", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"保存", "mods":["CONTROL"]},
+                {"name":"应用样式任务窗格", "mods":["CONTROL", "SHIFT"]},
+                {"name":"拆分文档窗口", "mods":["ALT", "CONTROL"]},
+                {"name":"撤销拆分文档", "mods":["ALT", "SHIFT"]}
+            ],
+            "SPACE" : [
+                {"name":"手动设置的字符格式", "mods":["CONTROL"]},
+                {"name":"插入不间断空格", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "T" : [
+                {"name":"?", "mods":["ALT", "CONTROL"]},
+                {"name":"删除悬挂缩进", "mods":["CONTROL", "SHIFT"]},
+                {"name":"悬挂缩进", "mods":["CONTROL"]},
+                {"name":"插入时间域", "mods":["ALT", "SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"标题 3", "mods":["ALT", "CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"双倍行距", "mods":["CONTROL"]},
+                {"name":"标题 2", "mods":["ALT", "CONTROL"]}
+            ],
+            "U" : [
+                {"name":"下划线", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"光标移到上个段落", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"粘贴", "mods":["CONTROL"]},
+                {"name":"粘贴格式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "W" : [
+                {"name":"下划线(空格除外)", "mods":["CONTROL", "SHIFT"]},
+                {"name":"关闭文档", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"Unicode字符转换", "mods":["ALT"]},
+                {"name":"剪切", "mods":["CONTROL"]},
+                {"name":"插入索引项", "mods":["ALT", "SHIFT"]}
+            ],
+            "Y" : [
+                {"name":"恢复", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"循环前四个更改", "mods":["ALT", "CONTROL"]},
+                {"name":"撤销", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"添加或删除段前空格", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}

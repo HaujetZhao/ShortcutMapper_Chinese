@@ -1,0 +1,149 @@
+通用,显示命令面板,ctrl,shift,,p,
+通用,显示命令面板,,,,,f1
+通用,快速打开,ctrl,,,p,
+通用,新窗口,ctrl,shift,,n,
+通用,关闭窗口,ctrl,shift,,w,
+通用,首选项,ctrl,,,",",
+通用,剪切,ctrl,,,x,
+通用,粘贴,ctrl,,,v,
+通用,上移当前行,,,alt,,up
+通用,下移当前行,,,alt,,down
+通用,向上复制当前行,,shift,alt,,up
+通用,向下复制当前行,,shift,alt,,down
+通用,删除行,ctrl,shift,,k,
+通用,下方插入行,ctrl,,,,enter
+通用,上方插入行,ctrl,shift,,,enter
+通用,跳转到闭合处,ctrl,shift,,\,
+通用,缩进,ctrl,,,],
+通用,反缩进,ctrl,,,[,
+通用,文件开头,ctrl,,,,home
+通用,文件末尾,ctrl,,,,end
+通用,向上滚动行,ctrl,,,,up
+通用,向下滚动行,ctrl,,,,down
+通用,向上滚动页面,,,alt,,page up
+通用,向下滚动页面,,,alt,,page down
+通用,折叠,ctrl,shift,,[,
+通用,展开,ctrl,shift,,,
+通用,切换行注释,ctrl,,,/,
+通用,切换块注释,,shift,alt,a,
+通用,切换自动换行,,,alt,z,
+通用,显示所有符号,ctrl,,,t,
+通用,跳转某一行,ctrl,,,g,
+通用,跳转某一符号,ctrl,shift,,o,
+通用,错误面板,ctrl,shift,,m,
+通用,下个错误、警告,,,,,f8
+通用,上个错误、警告,,shift,,,f8
+通用,文件切换导航,ctrl,shift,,,tab
+通用,前一个窗口,,,alt,,left
+通用,后一个窗口,,,alt,,right
+通用,使用Tab移动焦点,ctrl,,,m,
+通用,查找,ctrl,,,f,
+通用,替换,ctrl,,,h,
+通用,查找下一个,,,,,f3
+通用,查找上一个,,shift,,,f3
+通用,选中全部查找结果,,,alt,,enter
+通用,向下选中匹配项,ctrl,,,d,
+通用,查找时区分大小写,,,alt,c,
+通用,查找时使用正则,,,alt,r,
+通用,查找时全词查找,,,alt,w,
+通用,插入光标,,,alt,,click
+通用,上方插入光标,ctrl,,alt,,up
+通用,下方插入光标,ctrl,,alt,,down
+通用,撤销光标操作,ctrl,,,u,
+通用,所选行尾插入光标,,shift,alt,i,
+通用,选中当前行,ctrl,,,i,
+通用,选中所有相同内容,ctrl,shift,,l,
+通用,选中所有相同词汇,ctrl,,,,f2
+通用,扩展选择,,shift,alt,,right
+通用,收缩选择,,shift,alt,,left
+通用,选择区域插入光标,ctrl,shift,alt,,up
+通用,选择区域插入光标,ctrl,shift,alt,,down
+通用,选择区域插入光标,ctrl,shift,alt,,left
+通用,选择区域插入光标,ctrl,shift,alt,,right
+通用,选择区域插入光标,ctrl,shift,alt,,page up
+通用,选择区域插入光标,ctrl,shift,alt,,page down
+通用,输入建议,ctrl,,,,space
+通用,参数提示,ctrl,shift,,,space
+通用,格式化文档,,shift,alt,f,
+通用,查看定义,,,,,f12
+通用,快速修复,ctrl,,,.,
+通用,查看引用,,shift,,,f12
+通用,重命名,,,,,f2
+通用,关闭编辑器,ctrl,,,,f4
+通用,关闭编辑器,ctrl,,,w,
+通用,拆分编辑器为多组,ctrl,,,\,
+通用,切换组窗口焦点,ctrl,,,,1
+通用,切换组窗口焦点,ctrl,,,,2
+通用,切换组窗口焦点,ctrl,,,,3
+通用,切换标签页位置,ctrl,shift,,,page up
+通用,切换标签页位置,ctrl,shift,,,page down
+通用,新建文件,ctrl,,,n,
+通用,打开文件,ctrl,,,o,
+通用,保存文件,ctrl,,,s,
+通用,另存为,ctrl,shift,,s,
+通用,关闭当前窗口,ctrl,,,,f4
+通用,恢复已关闭窗口,ctrl,shift,,t,
+通用,打开下一个,ctrl,,,,tab
+通用,打开上一个,ctrl,shift,,,tab
+通用,全屏模式,,,,,f11
+通用,切换布局,,shift,alt,0,
+通用,放大,ctrl,,,=,
+通用,缩小,ctrl,,,-,
+通用,侧边栏显示,ctrl,,,b,
+通用,资源管理器,ctrl,shift,,e,
+通用,搜索界面,ctrl,shift,,f,
+通用,源代码管理,ctrl,shift,,g,
+通用,Debug 界面,ctrl,shift,,d,
+通用,插件管理界面,ctrl,shift,,x,
+通用,文件中替换,ctrl,shift,,h,
+通用,搜索详细信息,ctrl,shift,,j,
+通用,显示输出面板,ctrl,shift,,u,
+通用,预览Markdown,ctrl,shift,,v,
+通用,切换断点,,,,,f9
+通用,开始/继续调试,,,,,f5
+通用,停止调试,,shift,,,f5
+通用,单步调试,,,,,f11
+通用,单步跳出,,shift,,,f11
+通用,单步跳过,,,,,f10
+通用,显示终端,ctrl,,,`,
+通用,新建终端,ctrl,shift,,`,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+ctrl + k,快捷键设置,ctrl,,,s,
+ctrl + k,折叠所有子代码块,ctrl,,,[,
+ctrl + k,展开所有子代码块,ctrl,,,],
+ctrl + k,折叠所有代码块,ctrl,,,o,
+ctrl + k,展开所有代码块,ctrl,,,j,
+ctrl + k,添加行注释,ctrl,,,/,
+ctrl + k,其他窗口打开定义,,,,,f12
+ctrl + k,移除行尾空白字符,ctrl,,,x,
+ctrl + k,更改文档语言,,,,m,
+ctrl + k,关闭当前文件夹,,,,f,
+ctrl + k,切换组窗口焦点,ctrl,,,,left
+ctrl + k,切换组窗口焦点,ctrl,,,,right
+ctrl + k,切换分割窗口位置,,,,,left
+ctrl + k,切换分割窗口位置,,,,,right
+ctrl + k,保存所有文件,,,,s,
+ctrl + k,关闭所有窗口,ctrl,,,w,
+ctrl + k,保持预览模式开启,,,,,enter
+ctrl + k,复制当前文件路径,,,,p,
+ctrl + k,打开文件所在路径,,,,r,
+ctrl + k,新窗口打开当前文件,,,,o,
+ctrl + k,侧边预览Markdown,,,,v,
+ctrl + k,禅模式(双击Esc退出),,,,z,
+ctrl + k,显示悬停,ctrl,,,i,

@@ -1,0 +1,297 @@
+{
+    "name" : "VS Code",
+    "version" : "1",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "ctrl + k" : {
+            "ENTER" : [
+                {"name":"保持预览模式开启", "mods":[]}
+            ],
+            "F" : [
+                {"name":"关闭当前文件夹", "mods":[]}
+            ],
+            "F12" : [
+                {"name":"其他窗口打开定义", "mods":[]}
+            ],
+            "I" : [
+                {"name":"显示悬停", "mods":["CONTROL"]}
+            ],
+            "J" : [
+                {"name":"展开所有代码块", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"切换分割窗口位置", "mods":[]},
+                {"name":"切换组窗口焦点", "mods":["CONTROL"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"折叠所有子代码块", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"更改文档语言", "mods":[]}
+            ],
+            "O" : [
+                {"name":"折叠所有代码块", "mods":["CONTROL"]},
+                {"name":"新窗口打开当前文件", "mods":[]}
+            ],
+            "P" : [
+                {"name":"复制当前文件路径", "mods":[]}
+            ],
+            "R" : [
+                {"name":"打开文件所在路径", "mods":[]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"切换分割窗口位置", "mods":[]},
+                {"name":"切换组窗口焦点", "mods":["CONTROL"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"展开所有子代码块", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"保存所有文件", "mods":[]},
+                {"name":"快捷键设置", "mods":["CONTROL"]}
+            ],
+            "SLASH" : [
+                {"name":"添加行注释", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"侧边预览Markdown", "mods":[]}
+            ],
+            "W" : [
+                {"name":"关闭所有窗口", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"移除行尾空白字符", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"禅模式(双击Esc退出)", "mods":[]}
+            ]
+        },
+        "通用" : {
+            "A" : [
+                {"name":"切换块注释", "mods":["ALT", "SHIFT"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"新建终端", "mods":["CONTROL", "SHIFT"]},
+                {"name":"显示终端", "mods":["CONTROL"]}
+            ],
+            "B" : [
+                {"name":"侧边栏显示", "mods":["CONTROL"]}
+            ],
+            "BACKSLASH" : [
+                {"name":"拆分编辑器为多组", "mods":["CONTROL"]},
+                {"name":"跳转到闭合处", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "C" : [
+                {"name":"查找时区分大小写", "mods":["ALT"]}
+            ],
+            "COMMA" : [
+                {"name":"首选项", "mods":["CONTROL"]}
+            ],
+            "D" : [
+                {"name":"Debug 界面", "mods":["CONTROL", "SHIFT"]},
+                {"name":"向下选中匹配项", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"下方插入光标", "mods":["ALT", "CONTROL"]},
+                {"name":"下移当前行", "mods":["ALT"]},
+                {"name":"向下复制当前行", "mods":["ALT", "SHIFT"]},
+                {"name":"向下滚动行", "mods":["CONTROL"]},
+                {"name":"选择区域插入光标", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"资源管理器", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "END" : [
+                {"name":"文件末尾", "mods":["CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"上方插入行", "mods":["CONTROL", "SHIFT"]},
+                {"name":"下方插入行", "mods":["CONTROL"]},
+                {"name":"选中全部查找结果", "mods":["ALT"]}
+            ],
+            "EQUAL" : [
+                {"name":"放大", "mods":["CONTROL"]}
+            ],
+            "F" : [
+                {"name":"搜索界面", "mods":["CONTROL", "SHIFT"]},
+                {"name":"查找", "mods":["CONTROL"]},
+                {"name":"格式化文档", "mods":["ALT", "SHIFT"]}
+            ],
+            "F1" : [
+                {"name":"显示命令面板", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"单步跳过", "mods":[]}
+            ],
+            "F11" : [
+                {"name":"全屏模式", "mods":[]},
+                {"name":"单步跳出", "mods":["SHIFT"]}
+            ],
+            "F12" : [
+                {"name":"查看定义", "mods":[]},
+                {"name":"查看引用", "mods":["SHIFT"]}
+            ],
+            "F2" : [
+                {"name":"选中所有相同词汇", "mods":["CONTROL"]},
+                {"name":"重命名", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"查找上一个", "mods":["SHIFT"]},
+                {"name":"查找下一个", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"关闭编辑器", "mods":["CONTROL"]}
+            ],
+            "F5" : [
+                {"name":"停止调试", "mods":["SHIFT"]},
+                {"name":"开始/继续调试", "mods":[]}
+            ],
+            "F8" : [
+                {"name":"上个错误、警告", "mods":["SHIFT"]},
+                {"name":"下个错误、警告", "mods":[]}
+            ],
+            "F9" : [
+                {"name":"切换断点", "mods":[]}
+            ],
+            "G" : [
+                {"name":"源代码管理", "mods":["CONTROL", "SHIFT"]},
+                {"name":"跳转某一行", "mods":["CONTROL"]}
+            ],
+            "H" : [
+                {"name":"文件中替换", "mods":["CONTROL", "SHIFT"]},
+                {"name":"替换", "mods":["CONTROL"]}
+            ],
+            "HOME" : [
+                {"name":"文件开头", "mods":["CONTROL"]}
+            ],
+            "I" : [
+                {"name":"所选行尾插入光标", "mods":["ALT", "SHIFT"]},
+                {"name":"选中当前行", "mods":["CONTROL"]}
+            ],
+            "J" : [
+                {"name":"搜索详细信息", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "K" : [
+                {"name":"删除行", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "L" : [
+                {"name":"选中所有相同内容", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"前一个窗口", "mods":["ALT"]},
+                {"name":"收缩选择", "mods":["ALT", "SHIFT"]},
+                {"name":"选择区域插入光标", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"反缩进", "mods":["CONTROL"]},
+                {"name":"折叠", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "M" : [
+                {"name":"使用Tab移动焦点", "mods":["CONTROL"]},
+                {"name":"错误面板", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "MINUS" : [
+                {"name":"缩小", "mods":["CONTROL"]}
+            ],
+            "N" : [
+                {"name":"新建文件", "mods":["CONTROL"]},
+                {"name":"新窗口", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "O" : [
+                {"name":"打开文件", "mods":["CONTROL"]},
+                {"name":"跳转某一符号", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"切换组窗口焦点", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"快速打开", "mods":["CONTROL"]},
+                {"name":"显示命令面板", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"切换标签页位置", "mods":["CONTROL", "SHIFT"]},
+                {"name":"向下滚动页面", "mods":["ALT"]},
+                {"name":"选择区域插入光标", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"切换标签页位置", "mods":["CONTROL", "SHIFT"]},
+                {"name":"向上滚动页面", "mods":["ALT"]},
+                {"name":"选择区域插入光标", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "PERIOD" : [
+                {"name":"快速修复", "mods":["CONTROL"]}
+            ],
+            "R" : [
+                {"name":"查找时使用正则", "mods":["ALT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"后一个窗口", "mods":["ALT"]},
+                {"name":"扩展选择", "mods":["ALT", "SHIFT"]},
+                {"name":"选择区域插入光标", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"缩进", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"保存文件", "mods":["CONTROL"]},
+                {"name":"另存为", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SHIFT" : [
+                {"name":"展开", "mods":["CONTROL"]}
+            ],
+            "SLASH" : [
+                {"name":"切换行注释", "mods":["CONTROL"]}
+            ],
+            "SPACE" : [
+                {"name":"参数提示", "mods":["CONTROL", "SHIFT"]},
+                {"name":"输入建议", "mods":["CONTROL"]}
+            ],
+            "T" : [
+                {"name":"恢复已关闭窗口", "mods":["CONTROL", "SHIFT"]},
+                {"name":"显示所有符号", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"打开下一个", "mods":["CONTROL"]},
+                {"name":"文件切换导航", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"切换组窗口焦点", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"切换组窗口焦点", "mods":["CONTROL"]}
+            ],
+            "U" : [
+                {"name":"撤销光标操作", "mods":["CONTROL"]},
+                {"name":"显示输出面板", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"上方插入光标", "mods":["ALT", "CONTROL"]},
+                {"name":"上移当前行", "mods":["ALT"]},
+                {"name":"向上复制当前行", "mods":["ALT", "SHIFT"]},
+                {"name":"向上滚动行", "mods":["CONTROL"]},
+                {"name":"选择区域插入光标", "mods":["ALT", "CONTROL", "SHIFT"]}
+            ],
+            "V" : [
+                {"name":"粘贴", "mods":["CONTROL"]},
+                {"name":"预览Markdown", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "W" : [
+                {"name":"关闭窗口", "mods":["CONTROL", "SHIFT"]},
+                {"name":"关闭编辑器", "mods":["CONTROL"]},
+                {"name":"查找时全词查找", "mods":["ALT"]}
+            ],
+            "X" : [
+                {"name":"剪切", "mods":["CONTROL"]},
+                {"name":"插件管理界面", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "Z" : [
+                {"name":"切换自动换行", "mods":["ALT"]}
+            ],
+            "ZERO" : [
+                {"name":"切换布局", "mods":["ALT", "SHIFT"]}
+            ]
+        }
+    }
+}
