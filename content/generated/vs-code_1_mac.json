@@ -232,14 +232,12 @@
                 {"name":"选择区域插入光标", "mods":["ALT", "COMMAND", "SHIFT"]}
             ],
             "RIGHT_BRACKET" : [
+                {"name":"展开", "mods":["COMMAND", "SHIFT"]},
                 {"name":"缩进", "mods":["COMMAND"]}
             ],
             "S" : [
                 {"name":"保存文件", "mods":["COMMAND"]},
                 {"name":"另存为", "mods":["COMMAND", "SHIFT"]}
-            ],
-            "SHIFT" : [
-                {"name":"展开", "mods":["COMMAND"]}
             ],
             "SLASH" : [
                 {"name":"切换行注释", "mods":["COMMAND"]}

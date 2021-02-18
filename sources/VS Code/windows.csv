@@ -23,7 +23,7 @@
 通用,向上滚动页面,,,alt,,page up
 通用,向下滚动页面,,,alt,,page down
 通用,折叠,ctrl,shift,,[,
-通用,展开,ctrl,shift,,,
+通用,展开,ctrl,shift,,],
 通用,切换行注释,ctrl,,,/,
 通用,切换块注释,,shift,alt,a,
 通用,切换自动换行,,,alt,z,
