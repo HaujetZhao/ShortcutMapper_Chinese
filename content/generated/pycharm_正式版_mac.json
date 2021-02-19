@@ -1,0 +1,285 @@
+{
+    "name" : "PyCharm",
+    "version" : "正式版",
+    "os" : "mac",
+    "mods_used" : ["ALT", "COMMAND", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "通用" : {
+            "A" : [
+                {"name":"查找动作", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"VCS 操作", "mods":["ALT"]},
+                {"name":"快速切换主题", "mods":["COMMAND"]}
+            ],
+            "B" : [
+                {"name":"声明", "mods":["COMMAND"]},
+                {"name":"实现", "mods":["ALT", "COMMAND"]},
+                {"name":"类型声明", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"上一次编辑的地方", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["COMMAND"]},
+                {"name":"复制文档路径", "mods":["COMMAND", "SHIFT"]},
+                {"name":"引入常量", "mods":["ALT", "COMMAND"]},
+                {"name":"最近更改", "mods":["ALT", "SHIFT"]}
+            ],
+            "D" : [
+                {"name":"重复当前行或选区", "mods":["COMMAND"]}
+            ],
+            "DELETE" : [
+                {"name":"安全删除", "mods":["ALT"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"下一个方法", "mods":["ALT"]},
+                {"name":"下一处更改", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"向下移动行", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"最近位置", "mods":["COMMAND", "SHIFT"]},
+                {"name":"最近查看", "mods":["COMMAND"]}
+            ],
+            "EIGHT" : [
+                {"name":"Services 框", "mods":["ALT"]},
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "ENTER" : [
+                {"name":"分割行", "mods":["COMMAND"]},
+                {"name":"开始新行", "mods":["SHIFT"]},
+                {"name":"意图动作", "mods":["ALT"]},
+                {"name":"补全当前语句", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "ESCAPE" : [
+                {"name":"跳到编辑器", "mods":[]},
+                {"name":"隐藏工作窗口", "mods":["SHIFT"]}
+            ],
+            "F" : [
+                {"name":"引入字段", "mods":["ALT", "COMMAND"]},
+                {"name":"查找", "mods":["COMMAND"]},
+                {"name":"添加收藏", "mods":["ALT", "SHIFT"]}
+            ],
+            "F1" : [
+                {"name":"外部文档", "mods":["SHIFT"]},
+                {"name":"显示错误描述", "mods":["COMMAND"]},
+                {"name":"选择", "mods":["ALT"]}
+            ],
+            "F10" : [
+                {"name":"显示执行点", "mods":["ALT"]},
+                {"name":"运行当前文件", "mods":["ALT", "SHIFT"]},
+                {"name":"运行配置", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "F11" : [
+                {"name":"切换书签", "mods":[]},
+                {"name":"切换书签并保存", "mods":["COMMAND"]},
+                {"name":"显示书签", "mods":["SHIFT"]}
+            ],
+            "F12" : [
+                {"name":"跳到最后一个工具框", "mods":[]},
+                {"name":"跳转到文件对象", "mods":["COMMAND"]},
+                {"name":"隐藏所有工作窗口", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "F2" : [
+                {"name":"上一个高亮错误", "mods":["SHIFT"]},
+                {"name":"下一个高亮错误", "mods":[]},
+                {"name":"停止", "mods":["COMMAND"]},
+                {"name":"停止后台进程", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "F3" : [
+                {"name":"在插入符号处查找", "mods":["COMMAND"]},
+                {"name":"查找上一个", "mods":["SHIFT"]},
+                {"name":"查找下一个", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"关闭窗口", "mods":["COMMAND"]},
+                {"name":"关闭页面", "mods":["COMMAND", "SHIFT"]},
+                {"name":"跳到源", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"复制", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"改变签名", "mods":["COMMAND"]},
+                {"name":"粘贴", "mods":[]},
+                {"name":"重命名", "mods":["SHIFT"]}
+            ],
+            "F7" : [
+                {"name":"在文件中高亮使用", "mods":["COMMAND", "SHIFT"]},
+                {"name":"文件中查找使用", "mods":["COMMAND"]},
+                {"name":"显示使用", "mods":["ALT", "COMMAND"]},
+                {"name":"查找使用", "mods":["ALT"]},
+                {"name":"步入", "mods":[]},
+                {"name":"步出", "mods":["SHIFT"]}
+            ],
+            "F8" : [
+                {"name":"切换临时行断点", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"切换行断点", "mods":["COMMAND"]},
+                {"name":"智能步入", "mods":["SHIFT"]},
+                {"name":"步过", "mods":[]},
+                {"name":"编辑断点", "mods":["COMMAND", "SHIFT"]},
+                {"name":"计算表达式", "mods":["ALT"]}
+            ],
+            "F9" : [
+                {"name":"Debug 当前文件", "mods":["ALT", "SHIFT"]},
+                {"name":"强制运行到光标处", "mods":["ALT", "COMMAND"]},
+                {"name":"恢复程序", "mods":[]},
+                {"name":"运行到光标处", "mods":["ALT"]}
+            ],
+            "FIVE" : [
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "FOUR" : [
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "G" : [
+                {"name":"跳转行/列", "mods":["COMMAND"]}
+            ],
+            "H" : [
+                {"name":"类型层次结构", "mods":["COMMAND"]},
+                {"name":"调用层次结构", "mods":["ALT", "COMMAND"]}
+            ],
+            "HOME" : [
+                {"name":"跳到导航栏", "mods":["ALT"]}
+            ],
+            "I" : [
+                {"name":"实现方法", "mods":["COMMAND"]},
+                {"name":"快速定义", "mods":["COMMAND", "SHIFT"]},
+                {"name":"用名字运行检查", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"自动缩进", "mods":["ALT", "COMMAND"]}
+            ],
+            "INSERT" : [
+                {"name":"生成代码", "mods":["ALT"]}
+            ],
+            "J" : [
+                {"name":"合并行", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "K" : [
+                {"name":"推送", "mods":["COMMAND", "SHIFT"]},
+                {"name":"提交", "mods":["COMMAND"]}
+            ],
+            "L" : [
+                {"name":"格式化代码", "mods":["ALT", "COMMAND"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"上一个页面", "mods":["ALT"]},
+                {"name":"后退", "mods":["ALT", "COMMAND"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"代码块头", "mods":["COMMAND"]}
+            ],
+            "M" : [
+                {"name":"提取方法", "mods":["ALT", "COMMAND"]}
+            ],
+            "N" : [
+                {"name":"内联", "mods":["ALT", "COMMAND"]},
+                {"name":"跳转到文件", "mods":["COMMAND", "SHIFT"]},
+                {"name":"跳转到符号", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"跳转到类", "mods":["COMMAND"]}
+            ],
+            "NINE" : [
+                {"name":"Git 框", "mods":["ALT"]},
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"折叠代码块", "mods":["COMMAND"]},
+                {"name":"折叠所有代码块", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"展开代码块", "mods":["COMMAND"]},
+                {"name":"展开所有代码块", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "O" : [
+                {"name":"优化导入", "mods":["COMMAND", "SHIFT"]},
+                {"name":"重写方法", "mods":["COMMAND"]}
+            ],
+            "ONE" : [
+                {"name":"转到书签", "mods":["COMMAND"]},
+                {"name":"项目 框", "mods":["ALT"]}
+            ],
+            "P" : [
+                {"name":"参数信息", "mods":["COMMAND"]},
+                {"name":"引入参数", "mods":["ALT", "COMMAND"]}
+            ],
+            "Q" : [
+                {"name":"快速文档", "mods":["COMMAND"]},
+                {"name":"情景信息", "mods":["ALT"]}
+            ],
+            "R" : [
+                {"name":"替换", "mods":["COMMAND"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"下一个页面", "mods":["ALT"]},
+                {"name":"前进", "mods":["ALT", "COMMAND"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"代码块尾", "mods":["COMMAND"]}
+            ],
+            "S" : [
+                {"name":"保存所有", "mods":["COMMAND"]},
+                {"name":"设置", "mods":["ALT", "COMMAND"]}
+            ],
+            "SEVEN" : [
+                {"name":"结构 框", "mods":["ALT"]},
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "SIX" : [
+                {"name":"转到书签", "mods":["COMMAND"]},
+                {"name":"问题 框", "mods":["ALT"]}
+            ],
+            "SLASH" : [
+                {"name":"行注释", "mods":["COMMAND"]}
+            ],
+            "SPACE" : [
+                {"name":"基本代码补全", "mods":["COMMAND"]},
+                {"name":"智能代码补全", "mods":["COMMAND", "SHIFT"]},
+                {"name":"类型名字补全", "mods":["ALT", "COMMAND"]}
+            ],
+            "T" : [
+                {"name":"更新项目", "mods":["COMMAND"]},
+                {"name":"环绕用", "mods":["ALT", "COMMAND"]},
+                {"name":"重构这个", "mods":["ALT", "COMMAND", "SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "TWO" : [
+                {"name":"收藏 框", "mods":["ALT"]},
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ],
+            "U" : [
+                {"name":"父级方法", "mods":["COMMAND"]},
+                {"name":"转换大小写", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"上一个方法", "mods":["ALT"]},
+                {"name":"上一处更改", "mods":["ALT", "COMMAND", "SHIFT"]},
+                {"name":"向上移动行", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "V" : [
+                {"name":"从剪切板历史粘贴 ", "mods":["COMMAND", "SHIFT"]},
+                {"name":"引入变量", "mods":["ALT", "COMMAND"]},
+                {"name":"粘贴", "mods":["COMMAND"]}
+            ],
+            "W" : [
+                {"name":"扩展选区", "mods":["COMMAND"]},
+                {"name":"收缩选区", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "X" : [
+                {"name":"剪切", "mods":["COMMAND"]}
+            ],
+            "Y" : [
+                {"name":"同步", "mods":["ALT", "COMMAND"]},
+                {"name":"重做", "mods":["COMMAND"]}
+            ],
+            "Z" : [
+                {"name":"回滚更改", "mods":["ALT", "COMMAND"]}
+            ],
+            "ZERO" : [
+                {"name":"Commit 框", "mods":["ALT"]},
+                {"name":"转到书签", "mods":["COMMAND"]}
+            ]
+        }
+    }
+}

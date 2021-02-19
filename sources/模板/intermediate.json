@@ -1,0 +1,8 @@
+{
+    "name": "PyCharm",
+    "version": "正式版",
+    "default_context": "通用",
+    "os": ["windows", "mac", "linux"],
+    "contexts": {
+    }
+}

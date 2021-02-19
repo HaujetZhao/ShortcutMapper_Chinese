@@ -21,6 +21,15 @@ var sitedata_apps = [
         }
     },
     {
+        name: "PyCharm",
+        data: {
+            "正式版": {
+                "mac": "pycharm_正式版_mac.json",
+                "windows": "pycharm_正式版_windows.json",
+            },
+        }
+    },
+    {
         name: "VS Code",
         data: {
             "1": {
