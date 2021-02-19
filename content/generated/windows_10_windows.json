@@ -50,6 +50,7 @@
                 {"name":"焦点移到托盘栏", "mods":["OSKEY"]}
             ],
             "C" : [
+                {"name":"Cortana", "mods":["OSKEY"]},
                 {"name":"复制", "mods":["CONTROL"]},
                 {"name":"超级按钮菜单", "mods":["OSKEY", "SHIFT"]}
             ],
@@ -201,9 +202,6 @@
                 {"name":"新实例", "mods":["OSKEY", "SHIFT"]},
                 {"name":"管理员新实例", "mods":["CONTROL", "OSKEY", "SHIFT"]},
                 {"name":"跳转列表", "mods":["ALT", "OSKEY"]}
-            ],
-            "OSKEY" : [
-                {"name":"开始菜单", "mods":[]}
             ],
             "P" : [
                 {"name":"显示预览面板", "mods":["ALT"]},
