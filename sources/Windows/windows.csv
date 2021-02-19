@@ -38,10 +38,10 @@
 通用,创建磁贴文件夹,ctrl,,shift,,,down,
 通用,创建磁贴文件夹,ctrl,,shift,,,up,
 通用,创建磁贴文件夹,ctrl,,shift,,,right,
-通用,多选,ctrl,,,,,left,space
-通用,多选,ctrl,,,,,down,space
-通用,多选,ctrl,,,,,up,space
-通用,多选,ctrl,,,,,right,space
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
 通用,选择文本块,ctrl,,shift,,,left,
 通用,选择文本块,ctrl,,shift,,,down,
 通用,选择文本块,ctrl,,shift,,,up,

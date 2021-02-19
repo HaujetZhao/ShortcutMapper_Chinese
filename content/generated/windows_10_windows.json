@@ -2,7 +2,7 @@
     "name" : "Windows",
     "version" : "10",
     "os" : "windows",
-    "mods_used" : ["ALT", "CONTROL", "DOWN_ARROW", "LEFT_ARROW", "NUMLOCK", "OSKEY", "RIGHT_ARROW", "SHIFT", "UP_ARROW"],
+    "mods_used" : ["ALT", "CONTROL", "NUMLOCK", "OSKEY", "SHIFT"],
     "default_context" : "通用",
     "contexts" : {
         "命令提示符" : {
@@ -268,10 +268,6 @@
                 {"name":"切换勾选", "mods":[]},
                 {"name":"切换回输入法", "mods":["CONTROL", "OSKEY"]},
                 {"name":"切换语言键盘布局", "mods":["OSKEY"]},
-                {"name":"多选", "mods":["CONTROL", "DOWN_ARROW"]},
-                {"name":"多选", "mods":["CONTROL", "LEFT_ARROW"]},
-                {"name":"多选", "mods":["CONTROL", "RIGHT_ARROW"]},
-                {"name":"多选", "mods":["CONTROL", "UP_ARROW"]},
                 {"name":"开关中文输入法", "mods":["CONTROL"]},
                 {"name":"窗口快捷菜单", "mods":["ALT"]}
             ],
