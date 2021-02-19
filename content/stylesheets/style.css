@@ -553,18 +553,17 @@ div#keyboard button .label {
 div#keyboard button .shortcut {
     display: block;
     position: absolute;
-    bottom: 4px;
+    bottom: 2px;
     left: 2px;
     font-family: 'Lato', sans-serif;
     width: 93%;
-    max-height: 36px;
-    padding: 0px 0px 0 0px;
+    max-height: 37px;
+    padding: 0px 0px 1px 0px;
     margin: 0px 0px 0px 0px;
     font-size: 12px;
-    font-weight: 300;
     line-height: 12px;
     color: #ffffff;
-    text-shadow: 0px 1px 0px rgba(0,0,0,0.36);
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.15);
     text-align: center;
     text-rendering: optimizeLegibility;
     text-overflow: clip;
@@ -923,7 +922,7 @@ div#keyboard button.mod-other.mod-active {
 #search_results table td {
     /* font-size: 0.7em; */
     font-size: 0.9em;
-    font-weight: 300;
+    /* font-weight: 300; */
     line-height: 16px;
     /* height: 2em; */
     background-color: #f0f0f0;
@@ -996,13 +995,13 @@ div#keyboard button.mod-other.mod-active {
 
 #footer span {
     font-style: normal;
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 0.7em;
     line-height: 1em;
 }
 
 #footer span a {
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #151515;
 }
 #footer span a:hover {
