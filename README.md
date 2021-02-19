@@ -15,7 +15,9 @@
 
 项目 fork 自 https://github.com/waldobronchart/ShortcutMapper ，原版是英文版，欢迎前去支持
 
-整个项目的入口就是 `index.html` 这个文件
+整个项目的入口就是 `index.html` 这个文件。
+
+使用、添加快捷键、添加应用的视频教程详见：https://www.bilibili.com/video/BV1GX4y1L7EY
 
 ## 📝 背景
 
