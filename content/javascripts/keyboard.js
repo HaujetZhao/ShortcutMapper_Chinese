@@ -16,6 +16,7 @@
         highlightedKeyName: null,
         standardModClasses: ["nomod", "alt", "command", "control", "shift", "multi", "other"],
 
+        
         _create: function() {
             var keyboard = this;
 
@@ -79,6 +80,9 @@
             // Register key events
             $(document).on("keydown", null, $.proxy(this._keyDown, this));
             $(document).on("keyup", null, $.proxy(this._keyUp, this));
+
+            this._clearActiveModifiers();
+            this._update();
         },
 
         _keyDown: function(e) {
