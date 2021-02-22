@@ -66,6 +66,7 @@ class ShortcutContext(object):
                     s_expanded = Shortcut(s.name, key, [mod])
                     expanded_shortcuts.append(s_expanded)
             else:
+                s.name = s.name.replace('"', r'\"')
                 s_expanded = copy.deepcopy(s)
                 s_expanded.key = key
                 expanded_shortcuts.append(s_expanded)
