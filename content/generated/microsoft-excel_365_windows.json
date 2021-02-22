@@ -1,0 +1,233 @@
+{
+    "name" : "Microsoft Excel",
+    "version" : "365",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "通用" : {
+            "A" : [
+                {"name":"“数据”选项卡", "mods":["ALT"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"公式和值切换显示", "mods":["CONTROL"]},
+                {"name":"常规数字格式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "B" : [
+                {"name":"加粗", "mods":["CONTROL"]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]}
+            ],
+            "D" : [
+                {"name":"向下填充选定范围", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"移到下边数据边缘", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"快速填充", "mods":["CONTROL"]}
+            ],
+            "EIGHT" : [
+                {"name":"切换显示大纲", "mods":["CONTROL"]},
+                {"name":"设定边框", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ENTER" : [
+                {"name":"完成输入", "mods":["CONTROL"]},
+                {"name":"完成输入，跳转上方", "mods":["SHIFT"]},
+                {"name":"完成输入，跳转下方", "mods":[]},
+                {"name":"换行", "mods":["ALT"]}
+            ],
+            "EQUAL" : [
+                {"name":"插入空白单元格", "mods":["CONTROL", "SHIFT"]},
+                {"name":"放大", "mods":["ALT", "CONTROL"]}
+            ],
+            "ESCAPE" : [
+                {"name":"取消输入", "mods":[]}
+            ],
+            "F" : [
+                {"name":"字体格式对话框", "mods":["CONTROL", "SHIFT"]},
+                {"name":"打开文件\"页\"", "mods":["ALT"]}
+            ],
+            "F1" : [
+                {"name":"切换显示功能区", "mods":["CONTROL"]},
+                {"name":"创建嵌入图表", "mods":["ALT"]},
+                {"name":"帮助", "mods":[]},
+                {"name":"插入工作表", "mods":["ALT", "SHIFT"]}
+            ],
+            "F10" : [
+                {"name":"Alt", "mods":[]},
+                {"name":"“错误检查”消息", "mods":["ALT", "SHIFT"]},
+                {"name":"右键菜单", "mods":["SHIFT"]},
+                {"name":"最大化窗口", "mods":["CONTROL"]}
+            ],
+            "F11" : [
+                {"name":"VBA 编辑器", "mods":["ALT"]},
+                {"name":"复制到新工作表", "mods":[]},
+                {"name":"插入新工作表", "mods":["SHIFT"]}
+            ],
+            "F12" : [
+                {"name":"另存为", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"打印", "mods":["CONTROL"]},
+                {"name":"插入备注", "mods":["SHIFT"]},
+                {"name":"插入线程批注", "mods":["CONTROL", "SHIFT"]},
+                {"name":"编辑单元格", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"插入函数对话框\"", "mods":["SHIFT"]},
+                {"name":"粘贴名称对话框\"", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"关闭工作簿", "mods":["CONTROL"]},
+                {"name":"退出程序", "mods":["ALT"]},
+                {"name":"重复上一个命令", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"恢复窗口大小", "mods":["CONTROL"]},
+                {"name":"转到对话框\"", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"2 个 Excel 窗口间切换", "mods":["CONTROL"]},
+                {"name":"切换工程区", "mods":["SHIFT"]},
+                {"name":"切换控件", "mods":[]},
+                {"name":"所有 Excel 窗口间切换", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "F7" : [
+                {"name":"检查拼写", "mods":[]},
+                {"name":"移动窗口", "mods":["CONTROL"]}
+            ],
+            "F8" : [
+                {"name":"宏对话框\"", "mods":["ALT"]},
+                {"name":"扩选模式", "mods":[]},
+                {"name":"调整窗口大小", "mods":["CONTROL"]},
+                {"name":"非临近选择模式", "mods":["SHIFT"]}
+            ],
+            "F9" : [
+                {"name":"最小化为图标", "mods":["CONTROL"]},
+                {"name":"计算所有单元格", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"计算所有工作表", "mods":["ALT", "CONTROL"]},
+                {"name":"计算所有工作表", "mods":[]},
+                {"name":"计算活动工作表", "mods":["SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"不带小数百分比格式", "mods":["CONTROL", "SHIFT"]},
+                {"name":"删除线", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"", "mods":["CONTROL"]},
+                {"name":"两位小数货币格式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "G" : [
+                {"name":"统计信息", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "H" : [
+                {"name":"“主页”选项卡", "mods":["ALT"]}
+            ],
+            "I" : [
+                {"name":"斜体", "mods":["CONTROL"]}
+            ],
+            "K" : [
+                {"name":"插入链接", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"创建表对话框", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"移到左边数据边缘", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"“公式”选项卡", "mods":["ALT"]}
+            ],
+            "MINUS" : [
+                {"name":"删除单元格", "mods":["CONTROL"]},
+                {"name":"删除边框", "mods":["CONTROL", "SHIFT"]},
+                {"name":"缩小", "mods":["ALT", "CONTROL"]}
+            ],
+            "N" : [
+                {"name":"“插入”选项卡", "mods":["ALT"]}
+            ],
+            "NINE" : [
+                {"name":"隐藏选定行", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"打开", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"千分位分格数值格式", "mods":["CONTROL", "SHIFT"]},
+                {"name":"设置单元格格式", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"“页面布局”选项卡", "mods":["ALT"]},
+                {"name":"字体格式对话框", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"快速分析", "mods":["CONTROL"]},
+                {"name":"顶部搜索栏", "mods":["ALT"]}
+            ],
+            "R" : [
+                {"name":"审阅选项卡\"", "mods":["ALT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"移到右边数据边缘", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"保存", "mods":["CONTROL"]}
+            ],
+            "SEMICOLON" : [
+                {"name":"输入当前日期", "mods":["CONTROL"]},
+                {"name":"输入当前时间", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "SINGLE_QUOTE" : [
+                {"name":"复制上方单元格", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"两位小数科学记数格式", "mods":["CONTROL", "SHIFT"]},
+                {"name":"切换对象和对象占位符", "mods":["CONTROL"]}
+            ],
+            "SPACE" : [
+                {"name":"选择所有对象", "mods":["CONTROL", "SHIFT"]},
+                {"name":"选择整列(无输入法时)", "mods":["CONTROL"]},
+                {"name":"选择整行(无输入法时)", "mods":["SHIFT"]}
+            ],
+            "T" : [
+                {"name":"创建表对话框", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"", "mods":["CONTROL"]},
+                {"name":"时间格式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "U" : [
+                {"name":"下划线", "mods":["CONTROL"]},
+                {"name":"展开折叠编辑栏", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"移到上边数据边缘", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"粘贴", "mods":["CONTROL"]},
+                {"name":"选择性粘贴对话框。\"", "mods":["ALT", "CONTROL"]}
+            ],
+            "W" : [
+                {"name":"“视图”选项卡", "mods":["ALT"]},
+                {"name":"关闭", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"剪切", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"恢复", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"撤消", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"隐藏选定列", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}

@@ -12,6 +12,24 @@ var sitedata_apps = [
         }
     },
     {
+        name: "Microsoft Excel",
+        data: {
+            "365": {
+                "mac": "microsoft-excel_365_mac.json",
+                "windows": "microsoft-excel_365_windows.json",
+            },
+        }
+    },
+    {
+        name: "Microsoft PowerPoint",
+        data: {
+            "365": {
+                "mac": "microsoft-powerpoint_365_mac.json",
+                "windows": "microsoft-powerpoint_365_windows.json",
+            },
+        }
+    },
+    {
         name: "Microsoft Word",
         data: {
             "365": {

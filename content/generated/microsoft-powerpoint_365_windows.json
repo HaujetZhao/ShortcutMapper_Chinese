@@ -1,0 +1,247 @@
+{
+    "name" : "Microsoft PowerPoint",
+    "version" : "365",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "大纲视图" : {
+            "DOWN_ARROW" : [
+                {"name":"下移所选段落", "mods":["ALT", "SHIFT"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"提升段落级别", "mods":["ALT", "SHIFT"]}
+            ],
+            "MINUS" : [
+                {"name":"折叠标题下的文本", "mods":["ALT", "SHIFT"]}
+            ],
+            "ONE" : [
+                {"name":"显示级别 1 标题", "mods":["ALT", "SHIFT"]}
+            ],
+            "PLUS" : [
+                {"name":"展开标题下的文本", "mods":["ALT", "SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"降低段落级别", "mods":["ALT", "SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"上移所选段落", "mods":["ALT", "SHIFT"]}
+            ]
+        },
+        "批注" : {
+            "N" : [
+                {"name":"插入新批注", "mods":["CONTROL"]}
+            ],
+            "R" : [
+                {"name":"答复所选批注", "mods":["CONTROL"]}
+            ]
+        },
+        "表格" : {
+            "DOWN_ARROW" : [
+                {"name":"移至下一行", "mods":[]}
+            ],
+            "TAB" : [
+                {"name":"在单元格中插入一个制表符", "mods":["CONTROL"]},
+                {"name":"移到下一个单元格", "mods":[]},
+                {"name":"移至前一个单元格", "mods":["SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"移至前一行", "mods":[]}
+            ]
+        },
+        "通用" : {
+            "A" : [
+                {"name":"\"动画\"选项卡", "mods":["ALT"]}
+            ],
+            "B" : [
+                {"name":"加粗", "mods":["CONTROL"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"删除单词", "mods":["CONTROL"]},
+                {"name":"向右删除字符", "mods":[]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"复制动画刷", "mods":["ALT", "SHIFT"]},
+                {"name":"复制格式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "D" : [
+                {"name":"重复对象", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"", "mods":[]},
+                {"name":"向右删除单词", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"向下移动一个段落", "mods":["CONTROL"]},
+                {"name":"幻灯片移动到末尾", "mods":["CONTROL", "SHIFT"]},
+                {"name":"选择下一行", "mods":["SHIFT"]}
+            ],
+            "E" : [
+                {"name":"居中", "mods":["CONTROL"]}
+            ],
+            "END" : [
+                {"name":"移至文本框的末尾", "mods":["CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"移到下一标题", "mods":["CONTROL"]},
+                {"name":"选择对象内的文本", "mods":[]}
+            ],
+            "EQUAL" : [
+                {"name":"上标", "mods":["CONTROL", "SHIFT"]},
+                {"name":"下标", "mods":["CONTROL"]}
+            ],
+            "ESCAPE" : [
+                {"name":"结束放映", "mods":[]}
+            ],
+            "F" : [
+                {"name":"\"文件\"菜单", "mods":["ALT"]},
+                {"name":"打开\"字体\"对话框", "mods":["CONTROL", "SHIFT"]},
+                {"name":"查找", "mods":["CONTROL"]}
+            ],
+            "F1" : [
+                {"name":"切换展开功能区", "mods":["CONTROL"]},
+                {"name":"帮助", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"右键菜单", "mods":["SHIFT"]}
+            ],
+            "F3" : [
+                {"name":"大小写切换", "mods":["SHIFT"]}
+            ],
+            "F4" : [
+                {"name":"重复查找动作", "mods":["SHIFT"]}
+            ],
+            "F5" : [
+                {"name":"开始放映", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"切换焦点", "mods":["SHIFT"]},
+                {"name":"切换焦点", "mods":[]}
+            ],
+            "F9" : [
+                {"name":"切换显示参考线", "mods":["ALT"]},
+                {"name":"切换显示网格", "mods":["SHIFT"]}
+            ],
+            "FIVE" : [
+                {"name":"焦点移动到第一个形状", "mods":["ALT", "CONTROL"]}
+            ],
+            "G" : [
+                {"name":"\"设计\"选项卡", "mods":["ALT"]},
+                {"name":"取消组合", "mods":["CONTROL", "SHIFT"]},
+                {"name":"组合形状", "mods":["CONTROL"]}
+            ],
+            "H" : [
+                {"name":"“主页”选项卡", "mods":["ALT"]},
+                {"name":"替换", "mods":["CONTROL"]}
+            ],
+            "HOME" : [
+                {"name":"移至文本框的开头", "mods":["CONTROL"]}
+            ],
+            "I" : [
+                {"name":"斜体", "mods":["CONTROL"]}
+            ],
+            "J" : [
+                {"name":"两端对齐", "mods":["CONTROL"]}
+            ],
+            "K" : [
+                {"name":"\"切换\"选项卡", "mods":["ALT"]},
+                {"name":"插入超链接", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"左对齐", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"向左移动一个词", "mods":["CONTROL"]},
+                {"name":"向左选择字符", "mods":["SHIFT"]},
+                {"name":"选择到词首", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"对象后置", "mods":["CONTROL"]},
+                {"name":"将对象置于底层", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "LESSTHAN" : [
+                {"name":"减小字号", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "M" : [
+                {"name":"新增幻灯片", "mods":["CONTROL"]}
+            ],
+            "MORETHAN" : [
+                {"name":"增大字号", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "N" : [
+                {"name":"“插入”选项卡", "mods":["ALT"]},
+                {"name":"新建文档", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"打开文档", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"打印", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"下一张", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"上一张", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"退出", "mods":["CONTROL"]},
+                {"name":"顶部搜索框", "mods":["ALT"]}
+            ],
+            "R" : [
+                {"name":"\"审阅\"选项卡", "mods":["ALT"]},
+                {"name":"右对齐", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"向右移动一个词", "mods":["CONTROL"]},
+                {"name":"向右选择字符", "mods":["SHIFT"]},
+                {"name":"选择到词尾", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"对象前置", "mods":["CONTROL"]},
+                {"name":"将对象发送到顶层", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "S" : [
+                {"name":"\"幻灯片放映\"选项卡", "mods":["ALT"]},
+                {"name":"保存", "mods":["CONTROL"]}
+            ],
+            "SPACE" : [
+                {"name":"播放/暂停", "mods":["CONTROL"]}
+            ],
+            "T" : [
+                {"name":"打开\"字体\"对话框", "mods":["CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"切换 缩略图 和 大纲视图", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "U" : [
+                {"name":"下划线", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"向上移动一个段落", "mods":["CONTROL"]},
+                {"name":"幻灯片移动到开头", "mods":["CONTROL", "SHIFT"]},
+                {"name":"选择上一行", "mods":["SHIFT"]}
+            ],
+            "V" : [
+                {"name":"\"选择性粘贴\"对话框", "mods":["ALT", "CONTROL"]},
+                {"name":"粘贴", "mods":["CONTROL"]},
+                {"name":"粘贴动画刷", "mods":["ALT", "SHIFT"]},
+                {"name":"粘贴格式", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "W" : [
+                {"name":"\"视图\"选项卡", "mods":["ALT"]}
+            ],
+            "X" : [
+                {"name":"剪切", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"\"帮助\"选项卡", "mods":["ALT"]},
+                {"name":"恢复", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"撤销", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}
