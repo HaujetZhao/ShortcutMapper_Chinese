@@ -3,12 +3,13 @@ __pycache__
 *.spec
 *.pyc
 *.log
-*.spec
 *info
 
 # ============IDE 相关============
 .idea
 .DS_Store
+workspace.code-workspace
+.vscode
 
 # ============虚拟环境============
 Lib/*
