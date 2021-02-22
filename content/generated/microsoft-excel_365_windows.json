@@ -116,7 +116,7 @@
                 {"name":"删除线", "mods":["CONTROL"]}
             ],
             "FOUR" : [
-                {"name":"", "mods":["CONTROL"]},
+                {"name":"下划线", "mods":["CONTROL"]},
                 {"name":"两位小数货币格式", "mods":["CONTROL", "SHIFT"]}
             ],
             "G" : [
@@ -195,10 +195,10 @@
                 {"name":"创建表对话框", "mods":["CONTROL"]}
             ],
             "THREE" : [
-                {"name":"", "mods":["CONTROL"]}
+                {"name":"斜体", "mods":["CONTROL"]}
             ],
             "TWO" : [
-                {"name":"", "mods":["CONTROL"]},
+                {"name":"加粗", "mods":["CONTROL"]},
                 {"name":"时间格式", "mods":["CONTROL", "SHIFT"]}
             ],
             "U" : [
