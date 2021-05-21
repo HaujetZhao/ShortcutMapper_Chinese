@@ -12,6 +12,15 @@ var sitedata_apps = [
         }
     },
     {
+        name: "KiCad",
+        data: {
+            "5": {
+                "mac": "kicad_5_mac.json",
+                "windows": "kicad_5_windows.json",
+            },
+        }
+    },
+    {
         name: "Microsoft Excel",
         data: {
             "365": {

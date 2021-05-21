@@ -7,15 +7,11 @@
 
 # 然后，用文本编辑器打开那 intermediate.json 文件，看一下有没有需要修改的地方
 # 最后，运行 02 将中间文件添加到正式目录.py
-
-# excel快捷键参考网址：
-# https://support.microsoft.com/zh-cn/office/excel-%E4%B8%AD%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-1798d9d5-842a-42b8-9c99-9b7213f0040f
 """
 
 import os
 import sys
 import csv
-
 
 # 将资料库根目录加到 sys.path (这会使 import shmaplib 正常工作)
 CWD = os.path.dirname(os.path.abspath(__file__))
@@ -30,39 +26,33 @@ def 测试encoding(file):
         with open(file, encoding='utf-8') as f:
             f.read()
             return 'utf-8'
-    except Exception:
+    except:
         return 'gbk'
 
 # 创建中间数据容器
-idata = shmaplib.IntermediateShortcutData(
-        app_name="Microsoft Excel",
-        version="365",
-        default_context="通用")
+idata = shmaplib.IntermediateShortcutData(app_name="KiCad", version="5", default_context="Eeschema")
 
 # 确保 csv 文件存在
 文件 = 'windows.csv'
-
-ENCODING = 测试encoding(文件)
-with open(文件, encoding=ENCODING) as csvfile:
+encoding = 测试encoding(文件)
+with open(文件, encoding=encoding) as csvfile:
     content = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in content:
-        if len(row) < 3:
-            continue
+        if len(row) < 3: continue
         context_name = row[0]
         label = row[1]
-        keys_win = ' + '.join(list(filter(lambda x: x, row[2:])))
+        keys_win = ' + '.join(list(filter(lambda x: x ,row[2:])))
         idata.add_shortcut(context_name, label, keys_win, '')
 
 文件 = 'mac.csv'
-ENCODING = 测试encoding(文件)
-with open(文件, encoding=ENCODING) as csvfile:
+encoding = 测试encoding(文件)
+with open(文件, encoding=encoding) as csvfile:
     content = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in content:
-        if len(row) < 3:
-            continue
+        if len(row) < 3: continue
         context_name = row[0]
         label = row[1]
-        keys_mac = ' + '.join(list(filter(lambda x: x, row[2:])))
+        keys_mac = ' + '.join(list(filter(lambda x: x ,row[2:])))
         idata.add_shortcut(context_name, label, '', keys_mac)
 
 idata.serialize('intermediate.json')

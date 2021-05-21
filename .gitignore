@@ -10,6 +10,7 @@ __pycache__
 .DS_Store
 workspace.code-workspace
 .vscode
+.history
 
 # ============虚拟环境============
 Lib/*

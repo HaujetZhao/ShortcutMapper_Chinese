@@ -6,6 +6,7 @@
 
 import os
 import sys
+import csv
 import logging
 
 # 将资料库根目录加到 sys.path (这会使 import shmaplib 正常工作)

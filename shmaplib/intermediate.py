@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+中间格式
+"""
 
 import os
 import json
@@ -6,7 +9,7 @@ import codecs
 import re
 
 from .logger import getlog
-log = getlog()
+LOG = getlog()
 
 from .appdata import Shortcut, ApplicationConfig
 from .constants import DIR_CONTENT_GENERATED, VALID_OS_NAMES, OS_WINDOWS, OS_MAC
@@ -15,10 +18,11 @@ from .constants import DIR_CONTENT_GENERATED, VALID_OS_NAMES, OS_WINDOWS, OS_MAC
 class IntermediateShortcutData(object):
     """Intermediate shortcut data format for applications.
 
-    This can be used as output from various shortcut document parsers and can be merged together at the end.
+    This can be used as output from various shortcut document parsers and can be
+    merged together at the end.
 
-    A serialized IntermediateShortcutData document can then be hand-edited to ensure the data going exported
-    to the web application is clean and clear.
+    A serialized IntermediateShortcutData document can then be hand-edited to
+    ensure the data going exportedto the web application is clean and clear.
 
     The data format for intermediate data (JSON) is as follows:
     {
@@ -42,7 +46,8 @@ class IntermediateShortcutData(object):
     - "Ctrl + T"        Short form allowed
     - "Control + T"
     - "Alt + +"         Special cases handled correctly
-    - "Shift + 0-9"     Range of numbers (Equivalent to having the same shortcut name on all buttons)
+    - "Shift + 0-9"     Range of numbers (Equivalent to having the same shortcut
+                        name on all buttons)
     - "Space / Z"       '/' is used as a separator if shortcut has multiple options
 
     为应用的快捷键生成中间数据格式
@@ -110,9 +115,9 @@ class IntermediateShortcutData(object):
             # 将按键添加到已存在的快捷键
             existing_shortcut = self.get_shortcut(name)
             if existing_shortcut is not None:
-                if len(win_keys) and win_keys not in existing_shortcut.win_keys.split(" / "):
+                if win_keys and win_keys not in existing_shortcut.win_keys.split(" / "):
                     existing_shortcut.win_keys += " / " + win_keys
-                if len(mac_keys) and mac_keys not in existing_shortcut.mac_keys.split(" / "):
+                if mac_keys and mac_keys not in existing_shortcut.mac_keys.split(" / "):
                     existing_shortcut.mac_keys += " / " + mac_keys
 
                 return
@@ -138,7 +143,8 @@ class IntermediateShortcutData(object):
 
     def __init__(self, app_name="", version="", default_context="", os_supported=None):
         """
-        IntermediateShortcutData is a json format that can be easily hand-edited to fix shortcut errors.
+        IntermediateShortcutData is a json format that can be easily hand-edited
+        to fix shortcut errors.
         IntermediateShortcutData 是一个可以方便地手工修改的 json 格式
 
         :param app_name: 显示的程序名 (Adobe Photoshop)
@@ -153,7 +159,8 @@ class IntermediateShortcutData(object):
             assert isinstance(os_supported, list), "the os_supported parameter must be a list"
             assert len(os_supported) > 0, "the os_supported parameter cannot be empty"
             assert len([o for o in os_supported if o in VALID_OS_NAMES]) > 0, \
-                "the os_supported param contains invalid os names. Valid names are: " + str(VALID_OS_NAMES)
+                "the os_supported param contains invalid os names. " \
+                "Valid names are: " + str(VALID_OS_NAMES)
         else:
             os_supported = list(VALID_OS_NAMES)
 
@@ -172,19 +179,26 @@ class IntermediateShortcutData(object):
             self.contexts.append(context)
             print('Adding Context: ' + context.name)
 
-        self._context_lookup[context_name].add_shortcut(shortcut_name, win_keys, mac_keys)
+        self._context_lookup[context_name].add_shortcut(shortcut_name,
+                                                        win_keys,
+                                                        mac_keys)
 
     def extend(self, idata):
         """ 从一个 intermediate object 将数据合并到这个 object """
-        assert isinstance(idata, IntermediateShortcutData), "Can only extend (merge) with IntermediateShortcutData type"
+        assert isinstance(idata, IntermediateShortcutData), \
+            "Can only extend (merge) with IntermediateShortcutData type"
 
         for source_context in idata.contexts:
             for source_shortcut in source_context.shortcuts:
-                self.add_shortcut(source_context.name, source_shortcut.name, source_shortcut.win_keys, source_shortcut.mac_keys)
+                self.add_shortcut(source_context.name,
+                                  source_shortcut.name,
+                                  source_shortcut.win_keys,
+                                  source_shortcut.mac_keys)
 
                 # Merge key contents
                 if source_context.name in self._context_lookup.keys():
-                    shortcut = self._context_lookup[source_context.name].get_shortcut(source_shortcut.name)
+                    shortcut = self._context_lookup[source_context.name]\
+                        .get_shortcut(source_shortcut.name)
                     if shortcut.win_keys is None or len(shortcut.win_keys) == 0:
                         shortcut.win_keys = source_shortcut.win_keys
                     if shortcut.mac_keys is None or len(shortcut.mac_keys) == 0:
@@ -205,7 +219,10 @@ class IntermediateShortcutData(object):
 
             for context_name, shortcuts in json_idata["contexts"].items():
                 for shortcut_name, os_keys in shortcuts.items():
-                    self.add_shortcut(context_name, shortcut_name, os_keys[0], os_keys[1])
+                    self.add_shortcut(context_name,
+                                      shortcut_name,
+                                      os_keys[0],
+                                      os_keys[1])
 
     def serialize(self, output_filepath):
         """保存 intermediate 数据到 json 文件"""
@@ -253,9 +270,15 @@ class IntermediateDataExporter(object):
         self.data_windows = None
         self.data_mac = None
         if OS_WINDOWS in self.idata.os:
-            self.data_windows = ApplicationConfig(self.app_name, self.app_version, OS_WINDOWS, self.default_context_name)
+            self.data_windows = ApplicationConfig(self.app_name,
+                                                  self.app_version,
+                                                  OS_WINDOWS,
+                                                  self.default_context_name)
         if OS_MAC in self.idata.os:
-            self.data_mac = ApplicationConfig(self.app_name, self.app_version, OS_MAC, self.default_context_name)
+            self.data_mac = ApplicationConfig(self.app_name,
+                                              self.app_version,
+                                              OS_MAC,
+                                              self.default_context_name)
 
     def _parse_shortcut(self, name, keys):
         if len(keys) == 0:
@@ -272,7 +295,7 @@ class IntermediateDataExporter(object):
         #  "Shift + Up Arrow / Shift + Down Arrow or Shift + + / Shift + -"
 
         # Cleanup the string and replace edge cases
-        keys = re.sub("numpad \+", "NUMPAD_PLUS", keys, flags=re.IGNORECASE)
+        keys = re.sub(r"numpad \+", "NUMPAD_PLUS", keys, flags=re.IGNORECASE)
         keys = re.sub("numpad /", "NUMPAD_SLASH", keys, flags=re.IGNORECASE)
         keys = keys.replace(" or +", " or TEMP_PLUS")
         keys = keys.replace(" or /", " or TEMP_SLASH")
@@ -333,29 +356,28 @@ class IntermediateDataExporter(object):
             else:
                 shortcut = Shortcut(name, key, mods)
                 shortcuts.append(shortcut)
-
         return shortcuts
 
     def parse(self):
         # WINDOWS: Iterate contexts and shortcuts
         if self.data_windows:
-            log.info("Parsing intermediate data for Windows shortcuts")
+            LOG.info("Parsing intermediate data for Windows shortcuts")
             for context in self.idata.contexts:
                 context_win = self.data_windows.get_or_create_new_context(context.name)
                 for shortcut in context.shortcuts:
                     for s in self._parse_shortcut(shortcut.name, shortcut.win_keys):
                         context_win.add_shortcut(s, True, self.explicit_numpad_mode)
-            log.info("...DONE\n")
+            LOG.info("...DONE\n")
 
         # MAC: Iterate contexts and shortcuts
         if self.data_mac:
-            log.info("Parsing intermediate data for MacOS shortcuts")
+            LOG.info("Parsing intermediate data for MacOS shortcuts")
             for context in self.idata.contexts:
                 context_mac = self.data_mac.get_or_create_new_context(context.name)
                 for shortcut in context.shortcuts:
                     for s in self._parse_shortcut(shortcut.name, shortcut.mac_keys):
                         context_mac.add_shortcut(s, True, self.explicit_numpad_mode)
-            log.info("...DONE\n")
+            LOG.info("...DONE\n")
 
     def export(self):
         if self.data_windows:

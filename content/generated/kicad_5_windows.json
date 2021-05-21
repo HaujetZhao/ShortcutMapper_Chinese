@@ -1,0 +1,152 @@
+{
+    "name" : "KiCad",
+    "version" : "5",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Eeschema",
+    "contexts" : {
+        "Eeschema" : {
+            "A" : [
+                {"name":"添加符号", "mods":[]}
+            ],
+            "B" : [
+                {"name":"总线开始", "mods":[]},
+                {"name":"高亮连接", "mods":["CONTROL"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"删除节点", "mods":[]},
+                {"name":"离开图框", "mods":["ALT"]}
+            ],
+            "C" : [
+                {"name":"重复的符号或标签", "mods":[]}
+            ],
+            "COMMA" : [
+                {"name":"首选项", "mods":["CONTROL"]}
+            ],
+            "D" : [
+                {"name":"显示符号数据手册", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"删除项目", "mods":[]}
+            ],
+            "E" : [
+                {"name":"用符号编辑器编辑", "mods":["CONTROL"]},
+                {"name":"编辑项目", "mods":[]}
+            ],
+            "END" : [
+                {"name":"双击左键", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"单击左键", "mods":[]}
+            ],
+            "F" : [
+                {"name":"查找和替换", "mods":["ALT", "CONTROL"]},
+                {"name":"查找项目", "mods":["CONTROL"]},
+                {"name":"编辑符号器封闭", "mods":[]}
+            ],
+            "F1" : [
+                {"name":"快捷键列表", "mods":["CONTROL"]},
+                {"name":"放大", "mods":[]}
+            ],
+            "F11" : [
+                {"name":"切换到硬件加速", "mods":[]}
+            ],
+            "F12" : [
+                {"name":"切换到软件加速", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"缩小", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"刷新显示", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"居中显示", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"查找下一个DRC标记", "mods":["SHIFT"]},
+                {"name":"查找下一项", "mods":[]},
+                {"name":"缩放至选区大小", "mods":["CONTROL"]}
+            ],
+            "F8" : [
+                {"name":"从原理图更新PCB", "mods":[]}
+            ],
+            "G" : [
+                {"name":"拖动项目", "mods":[]}
+            ],
+            "H" : [
+                {"name":"添加全局标签", "mods":["CONTROL"]},
+                {"name":"添加层次标签", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"适应屏幕", "mods":[]}
+            ],
+            "I" : [
+                {"name":"添加多段线图形", "mods":[]}
+            ],
+            "INSERT" : [
+                {"name":"重复最后项", "mods":[]}
+            ],
+            "J" : [
+                {"name":"添加连接点", "mods":[]}
+            ],
+            "K" : [
+                {"name":"结束绘制总线", "mods":[]}
+            ],
+            "L" : [
+                {"name":"添加标签", "mods":[]}
+            ],
+            "M" : [
+                {"name":"移动原理图符号", "mods":[]}
+            ],
+            "N" : [
+                {"name":"元件默认方向", "mods":[]}
+            ],
+            "O" : [
+                {"name":"自动放置字段", "mods":[]}
+            ],
+            "P" : [
+                {"name":"添加电源端口", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"添加不连接标记", "mods":[]}
+            ],
+            "R" : [
+                {"name":"旋转项目", "mods":[]}
+            ],
+            "S" : [
+                {"name":"添加图框", "mods":[]}
+            ],
+            "SLASH" : [
+                {"name":"添加总线入口", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"重置局部坐标", "mods":[]}
+            ],
+            "T" : [
+                {"name":"添加图形文字", "mods":[]}
+            ],
+            "TAB" : [
+                {"name":"移动块->拖动块", "mods":[]}
+            ],
+            "U" : [
+                {"name":"编辑符号位号", "mods":[]}
+            ],
+            "V" : [
+                {"name":"编辑符号值", "mods":[]}
+            ],
+            "W" : [
+                {"name":"开始连线", "mods":[]}
+            ],
+            "X" : [
+                {"name":"X轴镜像", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"Y轴镜像", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"添加连接线入口", "mods":[]}
+            ]
+        }
+    }
+}
