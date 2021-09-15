@@ -1,0 +1,511 @@
+{
+    "name" : "PotPlayer",
+    "version" : "V1",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "播放列表" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"复制路径", "mods":["ALT", "CONTROL"]}
+            ],
+            "D" : [
+                {"name":"删除专辑", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"删除文件", "mods":["SHIFT"]},
+                {"name":"发送到回收站", "mods":["CONTROL", "SHIFT"]},
+                {"name":"移除所有名单", "mods":["ALT"]},
+                {"name":"移除所选名单", "mods":[]},
+                {"name":"移除未选名单", "mods":["CONTROL"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"向下移动所选项目", "mods":["CONTROL"]}
+            ],
+            "E" : [
+                {"name":"编辑列表", "mods":["CONTROL"]}
+            ],
+            "EIGHT" : [
+                {"name":"按日期排序", "mods":["CONTROL"]}
+            ],
+            "END" : [
+                {"name":"移动所选项目到底部", "mods":["CONTROL"]}
+            ],
+            "F" : [
+                {"name":"查看文件", "mods":["CONTROL"]}
+            ],
+            "F1" : [
+                {"name":"属性", "mods":["CONTROL"]}
+            ],
+            "F2" : [
+                {"name":"保存列表", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"打开列表", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"时间", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"设置", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"关闭", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"按拓展名排序", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"按文件名排序", "mods":["CONTROL"]}
+            ],
+            "HOME" : [
+                {"name":"移动所选项目到顶部", "mods":["CONTROL"]}
+            ],
+            "I" : [
+                {"name":"添加文件", "mods":["CONTROL"]}
+            ],
+            "INSERT" : [
+                {"name":"移动所选项到播放项下方", "mods":["CONTROL"]}
+            ],
+            "J" : [
+                {"name":"反选", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"重命名文件", "mods":["CONTROL"]}
+            ],
+            "N" : [
+                {"name":"新建专辑", "mods":["CONTROL"]}
+            ],
+            "NINE" : [
+                {"name":"乱序排序", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"添加文件夹", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"正序排序", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"播放", "mods":[]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"将所选项目下移一页", "mods":["CONTROL"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"将所选项目上移一页", "mods":["CONTROL"]}
+            ],
+            "Q" : [
+                {"name":"初始化队列", "mods":["CONTROL"]},
+                {"name":"添加队列", "mods":[]}
+            ],
+            "R" : [
+                {"name":"编辑专辑", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"搜索文件", "mods":["CONTROL"]}
+            ],
+            "SEVEN" : [
+                {"name":"按时长排序", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"按大小排序", "mods":["CONTROL"]}
+            ],
+            "T" : [
+                {"name":"移除无效名单", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"按标题排序", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"反序排序", "mods":["CONTROL"]}
+            ],
+            "U" : [
+                {"name":"添加链接", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"向上移动所选项目", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"粘贴", "mods":["CONTROL"]},
+                {"name":"粘贴播放项", "mods":["ALT", "CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"按文件夹排序", "mods":["CONTROL"]}
+            ]
+        },
+        "通用" : {
+            "A" : [
+                {"name":"切换收尾方式", "mods":["ALT", "CONTROL"]},
+                {"name":"声音语音增强", "mods":["SHIFT"]},
+                {"name":"选择声音", "mods":[]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"迷你尺寸", "mods":[]}
+            ],
+            "B" : [
+                {"name":"AB区段循环", "mods":[]},
+                {"name":"切换下边距", "mods":["ALT", "CONTROL"]},
+                {"name":"字幕粗体", "mods":["ALT"]},
+                {"name":"软模糊", "mods":["CONTROL"]}
+            ],
+            "BACKSLASH" : [
+                {"name":"区段循环开关", "mods":[]},
+                {"name":"当前章节区段循环", "mods":["ALT"]},
+                {"name":"循环当前字幕", "mods":["CONTROL"]},
+                {"name":"编辑区段循环列表", "mods":["SHIFT"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"中段", "mods":["CONTROL"]},
+                {"name":"结束前30秒", "mods":["SHIFT"]},
+                {"name":"重新开始", "mods":[]}
+            ],
+            "C" : [
+                {"name":"声音晶化", "mods":["SHIFT"]},
+                {"name":"复制当前实画面", "mods":["ALT", "CONTROL"]},
+                {"name":"复制当前源画面", "mods":["CONTROL"]},
+                {"name":"录制视频", "mods":["ALT"]},
+                {"name":"播放速度降低", "mods":[]}
+            ],
+            "COMMA" : [
+                {"name":"声音滞后0.05秒", "mods":["SHIFT"]}
+            ],
+            "D" : [
+                {"name":"上一帧", "mods":[]},
+                {"name":"声音降噪", "mods":["SHIFT"]},
+                {"name":"蓝光设备", "mods":["ALT", "CONTROL"]},
+                {"name":"设备设置", "mods":["ALT"]}
+            ],
+            "DELETE" : [
+                {"name":"删除文件", "mods":["SHIFT"]},
+                {"name":"删除文件+字幕", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"主音量-", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"字幕下移", "mods":["ALT"]},
+                {"name":"波形音量-", "mods":["ALT", "CONTROL"]},
+                {"name":"音量-", "mods":[]}
+            ],
+            "E" : [
+                {"name":"亮度 -1%", "mods":[]},
+                {"name":"字幕浏览器", "mods":["ALT"]},
+                {"name":"截存当前实画面", "mods":["ALT", "CONTROL"]},
+                {"name":"截存当前源画面", "mods":["CONTROL"]},
+                {"name":"音量均衡器", "mods":["SHIFT"]}
+            ],
+            "EIGHT" : [
+                {"name":"无边框尺寸", "mods":[]}
+            ],
+            "END" : [
+                {"name":"下一对白", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"全屏", "mods":["ALT"]},
+                {"name":"全屏", "mods":[]},
+                {"name":"全屏(其他显示器)", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"全屏+", "mods":["CONTROL"]},
+                {"name":"全屏+(保持比例)", "mods":["ALT", "CONTROL"]}
+            ],
+            "EQUAL" : [
+                {"name":"下一字幕区段循环", "mods":["CONTROL"]},
+                {"name":"下一章节区段循环", "mods":["ALT"]}
+            ],
+            "F" : [
+                {"name":"下一帧", "mods":[]},
+                {"name":"字幕字体设置", "mods":["ALT"]},
+                {"name":"滤镜/解码器管理", "mods":["CONTROL"]}
+            ],
+            "F1" : [
+                {"name":"关于", "mods":[]},
+                {"name":"属性", "mods":["CONTROL"]},
+                {"name":"采集器I", "mods":["ALT", "CONTROL"]}
+            ],
+            "F12" : [
+                {"name":"打开远程链接", "mods":["ALT"]}
+            ],
+            "F2" : [
+                {"name":"打开文件夹", "mods":[]},
+                {"name":"采集器II", "mods":["ALT", "CONTROL"]}
+            ],
+            "F3" : [
+                {"name":"打开文件", "mods":[]},
+                {"name":"采集器I开始", "mods":["ALT", "CONTROL"]}
+            ],
+            "F4" : [
+                {"name":"关闭", "mods":[]},
+                {"name":"退出", "mods":["ALT"]},
+                {"name":"采集器II开始", "mods":["ALT", "CONTROL"]}
+            ],
+            "F5" : [
+                {"name":"依次切换比例模式", "mods":["CONTROL"]},
+                {"name":"选项", "mods":[]},
+                {"name":"采集设置", "mods":["ALT", "CONTROL"]}
+            ],
+            "F6" : [
+                {"name":"依次切换比例", "mods":["CONTROL"]},
+                {"name":"列表", "mods":[]}
+            ],
+            "F7" : [
+                {"name":"控制", "mods":[]}
+            ],
+            "F9" : [
+                {"name":"直播浏览器", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"最大化", "mods":[]}
+            ],
+            "FOUR" : [
+                {"name":"2.0倍屏", "mods":[]},
+                {"name":"显示器75%尺寸", "mods":["ALT"]}
+            ],
+            "G" : [
+                {"name":"声音录制", "mods":["SHIFT"]},
+                {"name":"手动定位", "mods":[]},
+                {"name":"连续截图", "mods":["CONTROL"]}
+            ],
+            "H" : [
+                {"name":"低音音调", "mods":["SHIFT"]},
+                {"name":"去块(提高画质)", "mods":["CONTROL"]},
+                {"name":"显示字幕", "mods":["ALT"]},
+                {"name":"章节/书签", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"上一对白", "mods":[]},
+                {"name":"字幕位置复位", "mods":["ALT"]},
+                {"name":"当前字幕起点", "mods":["CONTROL"]}
+            ],
+            "I" : [
+                {"name":"切换反交错方式", "mods":["CONTROL"]},
+                {"name":"切换字幕输出方式", "mods":["ALT"]},
+                {"name":"色彩度 +1%", "mods":[]}
+            ],
+            "INSERT" : [
+                {"name":"循环当前字幕", "mods":[]},
+                {"name":"收藏当前文件", "mods":["ALT"]},
+                {"name":"收藏当前文件夹", "mods":["CONTROL"]}
+            ],
+            "J" : [
+                {"name":"3D视频输出", "mods":[]},
+                {"name":"摄像头", "mods":["CONTROL"]},
+                {"name":"高音音调", "mods":["SHIFT"]}
+            ],
+            "K" : [
+                {"name":"切换图像旋转", "mods":["ALT"]},
+                {"name":"图像截取", "mods":[]},
+                {"name":"数字TV (BDA)", "mods":["CONTROL"]},
+                {"name":"默认音调", "mods":["SHIFT"]}
+            ],
+            "L" : [
+                {"name":"电平控制", "mods":["CONTROL"]},
+                {"name":"语言", "mods":["SHIFT"]},
+                {"name":"选择字幕", "mods":[]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"上一关键帧", "mods":["CONTROL", "SHIFT"]},
+                {"name":"字幕左移", "mods":["ALT"]},
+                {"name":"步进30秒", "mods":["CONTROL"]},
+                {"name":"步退1分", "mods":["SHIFT"]},
+                {"name":"步退5分", "mods":["ALT", "CONTROL"]},
+                {"name":"步退5秒", "mods":[]}
+            ],
+            "LEFT_BRACKET" : [
+                {"name":"将循环区步退0.1秒", "mods":["ALT", "CONTROL"]},
+                {"name":"将起点步进0.1秒", "mods":["ALT"]},
+                {"name":"将起点步退0.1秒", "mods":["CONTROL"]},
+                {"name":"解除起点", "mods":["SHIFT"]},
+                {"name":"设定起点", "mods":[]}
+            ],
+            "LESSTHAN" : [
+                {"name":"上一字幕同步", "mods":["ALT", "CONTROL"]},
+                {"name":"字幕滞后0.5秒", "mods":[]},
+                {"name":"字幕滞后50秒", "mods":["ALT"]},
+                {"name":"字幕滞后5秒", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"主音量静音", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"波形音量静音", "mods":["ALT", "CONTROL"]},
+                {"name":"瞬态降噪", "mods":["CONTROL"]},
+                {"name":"静音", "mods":[]}
+            ],
+            "MINUS" : [
+                {"name":"上一字幕区段循环", "mods":["CONTROL"]},
+                {"name":"上一章节区段循环", "mods":["ALT"]},
+                {"name":"减少区段循环次数", "mods":["ALT", "CONTROL"]}
+            ],
+            "MORETHAN" : [
+                {"name":"下一字幕同步", "mods":["ALT", "CONTROL"]},
+                {"name":"字幕超前0.5秒", "mods":[]},
+                {"name":"字幕超前50秒", "mods":["ALT"]},
+                {"name":"字幕超前5秒", "mods":["CONTROL"]}
+            ],
+            "N" : [
+                {"name":"3D降噪", "mods":["CONTROL"]},
+                {"name":"创建缩略图", "mods":["ALT"]},
+                {"name":"声音规格化", "mods":["SHIFT"]}
+            ],
+            "NINE" : [
+                {"name":"自定义尺寸", "mods":[]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"字幕上下边距增加", "mods":["ALT"]},
+                {"name":"帧高+", "mods":[]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"复位帧位", "mods":[]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"字幕左右边距减小", "mods":["ALT"]},
+                {"name":"帧宽-", "mods":[]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"窗口 -", "mods":["ALT", "CONTROL"]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"全帧+", "mods":[]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"全帧-", "mods":[]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"窗口 +", "mods":["ALT", "CONTROL"]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"字幕左右边距增加", "mods":["ALT"]},
+                {"name":"帧宽+", "mods":[]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"字幕上下边距减小", "mods":["ALT"]},
+                {"name":"帧宽-", "mods":[]}
+            ],
+            "O" : [
+                {"name":"打开字幕", "mods":["ALT"]},
+                {"name":"打开文件", "mods":["CONTROL"]},
+                {"name":"色彩度 -1%", "mods":[]}
+            ],
+            "ONE" : [
+                {"name":"半倍屏", "mods":[]},
+                {"name":"显示器30%尺寸", "mods":["ALT"]}
+            ],
+            "P" : [
+                {"name":"上下翻转", "mods":["CONTROL"]},
+                {"name":"手动输入字幕", "mods":["ALT"]},
+                {"name":"调整尺寸前的着色切换", "mods":["SHIFT"]},
+                {"name":"调整尺寸后的着色切换", "mods":["ALT", "CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"下一文件", "mods":[]},
+                {"name":"字幕字体减小", "mods":["ALT"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"上一文件", "mods":[]},
+                {"name":"字幕字体增加", "mods":["ALT"]}
+            ],
+            "PERIOD" : [
+                {"name":"声音超前0.05秒", "mods":["SHIFT"]}
+            ],
+            "PLUS" : [
+                {"name":"增加区段循环次数", "mods":["ALT", "CONTROL"]}
+            ],
+            "Q" : [
+                {"name":"图像属性复位", "mods":[]}
+            ],
+            "R" : [
+                {"name":"声音混淆", "mods":["SHIFT"]},
+                {"name":"对比度 +1%", "mods":[]},
+                {"name":"锐化", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"下一关键帧", "mods":["CONTROL", "SHIFT"]},
+                {"name":"字幕右移", "mods":["ALT"]},
+                {"name":"步进1分", "mods":["SHIFT"]},
+                {"name":"步进5分", "mods":["ALT", "CONTROL"]},
+                {"name":"步进5秒", "mods":[]},
+                {"name":"步退30秒", "mods":["CONTROL"]}
+            ],
+            "RIGHT_BRACKET" : [
+                {"name":"将循环区步进0.1秒", "mods":["ALT", "CONTROL"]},
+                {"name":"将止点步进0.1秒", "mods":["ALT"]},
+                {"name":"将止点步退0.1秒", "mods":["CONTROL"]},
+                {"name":"解除止点", "mods":["SHIFT"]},
+                {"name":"设置止点", "mods":[]}
+            ],
+            "S" : [
+                {"name":"像素着色", "mods":[]},
+                {"name":"采集器", "mods":["CONTROL"]}
+            ],
+            "SEVEN" : [
+                {"name":"最大化+(过任务栏)|还原", "mods":[]}
+            ],
+            "SINGLE_QUOTE" : [
+                {"name":"跳略播放开关", "mods":["SHIFT"]}
+            ],
+            "SIX" : [
+                {"name":"最大化|还原", "mods":[]}
+            ],
+            "SLASH" : [
+                {"name":"声音时间复位", "mods":["SHIFT"]},
+                {"name":"字幕时间复位", "mods":[]}
+            ],
+            "SPACE" : [
+                {"name":"播放/暂停", "mods":[]}
+            ],
+            "T" : [
+                {"name":"切换置顶方式", "mods":["CONTROL"]},
+                {"name":"对比度 -1%", "mods":[]},
+                {"name":"左右声道互换", "mods":["SHIFT"]}
+            ],
+            "TAB" : [
+                {"name":"OSD信息", "mods":[]},
+                {"name":"主要信息", "mods":["SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"1.5倍屏", "mods":[]},
+                {"name":"显示器60%尺寸", "mods":["ALT"]}
+            ],
+            "TWO" : [
+                {"name":"1倍屏", "mods":[]},
+                {"name":"显示器45%尺寸", "mods":["ALT"]}
+            ],
+            "U" : [
+                {"name":"打开链接", "mods":["CONTROL"]},
+                {"name":"饱和度 -1%", "mods":[]}
+            ],
+            "UP_ARROW" : [
+                {"name":"主音量+", "mods":["ALT", "CONTROL", "SHIFT"]},
+                {"name":"字幕上移", "mods":["ALT"]},
+                {"name":"波形音量+", "mods":["ALT", "CONTROL"]},
+                {"name":"音量+", "mods":[]}
+            ],
+            "V" : [
+                {"name":"声音语音消除", "mods":["SHIFT"]},
+                {"name":"打开剪贴板", "mods":["CONTROL"]}
+            ],
+            "W" : [
+                {"name":"亮度 +1%", "mods":[]},
+                {"name":"模拟TV", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"切换图像处理滤镜", "mods":["CONTROL"]},
+                {"name":"开启声音处理滤镜", "mods":["SHIFT"]},
+                {"name":"播放速度加快", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"重开当前/最后文件", "mods":["CONTROL"]},
+                {"name":"重载字幕", "mods":["ALT", "CONTROL"]},
+                {"name":"饱和度 +1%", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"左右翻转", "mods":["CONTROL"]},
+                {"name":"播放速度正常", "mods":[]},
+                {"name":"时间场景浏览", "mods":["SHIFT"]},
+                {"name":"章节/书签场景浏览", "mods":["ALT"]}
+            ],
+            "ZERO" : [
+                {"name":"自定义尺寸设置", "mods":[]}
+            ]
+        }
+    }
+}

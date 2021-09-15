@@ -48,6 +48,14 @@ var sitedata_apps = [
         }
     },
     {
+        name: "PotPlayer",
+        data: {
+            "V1": {
+                "windows": "potplayer_v1_windows.json",
+            },
+        }
+    },
+    {
         name: "PyCharm",
         data: {
             "正式版": {

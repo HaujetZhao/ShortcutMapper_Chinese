@@ -20,9 +20,10 @@ import contextlib
 import socket  # For gethostbyaddr()
 import sys
 import webbrowser
+import os
 
 端口 = 8000
-地址 = None
+地址 = '::'
 
 
 def test(HandlerClass=server.BaseHTTPRequestHandler,
@@ -48,7 +49,7 @@ def test(HandlerClass=server.BaseHTTPRequestHandler,
             sys.exit(0)
 
 handler_class = partial(server.SimpleHTTPRequestHandler,
-                        directory='.')
+                        directory=os.path.dirname(__file__))
 
 
 # ensure dual-stack is not disabled; ref #38907
