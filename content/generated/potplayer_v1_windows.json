@@ -171,7 +171,11 @@
                 {"name":"播放速度降低", "mods":[]}
             ],
             "COMMA" : [
-                {"name":"声音滞后0.05秒", "mods":["SHIFT"]}
+                {"name":"上一字幕同步", "mods":["ALT", "CONTROL"]},
+                {"name":"声音滞后0.05秒", "mods":["SHIFT"]},
+                {"name":"字幕滞后0.5秒", "mods":[]},
+                {"name":"字幕滞后50秒", "mods":["ALT"]},
+                {"name":"字幕滞后5秒", "mods":["CONTROL"]}
             ],
             "D" : [
                 {"name":"上一帧", "mods":[]},
@@ -318,12 +322,6 @@
                 {"name":"解除起点", "mods":["SHIFT"]},
                 {"name":"设定起点", "mods":[]}
             ],
-            "LESSTHAN" : [
-                {"name":"上一字幕同步", "mods":["ALT", "CONTROL"]},
-                {"name":"字幕滞后0.5秒", "mods":[]},
-                {"name":"字幕滞后50秒", "mods":["ALT"]},
-                {"name":"字幕滞后5秒", "mods":["CONTROL"]}
-            ],
             "M" : [
                 {"name":"主音量静音", "mods":["ALT", "CONTROL", "SHIFT"]},
                 {"name":"波形音量静音", "mods":["ALT", "CONTROL"]},
@@ -334,12 +332,6 @@
                 {"name":"上一字幕区段循环", "mods":["CONTROL"]},
                 {"name":"上一章节区段循环", "mods":["ALT"]},
                 {"name":"减少区段循环次数", "mods":["ALT", "CONTROL"]}
-            ],
-            "MORETHAN" : [
-                {"name":"下一字幕同步", "mods":["ALT", "CONTROL"]},
-                {"name":"字幕超前0.5秒", "mods":[]},
-                {"name":"字幕超前50秒", "mods":["ALT"]},
-                {"name":"字幕超前5秒", "mods":["CONTROL"]}
             ],
             "N" : [
                 {"name":"3D降噪", "mods":["CONTROL"]},
@@ -392,6 +384,7 @@
             "P" : [
                 {"name":"上下翻转", "mods":["CONTROL"]},
                 {"name":"手动输入字幕", "mods":["ALT"]},
+                {"name":"添加书签", "mods":[]},
                 {"name":"调整尺寸前的着色切换", "mods":["SHIFT"]},
                 {"name":"调整尺寸后的着色切换", "mods":["ALT", "CONTROL"]}
             ],
@@ -404,7 +397,11 @@
                 {"name":"字幕字体增加", "mods":["ALT"]}
             ],
             "PERIOD" : [
-                {"name":"声音超前0.05秒", "mods":["SHIFT"]}
+                {"name":"下一字幕同步", "mods":["ALT", "CONTROL"]},
+                {"name":"声音超前0.05秒", "mods":["SHIFT"]},
+                {"name":"字幕超前0.5秒", "mods":[]},
+                {"name":"字幕超前50秒", "mods":["ALT"]},
+                {"name":"字幕超前5秒", "mods":["CONTROL"]}
             ],
             "PLUS" : [
                 {"name":"增加区段循环次数", "mods":["ALT", "CONTROL"]}

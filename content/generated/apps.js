@@ -48,6 +48,14 @@ var sitedata_apps = [
         }
     },
     {
+        name: "One Commander",
+        data: {
+            "V3": {
+                "windows": "one-commander_v3_windows.json",
+            },
+        }
+    },
+    {
         name: "PotPlayer",
         data: {
             "V1": {

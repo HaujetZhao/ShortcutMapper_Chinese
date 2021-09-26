@@ -1,0 +1,138 @@
+{
+    "name" : "One Commander",
+    "version" : "V3",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "OSKEY", "SHIFT"],
+    "default_context" : "通用",
+    "contexts" : {
+        "新建文件夹" : {
+            "ENTER" : [
+                {"name":"创建并将所选文件移入", "mods":["SHIFT"]},
+                {"name":"创建并打开", "mods":["CONTROL"]}
+            ]
+        },
+        "通用" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"切换分栏导航", "mods":[]},
+                {"name":"显示通知面板", "mods":["SHIFT"]}
+            ],
+            "BACKSLASH" : [
+                {"name":"编辑路径", "mods":[]}
+            ],
+            "BACKSPACE" : [
+                {"name":"父文件夹", "mods":[]}
+            ],
+            "C" : [
+                {"name":"复制当路径", "mods":["CONTROL", "SHIFT"]},
+                {"name":"复制文件", "mods":["CONTROL"]},
+                {"name":"复制文件到另一栏", "mods":["ALT"]}
+            ],
+            "D" : [
+                {"name":"编辑路径", "mods":["ALT"]},
+                {"name":"重复文件", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"彻底删除 无法恢复", "mods":["CONTROL", "SHIFT"]},
+                {"name":"直接删除", "mods":["SHIFT"]},
+                {"name":"移除到回收站", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"最小化", "mods":["OSKEY"]},
+                {"name":"预览下一文件", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"带参数运行", "mods":["CONTROL", "SHIFT"]},
+                {"name":"打开", "mods":[]},
+                {"name":"打开为…/管理员运行", "mods":["CONTROL"]},
+                {"name":"文件属性", "mods":["ALT"]}
+            ],
+            "ESCAPE" : [
+                {"name":"关闭预览", "mods":[]}
+            ],
+            "F" : [
+                {"name":"搜索", "mods":["CONTROL"]},
+                {"name":"改变焦点到另一栏", "mods":["ALT"]}
+            ],
+            "F1" : [
+                {"name":"屏幕居中", "mods":["SHIFT"]}
+            ],
+            "F10" : [
+                {"name":"以管理员身份打开终端", "mods":["CONTROL"]},
+                {"name":"右键菜单", "mods":["SHIFT"]},
+                {"name":"打开终端", "mods":[]}
+            ],
+            "F12" : [
+                {"name":"以管理员权限重启", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "F2" : [
+                {"name":"重命名", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"搜索", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"重载主题", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "F7" : [
+                {"name":"切换长文件名显示", "mods":[]}
+            ],
+            "H" : [
+                {"name":"显示隐藏文件", "mods":["CONTROL"]}
+            ],
+            "I" : [
+                {"name":"文件属性", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"编辑路径", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"PDF上一页", "mods":[]},
+                {"name":"上一路径", "mods":["ALT"]}
+            ],
+            "M" : [
+                {"name":"移动文件到另一栏", "mods":["ALT"]}
+            ],
+            "N" : [
+                {"name":"新建文件", "mods":["CONTROL"]},
+                {"name":"新建文件夹", "mods":["CONTROL", "SHIFT"]},
+                {"name":"新笔记", "mods":["ALT"]}
+            ],
+            "O" : [
+                {"name":"打开 One Commander", "mods":["ALT", "OSKEY"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"PDF下一页", "mods":[]},
+                {"name":"下一路径", "mods":["ALT"]}
+            ],
+            "SPACE" : [
+                {"name":"预览文件", "mods":[]}
+            ],
+            "T" : [
+                {"name":"从剪切板路径新建标签页", "mods":["CONTROL", "SHIFT"]},
+                {"name":"新标签页", "mods":["CONTROL"]},
+                {"name":"添加标签", "mods":["ALT", "CONTROL"]}
+            ],
+            "TAB" : [
+                {"name":"上一标签", "mods":["CONTROL", "SHIFT"]},
+                {"name":"下一标签", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"最大化", "mods":["OSKEY"]},
+                {"name":"父文件夹", "mods":["ALT"]},
+                {"name":"预览上一文件", "mods":[]}
+            ],
+            "V" : [
+                {"name":"粘贴为新文件", "mods":["CONTROL"]}
+            ],
+            "W" : [
+                {"name":"关闭标签", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"剪切文件", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}
