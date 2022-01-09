@@ -25,7 +25,6 @@ import os
 端口 = 8000
 地址 = '::'
 
-
 def test(HandlerClass=server.BaseHTTPRequestHandler,
          ServerClass=server.ThreadingHTTPServer,
          protocol="HTTP/1.0", port=端口, bind=地址):
@@ -49,7 +48,9 @@ def test(HandlerClass=server.BaseHTTPRequestHandler,
             sys.exit(0)
 
 handler_class = partial(server.SimpleHTTPRequestHandler,
-                        directory=os.path.dirname(__file__))
+                        directory=os.path.dirname(
+                            os.path.abspath(__file__)
+                        ))
 
 
 # ensure dual-stack is not disabled; ref #38907
