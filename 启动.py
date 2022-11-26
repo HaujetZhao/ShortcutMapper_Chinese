@@ -22,7 +22,7 @@ import sys
 import webbrowser
 import os
 
-端口 = 8000
+端口 = 18000
 地址 = '::'
 
 def test(HandlerClass=server.BaseHTTPRequestHandler,

@@ -1,0 +1,355 @@
+{
+    "name" : "Directory OPUS",
+    "version" : "v12",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "OSKEY", "SHIFT"],
+    "default_context" : "快键键",
+    "contexts" : {
+        "图像查看器" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]},
+                {"name":"隐藏Alpha通道", "mods":["SHIFT"]}
+            ],
+            "B" : [
+                {"name":"状态栏", "mods":["CONTROL"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"上一张", "mods":[]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]}
+            ],
+            "DELETE" : [
+                {"name":"删除", "mods":["SHIFT"]},
+                {"name":"删除", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"最后一张标记图片", "mods":["CONTROL"]}
+            ],
+            "EIGHT" : [
+                {"name":"800%", "mods":["CONTROL"]}
+            ],
+            "END" : [
+                {"name":"最后一张", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"全屏", "mods":["ALT"]}
+            ],
+            "EQUAL" : [
+                {"name":"放大", "mods":[]}
+            ],
+            "F" : [
+                {"name":"适应窗口", "mods":[]}
+            ],
+            "F1" : [
+                {"name":"帮助", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"显示信息", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"重命名", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"刷新", "mods":[]}
+            ],
+            "F9" : [
+                {"name":"编辑元数据", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"200%", "mods":["CONTROL"]}
+            ],
+            "FOUR" : [
+                {"name":"150%", "mods":["CONTROL"]}
+            ],
+            "H" : [
+                {"name":"水平翻转", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"第一张", "mods":[]}
+            ],
+            "I" : [
+                {"name":"图像转换", "mods":["CONTROL"]}
+            ],
+            "INSERT" : [
+                {"name":"标记", "mods":[]}
+            ],
+            "L" : [
+                {"name":"控制栏", "mods":["CONTROL"]},
+                {"name":"逆90°", "mods":[]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"上一张标记图片", "mods":["CONTROL"]}
+            ],
+            "M" : [
+                {"name":"交换标记", "mods":["SHIFT"]},
+                {"name":"标记", "mods":[]},
+                {"name":"标记窗格", "mods":["CONTROL"]}
+            ],
+            "MINUS" : [
+                {"name":"缩小", "mods":[]}
+            ],
+            "N" : [
+                {"name":"菜单栏", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"重置", "mods":["SHIFT"]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"减少", "mods":["SHIFT"]},
+                {"name":"缩小", "mods":[]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"增加", "mods":["SHIFT"]},
+                {"name":"放大", "mods":[]}
+            ],
+            "O" : [
+                {"name":"打开", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"25%", "mods":["CONTROL"]},
+                {"name":"90°", "mods":[]}
+            ],
+            "P" : [
+                {"name":"打印", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"下一张", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"上一张", "mods":[]}
+            ],
+            "R" : [
+                {"name":"裁剪", "mods":["CONTROL"]},
+                {"name":"重新选择", "mods":["SHIFT"]},
+                {"name":"顺90°", "mods":[]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"下一张标记图片", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"保存", "mods":["CONTROL"]},
+                {"name":"另存为", "mods":["CONTROL", "SHIFT"]},
+                {"name":"放映", "mods":[]}
+            ],
+            "SEVEN" : [
+                {"name":"400%", "mods":["CONTROL"]}
+            ],
+            "SIX" : [
+                {"name":"300%", "mods":["CONTROL"]}
+            ],
+            "SPACE" : [
+                {"name":"下一张", "mods":[]},
+                {"name":"从前往中返回", "mods":["CONTROL"]}
+            ],
+            "THREE" : [
+                {"name":"270°", "mods":[]},
+                {"name":"75%", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"180°", "mods":[]},
+                {"name":"50%", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"第一张标记图片", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"垂直翻转", "mods":[]},
+                {"name":"移动到", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"作为二进制查看", "mods":["SHIFT"]},
+                {"name":"剪切文件", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"复制到", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"撒消", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"0°", "mods":[]}
+            ]
+        },
+        "快键键" : {
+            "A" : [
+                {"name":"全选", "mods":["CONTROL"]},
+                {"name":"管理员权限", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "B" : [
+                {"name":"属性", "mods":["CONTROL"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"向上一级", "mods":[]},
+                {"name":"转到根目录", "mods":["CONTROL"]}
+            ],
+            "C" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"复制完整路径", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "D" : [
+                {"name":"位置", "mods":["ALT"]},
+                {"name":"添加到收藏夹", "mods":["CONTROL"]},
+                {"name":"视图：详情", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "DELETE" : [
+                {"name":"删除", "mods":[]},
+                {"name":"强制删除", "mods":["SHIFT"]}
+            ],
+            "E" : [
+                {"name":"打开新窗口", "mods":["CONTROL"]},
+                {"name":"新建窗口", "mods":["OSKEY", "SHIFT"]}
+            ],
+            "EIGHT" : [
+                {"name":"恢复过滤器", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ENTER" : [
+                {"name":"属性", "mods":["ALT"]},
+                {"name":"路径项目", "mods":["SHIFT"]}
+            ],
+            "EQUAL" : [
+                {"name":"放大", "mods":["CONTROL"]}
+            ],
+            "F" : [
+                {"name":"查找文件", "mods":["CONTROL"]}
+            ],
+            "F1" : [
+                {"name":"帮助", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"重命名", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"搜索", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"位置", "mods":[]},
+                {"name":"关闭标签", "mods":["CONTROL"]}
+            ],
+            "F5" : [
+                {"name":"刷新", "mods":[]},
+                {"name":"刷新缩略图", "mods":["CONTROL"]},
+                {"name":"刷新缩略图", "mods":["SHIFT"]}
+            ],
+            "F6" : [
+                {"name":"双栏", "mods":[]}
+            ],
+            "F7" : [
+                {"name":"预览", "mods":[]}
+            ],
+            "F8" : [
+                {"name":"元数据", "mods":[]}
+            ],
+            "F9" : [
+                {"name":"树", "mods":[]}
+            ],
+            "FOUR" : [
+                {"name":"压缩", "mods":["CONTROL"]},
+                {"name":"添加到压缩文件", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "H" : [
+                {"name":"新建压缩文件", "mods":["CONTROL"]},
+                {"name":"视图：详+缩", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "I" : [
+                {"name":"反向选择", "mods":["CONTROL"]}
+            ],
+            "INSERT" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"粘贴", "mods":["SHIFT"]}
+            ],
+            "K" : [
+                {"name":"计算大小", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"位置", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"上一标签", "mods":["CONTROL"]},
+                {"name":"后一标签(目标栏)", "mods":["CONTROL", "SHIFT"]},
+                {"name":"后退", "mods":["ALT"]}
+            ],
+            "M" : [
+                {"name":"编辑元数据", "mods":["CONTROL"]},
+                {"name":"视图：缩图图", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "MINUS" : [
+                {"name":"缩小", "mods":["CONTROL"]}
+            ],
+            "N" : [
+                {"name":"复制文件名", "mods":["CONTROL", "SHIFT"]},
+                {"name":"新建文件夹 ", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ASTERISK" : [
+                {"name":"恢复过滤器", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_PLUS" : [
+                {"name":"自动调整属性栏宽度", "mods":["CONTROL"]}
+            ],
+            "O" : [
+                {"name":"新建文本", "mods":["CONTROL"]}
+            ],
+            "ONE" : [
+                {"name":"复制", "mods":["CONTROL"]},
+                {"name":"复制为", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "P" : [
+                {"name":"描述", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"上一标签", "mods":["CONTROL"]},
+                {"name":"后一标签(目标栏)", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"下一标签", "mods":["CONTROL"]},
+                {"name":"前一标签(目标栏)", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"FTP链接", "mods":["CONTROL"]},
+                {"name":"编辑FTP通讯录", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"下一标签", "mods":["CONTROL"]},
+                {"name":"前一标签(目标栏)", "mods":["CONTROL", "SHIFT"]},
+                {"name":"前进", "mods":["ALT"]}
+            ],
+            "S" : [
+                {"name":"通配符选择", "mods":["CONTROL"]}
+            ],
+            "T" : [
+                {"name":"新建标签页", "mods":["CONTROL"]},
+                {"name":"新标签打开所选", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "THREE" : [
+                {"name":"重命名", "mods":["CONTROL"]}
+            ],
+            "TWO" : [
+                {"name":"移动", "mods":["CONTROL"]},
+                {"name":"移动为", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"向上", "mods":["ALT"]},
+                {"name":"查找重复文件", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"粘贴", "mods":["CONTROL"]}
+            ],
+            "W" : [
+                {"name":"关闭标签页", "mods":["CONTROL"]},
+                {"name":"撤销已关闭的标签", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "X" : [
+                {"name":"剪切", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"同步", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"撒销", "mods":["CONTROL"]}
+            ],
+            "ZERO" : [
+                {"name":"重置缩放", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}

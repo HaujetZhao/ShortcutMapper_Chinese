@@ -1,0 +1,150 @@
+快键键,向上一级,,,,backspace
+快键键,删除,,,,delete
+快键键,重命名,,,,f2
+快键键,属性,,,alt,enter
+快键键,缩小,ctrl ,,,-
+快键键,重置缩放,ctrl ,,,0
+快键键,放大,ctrl ,,,=
+快键键,转到根目录,ctrl ,,,backspace
+快键键,关闭标签,ctrl ,,,f4
+快键键,刷新缩略图,ctrl ,,,f5
+快键键,恢复过滤器,ctrl ,,,NUMPAD_ASTERISK
+快键键,自动调整属性栏宽度,ctrl ,,,NUMPAD_PLUS
+快键键,下一标签,ctrl ,,,page up
+快键键,上一标签,ctrl ,,,page down
+快键键,上一标签,ctrl ,,,left
+快键键,下一标签,ctrl ,,,right
+快键键,强制删除,,shift,,delete
+快键键,路径项目,,shift,,enter
+快键键,关闭列窗口,,shift,,enter
+快键键,刷新缩略图,,shift,,f5
+快键键,恢复过滤器,ctrl ,shift,,8
+快键键,后一标签(目标栏),ctrl ,shift,,page down
+快键键,前一标签(目标栏),ctrl ,shift,,page up
+快键键,后一标签(目标栏),ctrl ,shift,,left
+快键键,前一标签(目标栏),ctrl ,shift,,right
+,,,,,
+快键键,帮助,,,,f1
+快键键,搜索,,,,f3
+快键键,位置,,,,f4
+快键键,位置,,,alt,d
+快键键,位置,ctrl,,,l
+快键键,刷新,,,,f5
+快键键,双栏,,,,f6
+快键键,预览,,,,f7
+快键键,元数据,,,,f8
+快键键,树,,,,f9
+快键键,后退,,,alt,left
+快键键,向上,,,alt,up
+快键键,前进,,,alt,right
+快键键,复制,ctrl,,,1
+快键键,移动,ctrl,,,2
+快键键,重命名,ctrl,,,3
+快键键,压缩,ctrl,,,4
+快键键,全选,ctrl,,,a
+快键键,属性,ctrl,,,b
+快键键,复制,ctrl,,,c
+快键键,复制,ctrl,,,insert
+快键键,添加到收藏夹,ctrl,,,d
+快键键,打开新窗口,ctrl,,,e
+快键键,查找文件,ctrl,,,f
+快键键,新建压缩文件,ctrl,,,h
+快键键,反向选择,ctrl,,,i
+快键键,计算大小,ctrl,,,k
+快键键,编辑元数据,ctrl,,,m
+快键键,新建文件夹 ,ctrl,,,n
+快键键,新建文本,ctrl,,,o
+快键键,描述,ctrl,,,p
+快键键,FTP链接,ctrl,,,q
+快键键,通配符选择,ctrl,,,s
+快键键,新建标签页,ctrl,,,t
+快键键,查找重复文件,ctrl,,,up
+快键键,粘贴,ctrl,,,v
+快键键,粘贴,,shift,,insert
+快键键,关闭标签页,ctrl,,,w
+快键键,剪切,ctrl,,,x
+快键键,同步,ctrl,,,y
+快键键,撒销,ctrl,,,z
+快键键,复制为,ctrl,shift,,1
+快键键,移动为,ctrl,shift,,2
+快键键,添加到压缩文件,ctrl,shift,,4
+快键键,管理员权限,ctrl,shift,,a
+快键键,复制完整路径,ctrl,shift,,c
+快键键,视图：详情,ctrl,shift,,d
+快键键,视图：详+缩,ctrl,shift,,h
+快键键,视图：缩图图,ctrl,shift,,m
+快键键,复制文件名,ctrl,shift,,n
+快键键,编辑FTP通讯录,ctrl,shift,,q
+快键键,新标签打开所选,ctrl,shift,,t
+快键键,撤销已关闭的标签,ctrl,shift,,w
+,,,,,
+快键键,新建窗口,win,shift,,e
+,,,,,
+图像查看器,上一张,,,,backspace
+图像查看器,上一张,,,,page up
+图像查看器,最后一张,,,,end
+图像查看器,第一张,,,,home
+图像查看器,下一张,,,,space
+图像查看器,下一张,,,,page down
+,,,,,
+,,,,,
+图像查看器,缩小,,,,-
+图像查看器,缩小,,,,NUMPAD_MINUS
+图像查看器,0°,,,,0
+图像查看器,90°,,,,1
+图像查看器,180°,,,,2
+图像查看器,270°,,,,3
+图像查看器,放大,,,,=
+图像查看器,放大,,,,NUMPAD_PLUS
+图像查看器,删除,,,,delete
+图像查看器,删除,,shift,,delete
+图像查看器,适应窗口,,,,f
+图像查看器,帮助,,,,f1
+图像查看器,重命名,,,,f2
+图像查看器,刷新,,,,f5
+图像查看器,编辑元数据,,,,f9
+图像查看器,显示信息,,,,f10
+图像查看器,水平翻转,,,,h
+图像查看器,逆90°,,,,l
+图像查看器,标记,,,,m
+图像查看器,标记,,,,insert
+图像查看器,顺90°,,,,r
+图像查看器,放映,,,,s
+图像查看器,垂直翻转,,,,v
+图像查看器,全屏,,,alt,enter
+图像查看器,25%,ctrl,,,1
+图像查看器,50%,ctrl,,,2
+图像查看器,75%,ctrl,,,3
+图像查看器,150%,ctrl,,,4
+图像查看器,200%,ctrl,,,5
+图像查看器,300%,ctrl,,,6
+图像查看器,400%,ctrl,,,7
+图像查看器,800%,ctrl,,,8
+图像查看器,全选,ctrl,,,a
+图像查看器,状态栏,ctrl,,,b
+图像查看器,复制,ctrl,,,c
+图像查看器,图像转换,ctrl,,,I
+图像查看器,控制栏,ctrl,,,l
+图像查看器,标记窗格,ctrl,,,m
+图像查看器,菜单栏,ctrl,,,n
+图像查看器,打开,ctrl,,,o
+图像查看器,打印,ctrl,,,p
+图像查看器,裁剪,ctrl,,,r
+图像查看器,保存,ctrl,,,s
+图像查看器,从前往中返回,ctrl,,,space
+图像查看器,移动到,ctrl,,,v
+图像查看器,剪切文件,ctrl,,,x
+图像查看器,复制到,ctrl,,,y
+图像查看器,撒消,ctrl,,,z
+图像查看器,上一张标记图片,ctrl,,,left
+图像查看器,第一张标记图片,ctrl,,,up
+图像查看器,下一张标记图片,ctrl,,,right
+图像查看器,最后一张标记图片,ctrl,,,down
+图像查看器,隐藏Alpha通道,,shift,,a
+图像查看器,交换标记,,shift,,m
+图像查看器,重置,,shift,,NUMPAD_ASTERISK
+图像查看器,增加,,shift,,NUMPAD_PLUS
+图像查看器,减少,,shift,,NUMPAD_MINUS
+图像查看器,重新选择,,shift,,r
+图像查看器,作为二进制查看,,shift,,x
+图像查看器,另存为,ctrl,shift,,s

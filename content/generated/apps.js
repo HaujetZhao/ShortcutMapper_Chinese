@@ -4,6 +4,14 @@
 
 var sitedata_apps = [
     {
+        name: "Directory OPUS",
+        data: {
+            "v12": {
+                "windows": "directory-opus_v12_windows.json",
+            },
+        }
+    },
+    {
         name: "Jupyter Notebook",
         data: {
             "1": {
