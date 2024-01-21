@@ -561,7 +561,7 @@ div#keyboard button .label {
     left: 0;
     width: 48px;
     padding: 2px 0 0 4px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     color: #6b6b6b;
     text-align: left;
@@ -569,17 +569,19 @@ div#keyboard button .label {
 }
 
 div#keyboard button .shortcut {
+    transform-origin: left bottom;
+    transform: scale(0.5);
     display: block;
     position: absolute;
-    bottom: 2px;
-    left: 2px;
+    left: 2.5%;
+    bottom: 7%;
     font-family: 'Lato', sans-serif;
-    width: 93%;
-    max-height: 37px;
+    width: 190%;
+    max-height: 4em;
     padding: 0px 0px 1px 0px;
     margin: 0px 0px 0px 0px;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 19px;
+    line-height: 1em;
     color: #ffffff;
     text-shadow: 0px 1px 0px rgba(0,0,0,0.15);
     text-align: center;
